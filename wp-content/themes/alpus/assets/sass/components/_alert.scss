@@ -1,0 +1,200 @@
+/* -------------------------------------------
+    Alert
+        1. Base
+        2. Alert Skins
+        3. Alert Types
+            3-1. Simple Type
+            3-2. Icon Type
+            3-3. Button Type
+            3-4. Round Type
+        4. Compatibility with Elementor
+---------------------------------------------- */
+
+// 1. Default
+.alert {
+    position: relative;
+    padding: side-values(1.4rem 4.5rem 1.4rem 2rem);
+    border:  1px solid var(--alpha-dark-color);
+    font-size: 1.4rem;
+    line-height: 1.75;
+
+    strong {
+        margin-#{$right}: 3px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .close-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        &::before {
+            box-shadow: 0 0 1px rgba(0,0,0,.5);
+            height: 1px;
+            top: calc(50% - .5px);
+            background: var(--alpha-dark-color);
+        }
+        &::after {
+            box-shadow: 0 0 1px rgba(0,0,0,.5);
+            width: 1px;
+            left: calc(50% - .5px);
+            background: var(--alpha-dark-color);
+        }
+    }
+    
+    .btn-close {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        margin-top: -.8rem;
+        #{$right}: 2rem;
+        line-height: 0;
+    }
+    p, ul {
+        line-height: 1.85;
+	    font-size: .93em;
+    }
+}
+.alert-close-top .btn-close {
+    top: 2.8rem;
+}
+.alert-title {
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin-bottom: .6rem;
+    i {
+        margin-#{$right}: .8rem;
+        font-size: 1.8rem;
+        vertical-align: text-top;
+    }
+}
+.btn-close {
+    .close-icon {
+        &::before,
+        &::after {
+            transition: background-color .3s;
+        }
+    }
+    &:hover {
+        .close-icon::before,
+        .close-icon::after {
+            background-color: var(--alpha-change-color-dark-1);
+        }
+    }
+}
+
+// 2. Alert Skins
+.alert-info {
+    border-color: #d7e8f8;
+    color: #369;
+
+    .close-icon::before,
+    .close-icon::after {
+        background-color: #369;
+    }
+}
+.alert-success {
+    border-color: var(--alpha-success-color-hover);
+    color: var(--alpha-success-color);
+
+    .close-icon::before,
+    .close-icon::after {
+        background-color: var(--alpha-success-color);
+    }
+}
+.alert-warning {
+    border-color: #fff1d7;
+    color: #ffa800;
+
+    .close-icon::before,
+    .close-icon::after {
+        background-color: #ffa800;
+    }
+}
+.alert-danger {
+    border-color: var(--alpha-danger-color-hover);
+    color: var(--alpha-danger-color);
+
+    .close-icon::before,
+    .close-icon::after {
+        background-color: var(--alpha-danger-color);
+    }
+}
+.alert-dark {
+    background: var(--alpha-dark-color);
+    color: var(--alpha-white-color);
+    .btn-close .close-icon::before,
+    .btn-close .close-icon::after {
+        background-color: var(--alpha-white-color);
+    }
+}
+.alert-light {
+    &.alert-info {
+        background-color: #d7e8f8;
+        border-color: #d7e8f8;
+    }
+    &.alert-success {
+        background-color: var(--alpha-success-color-hover);
+        border-color: var(--alpha-success-color-hover);
+    }
+    &.alert-warning {
+        background-color: #fff1d7;
+        border-color: #fff1d7;
+    }
+    &.alert-danger {
+        background-color: var(--alpha-danger-color-hover);
+        border-color: var(--alpha-danger-color-hover);
+    }
+}
+
+// 3-1. Simple Type
+.alert-simple {
+    background-color: transparent;
+    border-style: dashed;
+    border-color: #cacbcc;
+    &.alert-info {
+        border-color: #d7e8f8;
+    }
+    &.alert-success {
+        border-color: var(--alpha-success-color-hover);
+    }
+    &.alert-warning {
+        border-color: #fff1d7;
+    }
+    &.alert-danger {
+        border-color: var(--alpha-danger-color-hover);
+    }
+}
+
+// 3-2. Icon Type
+.alert-icon {
+    padding: side-values(1.5rem 4.5rem 1.5rem 1.9rem);
+    > i {
+        vertical-align: middle;
+        margin-#{$right}: 1.2rem;
+        line-height: 1;
+        font-size: 2.4rem;
+        font-weight: 600;
+    }
+}
+
+// 3-3. Button Type
+.alert-btn {
+    padding: side-values(1rem 4rem 1rem 1rem);
+    .btn:not(.btn-close) {
+        margin-#{$right}: 1.5rem;
+    }
+}
+
+// 3-4. Round Type
+.alert-round {
+    border-radius: 3px;
+}
+
+// 4. Compatibility with Elementor
+.alert .elementor-heading-title {
+    line-height: inherit;
+}
+.elementor-widget.alert:not(:last-child) {
+    margin-bottom: 2rem;
+}

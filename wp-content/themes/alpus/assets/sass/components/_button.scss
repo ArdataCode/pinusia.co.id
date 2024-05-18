@@ -1,0 +1,720 @@
+/* -------------------------------------------
+    Buttons
+        1.  Button Base Style
+        2.  Outline Button
+        3.  Button Icon
+        4.  Reveal Button
+        5.  Slide Button
+        6.  Shadow Button
+        7.  Underline Button
+        8.  Link Button
+        9.  Button Color Styles
+        10. Gradient Button
+        11. Miscellaneous
+        12. Button Text Hover Styles
+---------------------------------------------- */
+
+// 1. Button Base Style
+.btn {
+    display: inline-block;
+    border: 2px solid #eee;
+    background-color: #eee;
+    color: var(--alpha-dark-color);
+    outline: 0;
+    border-radius: 0;
+    padding: 1.29em 2.71em;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+    transition: color .3s, border-color .3s, background-color .3s, box-shadow .3s;
+    white-space: nowrap;
+    cursor: pointer;
+
+    i,
+    svg {
+        display: inline-block;
+        margin-#{$left}: .5em;
+        vertical-align: -0.2em;
+    }
+
+    svg {
+        width: 1em;
+    }
+
+    i {
+        font-size: 1.8em;
+        line-height: 0;
+    }
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn-xl {
+    padding: 1.5em 3.96em;
+    font-size: 1.142em;
+    ;
+}
+
+.btn-lg {
+    font-size: 1.072em;
+    padding: 1.33em 3.4em;
+}
+
+.btn-md {
+    font-size: .928em;
+    padding: 1.12em 2.33em;
+}
+
+.btn-sm {
+    font-size: .857em;
+    padding: 0.88em 1.95em;
+}
+
+.btn-border-thin {
+    border-width: 1px;
+}
+
+.btn-rounded {
+
+    &,
+    &::before,
+    &::after {
+        border-radius: 3px;
+    }
+}
+
+.btn-ellipse {
+
+    &,
+    &::before,
+    &::after {
+        border-radius: 7em;
+    }
+}
+
+.btn-circle {
+
+    &,
+    &::before,
+    &::after {
+        border-radius: 50%;
+    }
+}
+
+// 2. Outline Button
+.btn-outline {
+    border: 2px solid #eee;
+    color: var(--alpha-body-color);
+    background-color: transparent;
+
+    &:hover,
+    &:active,
+    &:focus {
+        border-color: var(--alpha-body-color);
+        background-color: var(--alpha-body-color);
+        color: var(--alpha-white-color);
+    }
+
+    &.btn-bg {
+        color: var(--alpha-white-color);
+    }
+}
+
+.btn-outline2 {
+    position: relative !important;
+    border-top: 2px solid #eee;
+    border-right: none;
+    border-bottom: 2px solid #eee;
+    border-left: none;
+    color: var(--alpha-body-color);
+    background-color: transparent;
+
+    &:before,
+    &:after {
+        content: '';
+        width: 2px;
+        height: 38%;
+        position: absolute;
+        background-color: #eee;
+        transition: height .3s, background-color .3s;
+    }
+
+    &:before {
+        top: 0;
+        right: 0;
+    }
+
+    &:after {
+        left: 0;
+        bottom: 0;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+
+        &:before,
+        &:after {
+            height: 100%;
+        }
+    }
+
+    &.btn-white {
+        border-color: #eee;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: inherit;
+            border-color: #eee;
+            background-color: transparent;
+        }
+    }
+}
+
+// 3. Button Icon
+.btn-icon-left {
+
+    >i,
+    >svg {
+        margin-#{$right}: .5em;
+        margin-#{$left}: 0;
+    }
+}
+
+// 4. Reveal Button
+.btn-reveal-left {
+
+    i,
+    svg {
+        opacity: 0;
+        margin-#{$left}: -1em;
+        transform: translateX(if-ltr(.5em, -.5em));
+        margin-#{$right}: 0;
+        transition: transform .3s, opacity .3s, margin .3s;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+
+        i,
+        svg {
+            opacity: 1;
+            margin-#{$left}: 0;
+            transform: translateX(0);
+            margin-#{$right}: .5em;
+        }
+    }
+}
+
+.btn-reveal-right {
+
+    i,
+    svg {
+        opacity: 0;
+        margin-#{$right}: -1em;
+        transform: translateX(if-ltr(-.5em, .5em));
+        margin-#{$left}: 0;
+        transition: transform .3s, opacity .3s, margin .3s;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+
+        i,
+        svg {
+            opacity: 1;
+            margin-#{$left}: .5em;
+            transform: translateX(0);
+            margin-#{$right}: 0;
+        }
+    }
+}
+
+// 5. Slide Button
+@keyframes slideLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(if-ltr(-.5em, .5em));
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.btn-slide-left {
+
+    &:hover,
+    &:active,
+    &:focus {
+
+        i,
+        svg {
+            animation: .5s ease slideLeft;
+        }
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(if-ltr(.5em, -.5em));
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.btn-slide-right {
+
+    &:hover,
+    &:active,
+    &:focus {
+
+        i,
+        svg {
+            animation: .5s ease slideRight;
+        }
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-.5em);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.btn-slide-up {
+
+    &:hover,
+    &:active,
+    &:focus {
+
+        i,
+        svg {
+            animation: .5s ease slideUp;
+        }
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(.5em);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.btn-slide-down {
+
+    &:hover,
+    &:active,
+    &:focus {
+
+        i,
+        svg {
+            animation: .5s ease slideDown;
+        }
+    }
+}
+
+.btn-infinite {
+    &:hover {
+
+        i,
+        svg {
+            animation-iteration-count: infinite;
+        }
+    }
+}
+
+// 6. Shadow Button
+.btn.btn-shadow-lg {
+    box-shadow: 0 13px 20px -10px rgba(0, 0, 0, .15);
+
+    &:hover,
+    &:active,
+    &:focus {
+        box-shadow: 0 13px 20px -10px rgba(0, 0, 0, .2);
+    }
+}
+
+.btn.btn-shadow {
+    box-shadow: 0 15px 20px -15px rgba(0, 0, 0, .15);
+
+    &:hover,
+    &:active,
+    &:focus {
+        box-shadow: 0 15px 20px -15px rgba(0, 0, 0, .2);
+    }
+}
+
+.btn.btn-shadow-sm {
+    box-shadow: 0 17px 20px -20px rgba(0, 0, 0, .15);
+
+    &:hover,
+    &:active,
+    &:focus {
+        box-shadow: 0 17px 20px -20px rgba(0, 0, 0, .2);
+    }
+}
+
+// 7. Underline Button
+.btn-underline {
+
+    &:hover,
+    &.active,
+    &:focus {
+        &::after {
+            transform: scaleX(1);
+        }
+    }
+
+    &::after {
+        display: block;
+        margin-top: 3px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 3px;
+        border-top: 1px solid;
+        border-bottom: 2px solid;
+        transform: scaleX(0);
+        transition: transform .3s;
+        content: '';
+    }
+}
+
+.btn-underline.sm::after {
+    width: 46%;
+}
+
+.btn-underline.lg::after {
+    margin-left: -16.5%;
+    margin-right: -16.5%;
+    width: 133%;
+}
+
+.btn-underline-show {
+    &:after {
+        transform: scale(1);
+    }
+}
+
+// 8. Link Button
+.btn-link {
+    padding: 0;
+    color: var(--alpha-dark-color);
+    border: 0;
+
+    &,
+    &:hover,
+    &.active,
+    &:focus {
+        background-color: transparent;
+    }
+}
+
+// 9. Button Color Styles
+.btn-primary {
+    @include button-variant(var(--alpha-primary-color), var(--alpha-primary-color-hover));
+}
+
+.btn-secondary {
+    @include button-variant(var(--alpha-secondary-color), var(--alpha-secondary-color-hover));
+}
+
+.btn-success {
+    @include button-variant(var(--alpha-success-color), var(--alpha-success-color-hover));
+}
+
+.btn-warning {
+    @include button-variant(var(--alpha-alert-color), var(--alpha-alert-color-hover));
+}
+
+.btn-danger {
+    @include button-variant(var(--alpha-danger-color), var(--alpha-danger-color-hover));
+}
+
+.btn-dark {
+    @include button-variant(var(--alpha-dark-color), var(--alpha-dark-color-hover));
+}
+
+.btn-white {
+    color: var(--alpha-dark-color);
+    background-color: var(--alpha-white-color);
+    border-color: var(--alpha-white-color);
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: var(--alpha-white-color);
+        border-color: var(--alpha-primary-color);
+        background-color: var(--alpha-primary-color);
+    }
+
+    &.btn-outline {
+        color: var(--alpha-white-color);
+        background-color: transparent;
+        border-color: var(--alpha-white-color);
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: var(--alpha-primary-color);
+            background-color: var(--alpha-white-color);
+        }
+    }
+
+    &.btn-link {
+        color: var(--alpha-white-color);
+        background-color: transparent;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: var(--alpha-white-color);
+            background-color: transparent;
+        }
+    }
+}
+
+// 10. Gradient Button
+.btn-gradient {
+    position: relative;
+    padding: 1.05em 2.15em;
+    color: var(--alpha-white-color);
+    background: linear-gradient(135deg, #edf7fa, #cee3ea);
+    border: none;
+    transition: background .25s, color .25s, border .25s, box-shadow .25s;
+    overflow: hidden;
+    vertical-align: middle;
+
+    &:hover,
+    &:focus {
+        color: var(--alpha-white-color);
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: 0%;
+        right: 0%;
+        bottom: -50%;
+        background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0) 80%);
+        transform: skewX(-45deg) translateX(-100%);
+        transition: transform 0.8s;
+    }
+
+    &:hover::after {
+        transform: skewX(-45deg) translateX(100%);
+    }
+}
+
+.btn-gra-default {
+    color: #222;
+
+    &:hover {
+        color: #222;
+    }
+}
+
+.btn-gra-blue {
+    background: linear-gradient(135deg, #3b8df1, #5449ff);
+}
+
+.btn-gra-orange {
+    background: linear-gradient(135deg, #ffa35f, #e95454);
+}
+
+.btn-gra-pink {
+    background: linear-gradient(135deg, #f85283, #b33c9e);
+}
+
+.btn-gra-green {
+    background: linear-gradient(135deg, #a0ec69, #87cf47);
+}
+
+.btn-gra-dark {
+    background: linear-gradient(135deg, #555555, #222222);
+}
+
+// 11. Miscellaneous
+.btn.disabled,
+.button.disabled,
+.btn[disabled],
+.button[disabled] {
+    background-color: #eee;
+    color: var(--alpha-body-color);
+    border-color: #eee;
+    box-shadow: none;
+    pointer-events: initial;
+    cursor: not-allowed;
+
+    &.btn-outline {
+        background-color: transparent;
+        color: var(--alpha-grey-color);
+    }
+}
+
+.video-popup .btn-video-iframe,
+.btn-video-player {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Load Button - Aligns Center
+.btn-load {
+    position: relative;
+    left: 50%;
+    border-radius: var(--alpha-border-radius-form);
+    transform: translateX(-50%);
+    margin-bottom: 2rem;
+}
+
+.product-archive+.btn-load {
+    margin-top: 3rem;
+}
+
+// 12. Button Text Hover Styles
+.btn-text-hover-effect {
+    vertical-align: middle;
+    overflow: hidden;
+
+    span {
+        display: inline-block;
+        position: relative;
+        z-index: 3;
+        transition: opacity .65s, transform .85s;
+
+        &:after {
+            content: attr(data-text);
+            position: absolute;
+            white-space: nowrap;
+            top: 50%;
+            opacity: 0;
+            transition: inherit;
+        }
+    }
+
+    &:hover span:after {
+        opacity: 1;
+    }
+}
+
+.btn-text-switch-left {
+    span:after {
+        left: 100%;
+        transform: translate(50%, -50%);
+    }
+
+    &:hover span {
+        transform: translateX(-200%);
+
+        &:after {
+            transform: translate(100%, -50%);
+        }
+    }
+}
+
+.btn-text-switch-up {
+    span:after {
+        left: 50%;
+        transform: translate(-50%, 100%);
+    }
+
+    &:hover span {
+        transform: translateY(-200%);
+
+        &:after {
+            transform: translate(-50%, 150%);
+        }
+    }
+}
+
+.btn-text-marquee-left {
+    span:after {
+        left: 100%;
+        transform: translate(100%, -50%);
+    }
+
+    &:hover span {
+        animation: btnMarqueeLeft 2s linear infinite;
+    }
+}
+
+.btn-text-marquee-up {
+    span:after {
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, 100%);
+    }
+
+    &:hover span {
+        animation: btnMarqueeUp 1s linear infinite;
+    }
+}
+
+.btn-text-marquee-down {
+    span:after {
+        top: -100%;
+        left: 50%;
+        transform: translate(-50%, -100%);
+    }
+
+    &:hover span {
+        animation: btnMarqueeDown 1s linear infinite;
+    }
+}
+
+/* Hover Text effects */
+@keyframes btnMarqueeLeft {
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+@keyframes btnMarqueeUp {
+    100% {
+        transform: translateY(-200%);
+    }
+}
+
+@keyframes btnMarqueeDown {
+    100% {
+        transform: translateY(200%);
+    }
+}

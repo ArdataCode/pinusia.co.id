@@ -1,0 +1,498 @@
+[22-Jan-2024 22:46:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php on line 11
+[22-Jan-2024 22:46:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php on line 18
+[22-Jan-2024 22:46:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php on line 18
+[22-Jan-2024 22:46:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php on line 12
+[12-Mar-2024 15:29:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php on line 11
+[12-Mar-2024 15:30:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php on line 18
+[12-Mar-2024 15:30:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php on line 18
+[12-Mar-2024 15:32:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php on line 12
+[15-Mar-2024 17:39:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php on line 11
+[15-Mar-2024 17:39:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php on line 18
+[15-Mar-2024 17:39:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php on line 18
+[15-Mar-2024 17:39:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php on line 12
+[16-Mar-2024 04:10:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php on line 11
+[16-Mar-2024 04:10:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php on line 18
+[16-Mar-2024 04:10:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php on line 18
+[16-Mar-2024 04:10:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php on line 12
+[17-Mar-2024 22:16:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php on line 11
+[17-Mar-2024 22:17:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php on line 18
+[17-Mar-2024 22:17:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php on line 18
+[17-Mar-2024 22:18:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php on line 12
+[20-Mar-2024 08:37:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_support() in /home/ujianori/pinusia.co.id/wp-includes/block-patterns.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/block-patterns.php on line 9
+[20-Mar-2024 08:37:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/cache.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/cache.php on line 12
+[20-Mar-2024 08:37:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/class-feed.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-feed.php on line 10
+[20-Mar-2024 08:37:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/class-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-http.php on line 11
+[20-Mar-2024 08:37:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/class-json.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-json.php on line 2
+[20-Mar-2024 08:37:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/class-oembed.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-oembed.php on line 12
+[20-Mar-2024 08:37:53 Asia/Jakarta] PHP Deprecated:  The PSR-0 `Requests_...` class names in the Requests library are deprecated. Switch to the PSR-4 `WpOrg\Requests\...` class names at your earliest convenience. in /home/ujianori/pinusia.co.id/wp-includes/class-requests.php on line 24
+[20-Mar-2024 08:37:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-simplepie.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-simplepie.php on line 5
+[20-Mar-2024 08:37:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/class-smtp.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-smtp.php on line 6
+[20-Mar-2024 08:37:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/ujianori/pinusia.co.id/wp-includes/class-walker-category-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-walker-category-dropdown.php on line 17
+[20-Mar-2024 08:37:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/ujianori/pinusia.co.id/wp-includes/class-walker-category.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-walker-category.php on line 17
+[20-Mar-2024 08:37:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/ujianori/pinusia.co.id/wp-includes/class-walker-comment.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-walker-comment.php on line 17
+[20-Mar-2024 08:37:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/ujianori/pinusia.co.id/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-walker-nav-menu.php on line 17
+[20-Mar-2024 08:37:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/ujianori/pinusia.co.id/wp-includes/class-walker-page-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-walker-page-dropdown.php on line 17
+[20-Mar-2024 08:37:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/ujianori/pinusia.co.id/wp-includes/class-walker-page.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-walker-page.php on line 17
+[20-Mar-2024 08:37:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-wp-customize-control.php:709
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-customize-control.php on line 709
+[20-Mar-2024 08:38:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-wp-customize-panel.php:411
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-customize-panel.php on line 411
+[20-Mar-2024 08:38:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-wp-customize-section.php:412
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-customize-section.php on line 412
+[20-Mar-2024 08:38:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-wp-customize-setting.php:964
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-customize-setting.php on line 964
+[20-Mar-2024 08:38:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/class-wp-feed-cache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-feed-cache.php on line 11
+[20-Mar-2024 08:38:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "IXR_Client" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http-ixr-client.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http-ixr-client.php on line 9
+[20-Mar-2024 08:38:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WpOrg\Requests\Hooks" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http-requests-hooks.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http-requests-hooks.php on line 18
+[20-Mar-2024 08:38:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_HTTP_Response" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http-requests-response.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http-requests-response.php on line 17
+[20-Mar-2024 08:38:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php on line 11
+[20-Mar-2024 08:38:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Image_Editor" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-image-editor-gd.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-image-editor-gd.php on line 16
+[20-Mar-2024 08:38:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Image_Editor" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-image-editor-imagick.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-image-editor-imagick.php on line 16
+[20-Mar-2024 08:38:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php on line 18
+[20-Mar-2024 08:38:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "SimplePie_File" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-simplepie-file.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-simplepie-file.php on line 19
+[20-Mar-2024 08:38:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "SimplePie_Sanitize" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-simplepie-sanitize-kses.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-simplepie-sanitize-kses.php on line 19
+[20-Mar-2024 08:38:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php on line 18
+[20-Mar-2024 08:38:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Text_Diff_Renderer_inline" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-text-diff-renderer-inline.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-text-diff-renderer-inline.php on line 17
+[20-Mar-2024 08:38:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Text_Diff_Renderer" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-text-diff-renderer-table.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-text-diff-renderer-table.php on line 17
+[20-Mar-2024 08:38:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Session_Tokens" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-user-meta-session-tokens.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-user-meta-session-tokens.php on line 17
+[20-Mar-2024 08:38:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "IXR_Server" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-xmlrpc-server.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-xmlrpc-server.php on line 24
+[20-Mar-2024 08:38:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/class.wp-dependencies.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class.wp-dependencies.php on line 11
+[20-Mar-2024 08:38:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/class.wp-scripts.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class.wp-scripts.php on line 11
+[20-Mar-2024 08:38:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/class.wp-styles.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class.wp-styles.php on line 11
+[20-Mar-2024 08:38:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/compat.php:338
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/compat.php on line 338
+[20-Mar-2024 08:38:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/date.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/date.php on line 11
+[20-Mar-2024 08:38:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/ujianori/pinusia.co.id/wp-includes/default-filters.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/default-filters.php on line 22
+[20-Mar-2024 08:38:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/default-widgets.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/default-widgets.php on line 11
+[20-Mar-2024 08:38:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/embed-template.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/embed-template.php on line 11
+[20-Mar-2024 08:38:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/ujianori/pinusia.co.id/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/feed-atom-comments.php on line 8
+[20-Mar-2024 08:38:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/ujianori/pinusia.co.id/wp-includes/feed-atom.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/feed-atom.php on line 8
+[20-Mar-2024 08:38:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/ujianori/pinusia.co.id/wp-includes/feed-rdf.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/feed-rdf.php on line 8
+[20-Mar-2024 08:38:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/ujianori/pinusia.co.id/wp-includes/feed-rss.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/feed-rss.php on line 8
+[20-Mar-2024 08:38:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/ujianori/pinusia.co.id/wp-includes/feed-rss2-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/feed-rss2-comments.php on line 8
+[20-Mar-2024 08:38:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/ujianori/pinusia.co.id/wp-includes/feed-rss2.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/feed-rss2.php on line 8
+[20-Mar-2024 08:38:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/functions.php on line 8
+[20-Mar-2024 08:38:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/locale.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/locale.php on line 11
+[20-Mar-2024 08:38:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/ujianori/pinusia.co.id/wp-includes/media.php:2317
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/media.php on line 2317
+[20-Mar-2024 08:38:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/meta.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/meta.php on line 13
+[20-Mar-2024 08:38:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/ms-blogs.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/ms-blogs.php on line 11
+[20-Mar-2024 08:38:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/ujianori/pinusia.co.id/wp-includes/ms-default-filters.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/ms-default-filters.php on line 16
+[20-Mar-2024 08:38:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/ms-settings.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/ms-settings.php on line 35
+[20-Mar-2024 08:38:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/nav-menu-template.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/nav-menu-template.php on line 11
+[20-Mar-2024 08:38:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/registration-functions.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/registration-functions.php on line 9
+[20-Mar-2024 08:38:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/registration.php on line 9
+[20-Mar-2024 08:38:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/rss.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/rss.php on line 19
+[20-Mar-2024 08:38:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/script-loader.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/script-loader.php on line 20
+[20-Mar-2024 08:38:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/session.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/session.php on line 9
+[20-Mar-2024 08:38:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/spl-autoload-compat.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/spl-autoload-compat.php on line 14
+[20-Mar-2024 08:38:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php on line 12
+[20-Mar-2024 08:38:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function wp_using_themes() in /home/ujianori/pinusia.co.id/wp-includes/template-loader.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/template-loader.php on line 7
+[20-Mar-2024 08:38:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/ujianori/pinusia.co.id/wp-includes/update.php:1149
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/update.php on line 1149
+[20-Mar-2024 08:38:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/ujianori/pinusia.co.id/wp-includes/vars.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/vars.php on line 23
+[20-Mar-2024 08:38:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/wp-diff.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/wp-diff.php on line 13
+[21-Mar-2024 03:56:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php on line 11
+[21-Mar-2024 03:56:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php on line 18
+[21-Mar-2024 03:56:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php on line 12
+[21-Mar-2024 07:22:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php on line 11
+[21-Mar-2024 07:22:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php on line 18
+[21-Mar-2024 07:23:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php on line 12
+[21-Mar-2024 22:10:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php on line 11
+[21-Mar-2024 22:10:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php on line 18
+[21-Mar-2024 22:10:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php on line 18
+[21-Mar-2024 22:10:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php on line 12
+[22-Mar-2024 06:48:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php on line 11
+[22-Mar-2024 06:48:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php on line 18
+[22-Mar-2024 06:48:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php on line 18
+[22-Mar-2024 06:49:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php on line 12
+[25-Mar-2024 12:40:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php on line 11
+[25-Mar-2024 12:40:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php on line 18
+[25-Mar-2024 12:40:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php on line 18
+[25-Mar-2024 12:41:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php on line 12
+[17-Apr-2024 03:21:52 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-http.php on line 11
+[17-Apr-2024 03:22:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-scripts.php on line 18
+[17-Apr-2024 03:22:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-wp-styles.php on line 18
+[17-Apr-2024 03:23:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/template-canvas.php on line 12
+[18-Apr-2024 10:00:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_support() in /home/ujianori/pinusia.co.id/wp-includes/block-patterns.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/block-patterns.php on line 9
+[18-Apr-2024 10:00:12 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/cache.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/cache.php on line 12
+[18-Apr-2024 10:00:13 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-IXR.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-IXR.php on line 42
+[18-Apr-2024 10:00:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/class-feed.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-feed.php on line 10
+[18-Apr-2024 10:00:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/class-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-http.php on line 11
+[18-Apr-2024 10:00:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/class-json.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-json.php on line 2
+[18-Apr-2024 10:00:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/class-oembed.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-oembed.php on line 12
+[18-Apr-2024 10:00:16 UTC] PHP Deprecated:  The PSR-0 `Requests_...` class names in the Requests library are deprecated. Switch to the PSR-4 `WpOrg\Requests\...` class names at your earliest convenience. in /home/ujianori/pinusia.co.id/wp-includes/class-requests.php on line 24
+[18-Apr-2024 10:00:16 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/pinusia.co.id/wp-includes/class-simplepie.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-simplepie.php on line 5
+[18-Apr-2024 10:00:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/class-smtp.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-smtp.php on line 6
+[18-Apr-2024 10:00:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/class-snoopy.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-snoopy.php on line 6
+[18-Apr-2024 10:00:17 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/ujianori/pinusia.co.id/wp-includes/class-walker-category-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-walker-category-dropdown.php on line 17
+[18-Apr-2024 10:00:17 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/ujianori/pinusia.co.id/wp-includes/class-walker-category.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-walker-category.php on line 17
+[18-Apr-2024 10:00:17 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/ujianori/pinusia.co.id/wp-includes/class-walker-comment.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-walker-comment.php on line 17
+[18-Apr-2024 10:00:17 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/ujianori/pinusia.co.id/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-walker-nav-menu.php on line 17
+[18-Apr-2024 10:00:18 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/ujianori/pinusia.co.id/wp-includes/class-walker-page-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-walker-page-dropdown.php on line 17
+[18-Apr-2024 10:00:18 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/ujianori/pinusia.co.id/wp-includes/class-walker-page.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/class-walker-page.php on line 17

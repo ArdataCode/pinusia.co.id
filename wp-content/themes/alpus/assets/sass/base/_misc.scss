@@ -1,0 +1,268 @@
+/* -------------------------------------------
+	Miscellanous
+---------------------------------------------- */
+
+.scrollable {
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+  margin-#{$right}: -5px;
+  padding-#{$right}: 5px;
+
+  &::-webkit-scrollbar {
+    height: 7px;
+    width: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    margin-#{$right}: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  &:hover::-webkit-scrollbar-thumb {
+    background: rgba(#999, 0.25);
+  }
+}
+
+.d-lazyload {
+  height: 0 !important;
+  background: var(--alpha-lazy-load-bg);
+
+  &[data-lazy$="png"] {
+    background: none;
+  }
+}
+
+.d-lazy-back {
+  background-image: none !important;
+}
+// Sticky Content
+@keyframes fixedTop {
+  from {
+    transform: translateY(-100%);
+    transform-origin: center top 0px;
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes fixedBottom {
+  from {
+    transform: translateY(100%);
+    transform-origin: center top 0px;
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.sticky-content {
+  &.fix-top {
+    top: 0;
+  }
+  &.fix-bottom {
+    bottom: 0;
+  }
+
+  &.fixed {
+    &.fix-top {
+      animation: fixedTop 0.4s;
+    }
+    &.fix-bottom {
+      animation: fixedBottom 0.4s;
+    }
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    background: var(--alpha-change-color-light-1);
+    z-index: 1051;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    transition-delay: 0.4s !important;
+  }
+
+  transition: opacity 0.5s;
+}
+
+.sticky-content-transparent:not(.fixed) {
+  position: absolute;
+  top: auto;
+  bottom: auto;
+  width: 100%;
+  background: transparent;
+  z-index: 99;
+}
+
+.fit-video .wp-video {
+  width: 100% !important;
+}
+
+.d-loading {
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  top: -1px;
+  bottom: -1px;
+  z-index: 10;
+
+  &.small i {
+    position: absolute;
+    left: calc(50% - 10px);
+    top: calc(50% - 10px);
+    width: 20px;
+    height: 20px;
+  }
+
+  i {
+    position: absolute;
+    left: calc(50% - 17px);
+    top: calc(50% - 17px);
+    width: 34px;
+    height: 34px;
+    border: 2px solid transparent;
+    border-top-color: var(--alpha-primary-color);
+    border-radius: 50%;
+    animation: spin 0.75s infinite linear;
+
+    &:before {
+      content: "";
+      top: -2px;
+      left: -2px;
+      position: absolute;
+      width: inherit;
+      height: inherit;
+      border: inherit;
+      border-radius: inherit;
+      animation: spin 1.5s infinite ease;
+    }
+  }
+
+  &:before {
+    --alpha-change-color-light-1: inherit;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--alpha-change-color-light-1);
+    opacity: 0.6;
+  }
+
+  .btn & i {
+    margin: 0;
+  }
+}
+
+.d-loading-stick {
+  text-align: center;
+
+  &.is-stick .d-loading {
+    text-align: center;
+
+    i {
+      position: fixed;
+      left: auto;
+      margin-left: -17px;
+    }
+  }
+
+  &.is-top .d-loading i {
+    top: 80px;
+    bottom: auto;
+  }
+  &.is-bottom .d-loading i {
+    top: auto;
+    bottom: 120px;
+  }
+}
+
+form.d-loading {
+  opacity: 0.3;
+}
+
+.list-type-none {
+  list-style: none;
+  padding-#{$left}: 0;
+}
+
+.list-type-check {
+  list-style: none;
+  margin-#{$left}: 0;
+  li {
+    position: relative;
+    padding-#{$left}: 2em;
+    margin-bottom: 1.1rem;
+    line-height: 2;
+    &::before {
+      position: absolute;
+      display: block;
+      #{$left}: 0;
+      content: "\e969";
+      font-family: #{$theme-font};
+      font-weight: 700;
+    }
+  }
+}
+
+.list-type-round-check {
+  li {
+    &::before {
+      content: "\e9f6";
+      font-family: #{$theme-font};
+      font-size: 1.1em;
+    }
+  }
+}
+
+.divider {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2.5rem;
+  width: 1px;
+  background-color: var(--alpha-light-color);
+}
+
+.close-icon {
+  display: block;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  transform: rotateZ(45deg);
+
+  &::before,
+  &::after {
+    display: block;
+    position: absolute;
+    background-color: var(--alpha-change-border-color);
+    content: "";
+    transition: transform 0.3s;
+  }
+
+  &::before {
+    height: 0.067em;
+    width: 100%;
+    #{$left}: 0;
+    top: calc(50% - 0.033em);
+  }
+
+  &::after {
+    height: 100%;
+    width: 0.067em;
+    top: 0;
+    #{$left}: calc(50% - 0.033em);
+  }
+
+  a:hover > & {
+    &:before {
+      transform: rotate(-45deg);
+    }
+    &:after {
+      transform: rotate(45deg);
+    }
+  }
+}
+
+@include mq(lg, max) {
+  .sticky-wrapper {
+    height: auto !important;
+  }
+}

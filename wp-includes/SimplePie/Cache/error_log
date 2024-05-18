@@ -1,0 +1,24 @@
+[20-Mar-2024 08:41:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "SimplePie_Cache_Base" not found in /home/ujianori/pinusia.co.id/wp-includes/SimplePie/Cache/DB.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/SimplePie/Cache/DB.php on line 50
+[20-Mar-2024 08:41:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "SimplePie_Cache_Base" not found in /home/ujianori/pinusia.co.id/wp-includes/SimplePie/Cache/File.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/SimplePie/Cache/File.php on line 50
+[20-Mar-2024 08:41:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "SimplePie_Cache_Base" not found in /home/ujianori/pinusia.co.id/wp-includes/SimplePie/Cache/Memcache.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/SimplePie/Cache/Memcache.php on line 57
+[20-Mar-2024 08:41:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "SimplePie_Cache_Base" not found in /home/ujianori/pinusia.co.id/wp-includes/SimplePie/Cache/Memcached.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/SimplePie/Cache/Memcached.php on line 58
+[20-Mar-2024 08:41:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "SimplePie_Cache_DB" not found in /home/ujianori/pinusia.co.id/wp-includes/SimplePie/Cache/MySQL.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/SimplePie/Cache/MySQL.php on line 56
+[20-Mar-2024 08:41:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "SimplePie_Cache_Base" not found in /home/ujianori/pinusia.co.id/wp-includes/SimplePie/Cache/Redis.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/SimplePie/Cache/Redis.php on line 27

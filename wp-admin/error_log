@@ -1,0 +1,390 @@
+[07-Jan-2024 05:27:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:27:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:29:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:29:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:29:13 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:29:13 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:31:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:31:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:31:13 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:31:13 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:33:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:33:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:35:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:35:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:37:10 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:37:10 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:39:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:39:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:41:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:41:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:41:13 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:41:13 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:43:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:43:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:45:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:45:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:47:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:47:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:49:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:49:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:51:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:51:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:53:10 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:53:10 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:55:10 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:55:10 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:57:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:57:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 05:59:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 05:59:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:01:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:01:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:03:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:03:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:03:12 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:03:12 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:03:13 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query DELETE FROM `wp_actionscheduler_logs` WHERE `action_id` = 833 made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_Abstract_QueueRunner->run_cleanup, ActionScheduler_QueueCleaner->clean, ActionScheduler_QueueCleaner->delete_old_actions, ActionScheduler_QueueCleaner->clean_actions, ActionScheduler_QueueCleaner->delete_actions, ActionScheduler_HybridStore->delete_action, ActionScheduler_DBStore->delete_action, do_action('action_scheduler_deleted_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_DBLogger->clear_deleted_action_logs
+[07-Jan-2024 06:03:13 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query DELETE FROM `wp_actionscheduler_logs` WHERE `action_id` = 834 made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_Abstract_QueueRunner->run_cleanup, ActionScheduler_QueueCleaner->clean, ActionScheduler_QueueCleaner->delete_old_actions, ActionScheduler_QueueCleaner->clean_actions, ActionScheduler_QueueCleaner->delete_actions, ActionScheduler_HybridStore->delete_action, ActionScheduler_DBStore->delete_action, do_action('action_scheduler_deleted_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_DBLogger->clear_deleted_action_logs
+[07-Jan-2024 06:03:13 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, do_action('action_scheduler_begin_execute'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_started_action, ActionScheduler_DBLogger->log
+[07-Jan-2024 06:03:13 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, do_action('action_scheduler_after_execute'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_completed_action, ActionScheduler_DBLogger->log
+[07-Jan-2024 06:03:13 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, ActionScheduler_Abstract_QueueRunner->schedule_next_instance, ActionScheduler_ActionFactory->repeat, ActionScheduler_ActionFactory->store, ActionScheduler_HybridStore->save_action, ActionScheduler_DBStoreMigrator->save_action, ActionScheduler_DBStore->save_action, ActionScheduler_DBStore->save_action_to_db, do_action('action_scheduler_stored_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_stored_action, ActionScheduler_DBLogger->log
+[07-Jan-2024 06:03:13 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, do_action('action_scheduler_begin_execute'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_started_action, ActionScheduler_DBLogger->log
+[07-Jan-2024 06:03:13 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, do_action('action_scheduler_after_execute'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_completed_action, ActionScheduler_DBLogger->log
+[07-Jan-2024 06:03:13 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, ActionScheduler_Abstract_QueueRunner->schedule_next_instance, ActionScheduler_ActionFactory->repeat, ActionScheduler_ActionFactory->store, ActionScheduler_HybridStore->save_action, ActionScheduler_DBStoreMigrator->save_action, ActionScheduler_DBStore->save_action, ActionScheduler_DBStore->save_action_to_db, do_action('action_scheduler_stored_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_stored_action, ActionScheduler_DBLogger->log
+[07-Jan-2024 06:05:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:05:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:07:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:07:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:09:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:09:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:11:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:11:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:13:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:13:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:15:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:15:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:17:10 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:17:10 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:17:24 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:17:24 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:17:40 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:17:40 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:19:27 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:19:27 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:21:27 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:21:27 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:23:27 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:23:27 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:25:27 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:25:27 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:27:27 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:27:27 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 06:29:27 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 06:29:27 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 08:01:30 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 08:01:30 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 08:01:44 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 08:01:44 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 08:03:44 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 08:03:44 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 08:05:44 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 08:05:44 UTC] objectcache.warning: Failing over to in-memory object cache
+[07-Jan-2024 08:05:59 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[07-Jan-2024 08:05:59 UTC] objectcache.warning: Failing over to in-memory object cache
+[10-Jan-2024 04:57:21 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[10-Jan-2024 04:57:21 UTC] objectcache.warning: Failing over to in-memory object cache
+[10-Jan-2024 04:57:56 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[10-Jan-2024 04:57:56 UTC] objectcache.warning: Failing over to in-memory object cache
+[10-Jan-2024 04:58:03 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query DELETE FROM `wp_actionscheduler_logs` WHERE `action_id` = 835 made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_Abstract_QueueRunner->run_cleanup, ActionScheduler_QueueCleaner->clean, ActionScheduler_QueueCleaner->delete_old_actions, ActionScheduler_QueueCleaner->clean_actions, ActionScheduler_QueueCleaner->delete_actions, ActionScheduler_HybridStore->delete_action, ActionScheduler_DBStore->delete_action, do_action('action_scheduler_deleted_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_DBLogger->clear_deleted_action_logs
+[10-Jan-2024 04:58:03 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query DELETE FROM `wp_actionscheduler_logs` WHERE `action_id` = 836 made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_Abstract_QueueRunner->run_cleanup, ActionScheduler_QueueCleaner->clean, ActionScheduler_QueueCleaner->delete_old_actions, ActionScheduler_QueueCleaner->clean_actions, ActionScheduler_QueueCleaner->delete_actions, ActionScheduler_HybridStore->delete_action, ActionScheduler_DBStore->delete_action, do_action('action_scheduler_deleted_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_DBLogger->clear_deleted_action_logs
+[10-Jan-2024 04:58:03 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query DELETE FROM `wp_actionscheduler_logs` WHERE `action_id` = 837 made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_Abstract_QueueRunner->run_cleanup, ActionScheduler_QueueCleaner->clean, ActionScheduler_QueueCleaner->delete_old_actions, ActionScheduler_QueueCleaner->clean_actions, ActionScheduler_QueueCleaner->delete_actions, ActionScheduler_HybridStore->delete_action, ActionScheduler_DBStore->delete_action, do_action('action_scheduler_deleted_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_DBLogger->clear_deleted_action_logs
+[10-Jan-2024 04:58:03 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query DELETE FROM `wp_actionscheduler_logs` WHERE `action_id` = 838 made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_Abstract_QueueRunner->run_cleanup, ActionScheduler_QueueCleaner->clean, ActionScheduler_QueueCleaner->delete_old_actions, ActionScheduler_QueueCleaner->clean_actions, ActionScheduler_QueueCleaner->delete_actions, ActionScheduler_HybridStore->delete_action, ActionScheduler_DBStore->delete_action, do_action('action_scheduler_deleted_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_DBLogger->clear_deleted_action_logs
+[10-Jan-2024 04:58:03 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query DELETE FROM `wp_actionscheduler_logs` WHERE `action_id` = 839 made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_Abstract_QueueRunner->run_cleanup, ActionScheduler_QueueCleaner->clean, ActionScheduler_QueueCleaner->delete_old_actions, ActionScheduler_QueueCleaner->clean_actions, ActionScheduler_QueueCleaner->delete_actions, ActionScheduler_HybridStore->delete_action, ActionScheduler_DBStore->delete_action, do_action('action_scheduler_deleted_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_DBLogger->clear_deleted_action_logs
+[10-Jan-2024 04:58:03 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query DELETE FROM `wp_actionscheduler_logs` WHERE `action_id` = 840 made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_Abstract_QueueRunner->run_cleanup, ActionScheduler_QueueCleaner->clean, ActionScheduler_QueueCleaner->delete_old_actions, ActionScheduler_QueueCleaner->clean_actions, ActionScheduler_QueueCleaner->delete_actions, ActionScheduler_HybridStore->delete_action, ActionScheduler_DBStore->delete_action, do_action('action_scheduler_deleted_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_DBLogger->clear_deleted_action_logs
+[10-Jan-2024 04:58:04 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, do_action('action_scheduler_begin_execute'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_started_action, ActionScheduler_DBLogger->log
+[10-Jan-2024 04:58:04 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, do_action('action_scheduler_after_execute'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_completed_action, ActionScheduler_DBLogger->log
+[10-Jan-2024 04:58:04 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, ActionScheduler_Abstract_QueueRunner->schedule_next_instance, ActionScheduler_ActionFactory->repeat, ActionScheduler_ActionFactory->store, ActionScheduler_HybridStore->save_action, ActionScheduler_DBStoreMigrator->save_action, ActionScheduler_DBStore->save_action, ActionScheduler_DBStore->save_action_to_db, do_action('action_scheduler_stored_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_stored_action, ActionScheduler_DBLogger->log
+[10-Jan-2024 04:58:04 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, do_action('action_scheduler_begin_execute'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_started_action, ActionScheduler_DBLogger->log
+[10-Jan-2024 04:58:04 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, do_action('action_scheduler_after_execute'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_completed_action, ActionScheduler_DBLogger->log
+[10-Jan-2024 04:58:04 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, ActionScheduler_Abstract_QueueRunner->schedule_next_instance, ActionScheduler_ActionFactory->repeat, ActionScheduler_ActionFactory->store, ActionScheduler_HybridStore->save_action, ActionScheduler_DBStoreMigrator->save_action, ActionScheduler_DBStore->save_action, ActionScheduler_DBStore->save_action_to_db, do_action('action_scheduler_stored_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_stored_action, ActionScheduler_DBLogger->log
+[10-Jan-2024 04:58:21 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[10-Jan-2024 04:58:21 UTC] objectcache.warning: Failing over to in-memory object cache
+[10-Jan-2024 05:00:10 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[10-Jan-2024 05:00:10 UTC] objectcache.warning: Failing over to in-memory object cache
+[10-Jan-2024 05:02:12 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[10-Jan-2024 05:02:12 UTC] objectcache.warning: Failing over to in-memory object cache
+[10-Jan-2024 05:04:13 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[10-Jan-2024 05:04:13 UTC] objectcache.warning: Failing over to in-memory object cache
+[10-Jan-2024 05:05:35 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[10-Jan-2024 05:05:35 UTC] objectcache.warning: Failing over to in-memory object cache
+[10-Jan-2024 05:05:46 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[10-Jan-2024 05:05:46 UTC] objectcache.warning: Failing over to in-memory object cache
+[10-Jan-2024 05:06:01 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[10-Jan-2024 05:06:01 UTC] objectcache.warning: Failing over to in-memory object cache
+[10-Jan-2024 05:06:09 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[10-Jan-2024 05:06:09 UTC] objectcache.warning: Failing over to in-memory object cache
+[10-Jan-2024 05:06:26 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[10-Jan-2024 05:06:26 UTC] objectcache.warning: Failing over to in-memory object cache
+[10-Jan-2024 05:06:33 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[10-Jan-2024 05:06:33 UTC] objectcache.warning: Failing over to in-memory object cache
+[12-Jan-2024 03:57:30 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[12-Jan-2024 03:57:30 UTC] objectcache.warning: Failing over to in-memory object cache
+[12-Jan-2024 03:57:35 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[12-Jan-2024 03:57:35 UTC] objectcache.warning: Failing over to in-memory object cache
+[12-Jan-2024 03:57:36 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query DELETE FROM `wp_actionscheduler_logs` WHERE `action_id` = 841 made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_Abstract_QueueRunner->run_cleanup, ActionScheduler_QueueCleaner->clean, ActionScheduler_QueueCleaner->delete_old_actions, ActionScheduler_QueueCleaner->clean_actions, ActionScheduler_QueueCleaner->delete_actions, ActionScheduler_HybridStore->delete_action, ActionScheduler_DBStore->delete_action, do_action('action_scheduler_deleted_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_DBLogger->clear_deleted_action_logs
+[12-Jan-2024 03:57:36 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query DELETE FROM `wp_actionscheduler_logs` WHERE `action_id` = 842 made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_Abstract_QueueRunner->run_cleanup, ActionScheduler_QueueCleaner->clean, ActionScheduler_QueueCleaner->delete_old_actions, ActionScheduler_QueueCleaner->clean_actions, ActionScheduler_QueueCleaner->delete_actions, ActionScheduler_HybridStore->delete_action, ActionScheduler_DBStore->delete_action, do_action('action_scheduler_deleted_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_DBLogger->clear_deleted_action_logs
+[12-Jan-2024 03:57:36 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query DELETE FROM `wp_actionscheduler_logs` WHERE `action_id` = 843 made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_Abstract_QueueRunner->run_cleanup, ActionScheduler_QueueCleaner->clean, ActionScheduler_QueueCleaner->delete_old_actions, ActionScheduler_QueueCleaner->clean_actions, ActionScheduler_QueueCleaner->delete_actions, ActionScheduler_HybridStore->delete_action, ActionScheduler_DBStore->delete_action, do_action('action_scheduler_deleted_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_DBLogger->clear_deleted_action_logs
+[12-Jan-2024 03:57:36 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query DELETE FROM `wp_actionscheduler_logs` WHERE `action_id` = 844 made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_Abstract_QueueRunner->run_cleanup, ActionScheduler_QueueCleaner->clean, ActionScheduler_QueueCleaner->delete_old_actions, ActionScheduler_QueueCleaner->clean_actions, ActionScheduler_QueueCleaner->delete_actions, ActionScheduler_HybridStore->delete_action, ActionScheduler_DBStore->delete_action, do_action('action_scheduler_deleted_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_DBLogger->clear_deleted_action_logs
+[12-Jan-2024 03:57:36 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, do_action('action_scheduler_begin_execute'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_started_action, ActionScheduler_DBLogger->log
+[12-Jan-2024 03:57:36 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, do_action('action_scheduler_after_execute'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_completed_action, ActionScheduler_DBLogger->log
+[12-Jan-2024 03:57:36 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, ActionScheduler_Abstract_QueueRunner->schedule_next_instance, ActionScheduler_ActionFactory->repeat, ActionScheduler_ActionFactory->store, ActionScheduler_HybridStore->save_action, ActionScheduler_DBStoreMigrator->save_action, ActionScheduler_DBStore->save_action, ActionScheduler_DBStore->save_action_to_db, do_action('action_scheduler_stored_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_stored_action, ActionScheduler_DBLogger->log
+[12-Jan-2024 03:57:36 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, do_action('action_scheduler_begin_execute'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_started_action, ActionScheduler_DBLogger->log
+[12-Jan-2024 03:57:36 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, do_action('action_scheduler_after_execute'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_completed_action, ActionScheduler_DBLogger->log
+[12-Jan-2024 03:57:36 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by do_action('wp_ajax_nopriv_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, do_action('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, ActionScheduler_Abstract_QueueRunner->schedule_next_instance, ActionScheduler_ActionFactory->repeat, ActionScheduler_ActionFactory->store, ActionScheduler_HybridStore->save_action, ActionScheduler_DBStoreMigrator->save_action, ActionScheduler_DBStore->save_action, ActionScheduler_DBStore->save_action_to_db, do_action('action_scheduler_stored_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_stored_action, ActionScheduler_DBLogger->log
+[12-Jan-2024 03:57:46 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[12-Jan-2024 03:57:46 UTC] objectcache.warning: Failing over to in-memory object cache
+[12-Jan-2024 03:58:12 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[12-Jan-2024 03:58:12 UTC] objectcache.warning: Failing over to in-memory object cache
+[12-Jan-2024 04:01:34 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[12-Jan-2024 04:01:34 UTC] objectcache.warning: Failing over to in-memory object cache
+[12-Jan-2024 04:02:01 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[12-Jan-2024 04:02:01 UTC] objectcache.warning: Failing over to in-memory object cache
+[12-Jan-2024 04:02:01 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[12-Jan-2024 04:02:01 UTC] objectcache.warning: Failing over to in-memory object cache
+[12-Jan-2024 04:02:04 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[12-Jan-2024 04:02:04 UTC] objectcache.warning: Failing over to in-memory object cache
+[12-Jan-2024 04:02:31 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[12-Jan-2024 04:02:31 UTC] objectcache.warning: Failing over to in-memory object cache
+[12-Jan-2024 04:02:54 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[12-Jan-2024 04:02:54 UTC] objectcache.warning: Failing over to in-memory object cache
+[12-Jan-2024 04:03:07 UTC] objectcache.critical: Failed to initialize object cache: Connection refused
+[12-Jan-2024 04:03:07 UTC] objectcache.warning: Failing over to in-memory object cache
+[12-Jan-2024 04:03:33 UTC] Connection refused
+[13-Jan-2024 16:50:33 UTC] objectcache.notice: Could not verify license. cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received
+[14-Jan-2024 07:00:37 UTC] objectcache.notice: Could not verify license. Request returned status code 503
+[17-Jan-2024 07:24:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Porto_Woo::load_packages() in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php:27
+Stack trace:
+#0 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php(30): Porto_Woo->__construct()
+#1 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-functionality.php(286): require_once('/home/ujianori/...')
+#2 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(324): Porto_Functionality->load_woo()
+#3 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/ujianori/pinusia.co.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/ujianori/pinusia.co.id/wp-settings.php(506): do_action()
+#6 /home/ujianori/pinusia.co.id/wp-config.php(94): require_once('/home/ujianori/...')
+#7 /home/ujianori/pinusia.co.id/wp-load.php(50): require_once('/home/ujianori/...')
+#8 /home/ujianori/pinusia.co.id/wp-admin/admin.php(34): require_once('/home/ujianori/...')
+#9 /home/ujianori/pinusia.co.id/wp-admin/update-core.php(10): require_once('/home/ujianori/...')
+#10 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php on line 27
+[17-Jan-2024 07:25:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Porto_Woo::load_packages() in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php:27
+Stack trace:
+#0 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php(30): Porto_Woo->__construct()
+#1 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-functionality.php(286): require_once('/home/ujianori/...')
+#2 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(324): Porto_Functionality->load_woo()
+#3 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/ujianori/pinusia.co.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/ujianori/pinusia.co.id/wp-settings.php(506): do_action()
+#6 /home/ujianori/pinusia.co.id/wp-config.php(94): require_once('/home/ujianori/...')
+#7 /home/ujianori/pinusia.co.id/wp-load.php(50): require_once('/home/ujianori/...')
+#8 /home/ujianori/pinusia.co.id/wp-admin/admin.php(34): require_once('/home/ujianori/...')
+#9 /home/ujianori/pinusia.co.id/wp-admin/update-core.php(10): require_once('/home/ujianori/...')
+#10 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php on line 27
+[17-Jan-2024 07:25:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Porto_Woo::load_packages() in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php:27
+Stack trace:
+#0 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php(30): Porto_Woo->__construct()
+#1 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-functionality.php(286): require_once('/home/ujianori/...')
+#2 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(324): Porto_Functionality->load_woo()
+#3 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/ujianori/pinusia.co.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/ujianori/pinusia.co.id/wp-settings.php(506): do_action()
+#6 /home/ujianori/pinusia.co.id/wp-config.php(94): require_once('/home/ujianori/...')
+#7 /home/ujianori/pinusia.co.id/wp-load.php(50): require_once('/home/ujianori/...')
+#8 /home/ujianori/pinusia.co.id/wp-admin/admin.php(34): require_once('/home/ujianori/...')
+#9 /home/ujianori/pinusia.co.id/wp-admin/update-core.php(10): require_once('/home/ujianori/...')
+#10 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php on line 27
+[17-Jan-2024 07:25:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Porto_Woo::load_packages() in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php:27
+Stack trace:
+#0 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php(30): Porto_Woo->__construct()
+#1 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-functionality.php(286): require_once('/home/ujianori/...')
+#2 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(324): Porto_Functionality->load_woo()
+#3 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/ujianori/pinusia.co.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/ujianori/pinusia.co.id/wp-settings.php(506): do_action()
+#6 /home/ujianori/pinusia.co.id/wp-config.php(94): require_once('/home/ujianori/...')
+#7 /home/ujianori/pinusia.co.id/wp-load.php(50): require_once('/home/ujianori/...')
+#8 /home/ujianori/pinusia.co.id/wp-admin/admin.php(34): require_once('/home/ujianori/...')
+#9 /home/ujianori/pinusia.co.id/wp-admin/index.php(10): require_once('/home/ujianori/...')
+#10 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php on line 27
+[17-Jan-2024 07:26:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Porto_Woo::load_packages() in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php:27
+Stack trace:
+#0 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php(30): Porto_Woo->__construct()
+#1 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-functionality.php(286): require_once('/home/ujianori/...')
+#2 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(324): Porto_Functionality->load_woo()
+#3 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/ujianori/pinusia.co.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/ujianori/pinusia.co.id/wp-settings.php(506): do_action()
+#6 /home/ujianori/pinusia.co.id/wp-config.php(94): require_once('/home/ujianori/...')
+#7 /home/ujianori/pinusia.co.id/wp-load.php(50): require_once('/home/ujianori/...')
+#8 /home/ujianori/pinusia.co.id/wp-admin/admin-ajax.php(22): require_once('/home/ujianori/...')
+#9 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php on line 27
+[17-Jan-2024 07:26:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Porto_Woo::load_packages() in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php:27
+Stack trace:
+#0 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php(30): Porto_Woo->__construct()
+#1 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-functionality.php(286): require_once('/home/ujianori/...')
+#2 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(324): Porto_Functionality->load_woo()
+#3 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/ujianori/pinusia.co.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/ujianori/pinusia.co.id/wp-settings.php(506): do_action()
+#6 /home/ujianori/pinusia.co.id/wp-config.php(94): require_once('/home/ujianori/...')
+#7 /home/ujianori/pinusia.co.id/wp-load.php(50): require_once('/home/ujianori/...')
+#8 /home/ujianori/pinusia.co.id/wp-admin/admin-ajax.php(22): require_once('/home/ujianori/...')
+#9 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php on line 27
+[17-Jan-2024 07:26:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Porto_Woo::load_packages() in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php:27
+Stack trace:
+#0 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php(30): Porto_Woo->__construct()
+#1 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-functionality.php(286): require_once('/home/ujianori/...')
+#2 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(324): Porto_Functionality->load_woo()
+#3 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/ujianori/pinusia.co.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/ujianori/pinusia.co.id/wp-settings.php(506): do_action()
+#6 /home/ujianori/pinusia.co.id/wp-config.php(94): require_once('/home/ujianori/...')
+#7 /home/ujianori/pinusia.co.id/wp-load.php(50): require_once('/home/ujianori/...')
+#8 /home/ujianori/pinusia.co.id/wp-admin/admin.php(34): require_once('/home/ujianori/...')
+#9 /home/ujianori/pinusia.co.id/wp-admin/index.php(10): require_once('/home/ujianori/...')
+#10 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php on line 27
+[17-Jan-2024 07:26:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Porto_Woo::load_packages() in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php:27
+Stack trace:
+#0 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php(30): Porto_Woo->__construct()
+#1 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-functionality.php(286): require_once('/home/ujianori/...')
+#2 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(324): Porto_Functionality->load_woo()
+#3 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/ujianori/pinusia.co.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/ujianori/pinusia.co.id/wp-settings.php(506): do_action()
+#6 /home/ujianori/pinusia.co.id/wp-config.php(94): require_once('/home/ujianori/...')
+#7 /home/ujianori/pinusia.co.id/wp-load.php(50): require_once('/home/ujianori/...')
+#8 /home/ujianori/pinusia.co.id/wp-admin/admin-ajax.php(22): require_once('/home/ujianori/...')
+#9 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php on line 27
+[17-Jan-2024 07:26:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Porto_Woo::load_packages() in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php:27
+Stack trace:
+#0 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php(30): Porto_Woo->__construct()
+#1 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-functionality.php(286): require_once('/home/ujianori/...')
+#2 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(324): Porto_Functionality->load_woo()
+#3 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/ujianori/pinusia.co.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/ujianori/pinusia.co.id/wp-settings.php(506): do_action()
+#6 /home/ujianori/pinusia.co.id/wp-config.php(94): require_once('/home/ujianori/...')
+#7 /home/ujianori/pinusia.co.id/wp-load.php(50): require_once('/home/ujianori/...')
+#8 /home/ujianori/pinusia.co.id/wp-admin/admin.php(34): require_once('/home/ujianori/...')
+#9 /home/ujianori/pinusia.co.id/wp-admin/index.php(10): require_once('/home/ujianori/...')
+#10 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php on line 27
+[17-Jan-2024 07:26:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Porto_Woo::load_packages() in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php:27
+Stack trace:
+#0 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php(30): Porto_Woo->__construct()
+#1 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-functionality.php(286): require_once('/home/ujianori/...')
+#2 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(324): Porto_Functionality->load_woo()
+#3 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/ujianori/pinusia.co.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/ujianori/pinusia.co.id/wp-settings.php(506): do_action()
+#6 /home/ujianori/pinusia.co.id/wp-config.php(94): require_once('/home/ujianori/...')
+#7 /home/ujianori/pinusia.co.id/wp-load.php(50): require_once('/home/ujianori/...')
+#8 /home/ujianori/pinusia.co.id/wp-admin/admin.php(34): require_once('/home/ujianori/...')
+#9 /home/ujianori/pinusia.co.id/wp-admin/index.php(10): require_once('/home/ujianori/...')
+#10 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php on line 27
+[17-Jan-2024 07:28:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Porto_Woo::load_packages() in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php:27
+Stack trace:
+#0 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php(30): Porto_Woo->__construct()
+#1 /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-functionality.php(286): require_once('/home/ujianori/...')
+#2 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(324): Porto_Functionality->load_woo()
+#3 /home/ujianori/pinusia.co.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/ujianori/pinusia.co.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/ujianori/pinusia.co.id/wp-settings.php(506): do_action()
+#6 /home/ujianori/pinusia.co.id/wp-config.php(94): require_once('/home/ujianori/...')
+#7 /home/ujianori/pinusia.co.id/wp-load.php(50): require_once('/home/ujianori/...')
+#8 /home/ujianori/pinusia.co.id/wp-admin/admin.php(34): require_once('/home/ujianori/...')
+#9 /home/ujianori/pinusia.co.id/wp-admin/index.php(10): require_once('/home/ujianori/...')
+#10 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-content/plugins/porto-functionality/porto-woo.php on line 27
+[19-Jan-2024 00:59:31 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by wp_trash_post, do_action('wp_trash_post'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Post_Data::trash_post, WC_Data_Store->__call, WC_Product_Variable_Data_Store_CPT->delete_variations, wp_trash_post, do_action('wp_trash_post'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Post_Data::trash_post, Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->on_product_deleted, Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->maybe_schedule_update, WC_Action_Queue->schedule_single, as_schedule_single_action, ActionScheduler_ActionFactory->create, ActionScheduler_ActionFactory->store, ActionScheduler_HybridStore->save_action, ActionScheduler_DBStoreMigrator->save_action, ActionScheduler_DBStore->save_action, ActionScheduler_DBStore->save_action_to_db, do_action('action_scheduler_stored_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_stored_action, ActionScheduler_DBLogger->log
+[19-Jan-2024 00:59:31 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by wp_trash_post, do_action('wp_trash_post'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Post_Data::trash_post, WC_Data_Store->__call, WC_Product_Variable_Data_Store_CPT->delete_variations, wp_trash_post, do_action('wp_trash_post'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Post_Data::trash_post, Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->on_product_deleted, Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->maybe_schedule_update, WC_Action_Queue->schedule_single, as_schedule_single_action, ActionScheduler_ActionFactory->create, ActionScheduler_ActionFactory->store, ActionScheduler_HybridStore->save_action, ActionScheduler_DBStoreMigrator->save_action, ActionScheduler_DBStore->save_action, ActionScheduler_DBStore->save_action_to_db, do_action('action_scheduler_stored_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_stored_action, ActionScheduler_DBLogger->log
+[19-Jan-2024 00:59:31 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by wp_trash_post, do_action('wp_trash_post'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Post_Data::trash_post, Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->on_product_deleted, Automattic\WooCommerce\Internal\ProductAttributesLookup\LookupDataStore->maybe_schedule_update, WC_Action_Queue->schedule_single, as_schedule_single_action, ActionScheduler_ActionFactory->create, ActionScheduler_ActionFactory->store, ActionScheduler_HybridStore->save_action, ActionScheduler_DBStoreMigrator->save_action, ActionScheduler_DBStore->save_action, ActionScheduler_DBStore->save_action_to_db, do_action('action_scheduler_stored_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_stored_action, ActionScheduler_DBLogger->log
+[19-Jan-2024 02:47:00 UTC] PHP Warning:  Attempt to read property "ID" on null in /home/ujianori/pinusia.co.id/wp-content/plugins/dynamic-featured-image/dynamic-featured-image.php on line 246
+[21-Jan-2024 07:00:04 UTC] objectcache.notice: Could not verify license. Request returned status code 503
+[23-Jan-2024 02:54:58 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Install::install_actions, WC_Install::update, WC_Action_Queue->schedule_single, as_schedule_single_action, ActionScheduler_ActionFactory->create, ActionScheduler_ActionFactory->store, ActionScheduler_HybridStore->save_action, ActionScheduler_DBStoreMigrator->save_action, ActionScheduler_DBStore->save_action, ActionScheduler_DBStore->save_action_to_db, do_action('action_scheduler_stored_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_stored_action, ActionScheduler_DBLogger->log
+[23-Jan-2024 02:54:58 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SHOW FULL COLUMNS FROM `wp_actionscheduler_logs` made by require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Install::install_actions, WC_Install::update, WC_Action_Queue->schedule_single, as_schedule_single_action, ActionScheduler_ActionFactory->create, ActionScheduler_ActionFactory->store, ActionScheduler_HybridStore->save_action, ActionScheduler_DBStoreMigrator->save_action, ActionScheduler_DBStore->save_action, ActionScheduler_DBStore->save_action_to_db, do_action('action_scheduler_stored_action'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Logger->log_stored_action, ActionScheduler_DBLogger->log
+[23-Jan-2024 02:55:13 UTC] WordPress database error Table 'ujianori_pinusss.wp_actionscheduler_logs' doesn't exist for query SELECT * FROM wp_actionscheduler_logs WHERE action_id=939 made by do_action('woocommerce_page_wc-status'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->status_page, WC_Admin_Status::output, include_once('/plugins/woocommerce/includes/admin/views/html-admin-page-status.php'), do_action('woocommerce_admin_status_content_action-scheduler'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_AdminView->render_admin_ui, ActionScheduler_Abstract_ListTable->display_page, ActionScheduler_ListTable->prepare_items, ActionScheduler_DBLogger->get_logs
+[27-Jan-2024 11:02:22 UTC] objectcache.notice: Could not verify license. Request returned status code 503
+[06-Feb-2024 11:02:19 UTC] objectcache.notice: Could not verify license. Request returned status code 503
+[08-Feb-2024 11:02:49 UTC] objectcache.notice: Could not verify license. Request returned status code 503
+[16-Feb-2024 11:03:01 UTC] objectcache.notice: Could not verify license. Request returned status code 503
+[24-Feb-2024 11:13:12 UTC] objectcache.notice: Could not verify license. cURL error 28: Failed to connect to objectcache.pro port 443 after 3851 ms: Couldn't connect to server
+[24-Feb-2024 12:01:13 UTC] objectcache.notice: Could not verify license. cURL error 28: Failed to connect to objectcache.pro port 443 after 3853 ms: Couldn't connect to server
+[24-Feb-2024 12:25:39 UTC] objectcache.notice: Could not verify license. cURL error 28: Failed to connect to objectcache.pro port 443 after 3851 ms: Couldn't connect to server
+[24-Feb-2024 12:47:39 UTC] objectcache.notice: Could not verify license. cURL error 28: Failed to connect to objectcache.pro port 443 after 3853 ms: Couldn't connect to server
+[24-Feb-2024 13:10:28 UTC] objectcache.notice: Could not verify license. cURL error 28: Failed to connect to objectcache.pro port 443 after 3851 ms: Couldn't connect to server
+[24-Feb-2024 14:53:17 UTC] objectcache.notice: Could not verify license. cURL error 28: Failed to connect to objectcache.pro port 443 after 3857 ms: Couldn't connect to server
+[28-Feb-2024 02:47:55 UTC] PHP Warning:  Undefined array key "new_logo_text" in /home/ujianori/pinusia.co.id/wp-content/themes/porto/inc/admin/setup_wizard/setup_wizard.php on line 2002
+[06-Mar-2024 22:36:17 UTC] objectcache.notice: Could not verify license. cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received
+[07-Mar-2024 11:02:08 UTC] objectcache.notice: Could not verify license. Request returned status code 503
+[07-Mar-2024 12:49:25 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[07-Mar-2024 19:22:20 UTC] objectcache.notice: Could not verify license. cURL error 28: Connection timed out after 5000 milliseconds
+[07-Mar-2024 19:44:30 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[07-Mar-2024 20:07:21 UTC] objectcache.notice: Could not verify license. cURL error 28: Connection timed out after 5001 milliseconds
+[07-Mar-2024 20:29:26 UTC] objectcache.notice: Could not verify license. cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received
+[07-Mar-2024 20:52:21 UTC] objectcache.notice: Could not verify license. cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received
+[07-Mar-2024 21:14:30 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[07-Mar-2024 21:59:26 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[07-Mar-2024 23:27:21 UTC] objectcache.notice: Could not verify license. cURL error 28: Connection timed out after 5000 milliseconds
+[08-Mar-2024 00:54:30 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[08-Mar-2024 01:49:30 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[08-Mar-2024 02:57:26 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[08-Mar-2024 04:02:48 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[08-Mar-2024 06:17:26 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[08-Mar-2024 19:41:12 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[09-Mar-2024 01:46:33 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[09-Mar-2024 03:16:33 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[09-Mar-2024 12:58:52 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[09-Mar-2024 23:46:27 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[10-Mar-2024 09:36:32 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[10-Mar-2024 10:44:09 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[10-Mar-2024 11:49:08 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[12-Mar-2024 12:02:38 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[12-Mar-2024 14:32:33 UTC] objectcache.notice: Could not verify license. cURL error 28: Connection timed out after 5000 milliseconds
+[12-Mar-2024 15:38:32 UTC] objectcache.notice: Could not verify license. cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received
+[12-Mar-2024 16:23:32 UTC] objectcache.notice: Could not verify license. cURL error 28: Connection timed out after 5000 milliseconds
+[12-Mar-2024 17:08:31 UTC] objectcache.notice: Could not verify license. cURL error 28: Connection timed out after 5000 milliseconds
+[12-Mar-2024 17:30:16 UTC] objectcache.notice: Could not verify license. cURL error 28: Connection timed out after 5000 milliseconds
+[12-Mar-2024 18:15:36 UTC] objectcache.notice: Could not verify license. cURL error 28: Connection timed out after 5000 milliseconds
+[12-Mar-2024 18:58:46 UTC] objectcache.notice: Could not verify license. cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received
+[12-Mar-2024 19:21:01 UTC] objectcache.notice: Could not verify license. cURL error 28: Connection timed out after 5000 milliseconds
+[12-Mar-2024 19:43:33 UTC] objectcache.notice: Could not verify license. cURL error 28: Connection timed out after 5000 milliseconds
+[13-Mar-2024 01:13:32 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[13-Mar-2024 08:00:21 UTC] objectcache.notice: Could not verify license. Request returned status code 503
+[28-Mar-2024 22:57:46 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[31-Mar-2024 07:03:26 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[03-Apr-2024 01:09:48 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[03-Apr-2024 05:57:42 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[03-Apr-2024 11:02:06 UTC] objectcache.notice: Could not verify license. Request returned status code 503
+[06-Apr-2024 11:03:28 UTC] objectcache.notice: Could not verify license. Request returned status code 503
+[10-Apr-2024 11:03:16 UTC] objectcache.notice: Could not verify license. Request returned status code 503
+[12-Apr-2024 05:03:03 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[14-Apr-2024 10:59:30 UTC] objectcache.notice: Could not verify license. cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received
+[18-Apr-2024 12:03:48 UTC] objectcache.notice: Could not verify license. cURL error 28: Failed to connect to objectcache.pro port 443 after 3852 ms: Couldn't connect to server
+[20-Apr-2024 04:32:01 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[20-Apr-2024 07:37:05 UTC] objectcache.notice: Could not verify license. cURL error 28: Failed to connect to objectcache.pro port 443 after 3852 ms: Couldn't connect to server
+[20-Apr-2024 10:47:40 UTC] objectcache.notice: Could not verify license. cURL error 28: Connection timed out after 5000 milliseconds
+[02-May-2024 14:31:00 UTC] objectcache.notice: Could not verify license. cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received
+[06-May-2024 07:00:49 UTC] objectcache.notice: Could not verify license. Request returned status code 503
+[07-May-2024 07:11:50 UTC] objectcache.notice: Could not verify license. cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received
+[10-May-2024 07:00:49 UTC] objectcache.notice: Could not verify license. Request returned status code 503
+[10-May-2024 10:40:26 UTC] objectcache.notice: Could not verify license. cURL error 28: Resolving timed out after 5000 milliseconds
+[13-May-2024 08:19:26 UTC] objectcache.notice: Could not verify license. cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received

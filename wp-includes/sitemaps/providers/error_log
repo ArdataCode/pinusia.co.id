@@ -1,0 +1,12 @@
+[20-Mar-2024 08:39:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Sitemaps_Provider" not found in /home/ujianori/pinusia.co.id/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php on line 17
+[20-Mar-2024 08:39:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Sitemaps_Provider" not found in /home/ujianori/pinusia.co.id/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php on line 17
+[20-Mar-2024 08:39:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "WP_Sitemaps_Provider" not found in /home/ujianori/pinusia.co.id/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php on line 17

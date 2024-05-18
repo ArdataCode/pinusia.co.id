@@ -1,0 +1,3595 @@
+/* -------------------------------------------
+    Alpha Admin Style
+		1. Admin General Style
+			1-1. Set variables used in admin page
+			1-2. Admin logo
+			1-3. Swiper
+			1-4. Button Component
+			1-5. Tab Content
+			1-6. Admin Content
+			1-7. Metabox
+      1-8. Loading Style
+		2. Admin Dashboard Style
+			2-1. General
+			2-2. Register Section
+			2-3. Panel
+			2-4. Admin Navs
+			2-5. Theme Features
+			2-6. Change Log
+			2-7. What's New
+			2-8. Info Section
+		3. Alpha Modal
+		4. Alpha Dialog
+		5. Optimize Wizard Style
+			5-1. Installed Plugins Section
+			5-2. Plugins Tab Style
+		6. Setup Wizard Style
+			6-1. Demos Section
+			6-2. Demo Import & Remove demo content
+			6-3. System Status
+			6-4. Step Section
+			6-5. Ready Section
+		7. Critical css for critical wizard
+		8. Patcher & Rollback
+---------------------------------------------- */
+
+$dark-grey-color-1: #565f68 !default;
+
+@import "../../../assets/sass/config";
+@import "../../../assets/sass/mixins";
+@import "../../../assets/sass/direction";
+@import "../../../assets/vendor/icons/css/icons.min.css";
+
+// 1. Admin General Style
+// 1-1. Set variables used in admin page
+.alpha-admin-page {
+  --alpha-admin-bg-color: #f0f0f1;
+  --alpha-admin-bg-color-1: #f8f8f8;
+  --alpha-admin-bg-color-2: #eaeced;
+  --alpha-admin-text-color: #565e67;
+  --alpha-admin-text-color-1: #313438;
+  --alpha-admin-text-color-2: #d1d1d1;
+  --alpha-admin-text-color-3: #32373c;
+  --alpha-admin-border-color: #ededed;
+  --alpha-admin-border-color-1: #e1e1e1;
+  --alpha-admin-dark-grey-color-1: #565f68;
+  --alpha-gap: 15px;
+
+  .alpha-info-section .alpha-section-left {
+    border-#{$right}-color: var(--alpha-admin-border-color-1);
+  }
+
+  .scrollable {
+    &:hover::-webkit-scrollbar-thumb {
+      background: var(--alpha-light-color);
+    }
+  }
+
+  .alpha-demo label {
+    background-color: var(--alpha-admin-bg-color);
+    color: var(--alpha-white-color);
+  }
+
+  .alpha-changelogs {
+    &::before {
+      background: linear-gradient(var(--alpha-white-color), transparent);
+    }
+
+    &::after {
+      background: linear-gradient(transparent, var(--alpha-white-color));
+    }
+  }
+
+  .alpha-whatsnew-item {
+    border: 1px solid var(--alpha-admin-border-color-1);
+  }
+
+  .alpha-product:not(.coming-soon) > img {
+    border: 1px solid var(--alpha-admin-border-color-1);
+  }
+
+  .alpha-log-version {
+    border: 1px solid var(--alpha-admin-border-color-1);
+  }
+
+  #wpcontent {
+    padding: 0;
+  }
+
+  #adminmenuback,
+  #adminmenuwrap {
+    filter: grayscale(100%);
+    transition: filter 0.8s;
+
+    &:hover {
+      filter: grayscale(0);
+    }
+  }
+}
+
+// 1-2. Admin logo
+.alpha-admin-logo {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  width: 216px;
+  margin-#{$right}: 50px;
+  background-color: var(--alpha-primary-color);
+  border-radius: inherit;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+  img {
+    width: 135px;
+  }
+
+  a {
+    position: relative;
+  }
+
+  .alpha-version {
+    position: absolute;
+    #{$right}: -1px;
+    bottom: -5px;
+    color: var(--alpha-white-color);
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    opacity: 0.6;
+  }
+
+  .alpha-name {
+    color: var(--alpha-white-color);
+  }
+}
+
+div.dashicons-alpha-logo:before,
+span.dashicons-alpha-logo:before,
+.alpha-mini-logo:before {
+  content: "";
+  display: inline-block;
+  background-image: url(../../../assets/images/mini-logo-white.png);
+  background-size: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+div.dashicons-alpha-logo:before {
+  width: 24px;
+}
+
+span.dashicons-alpha-logo:before {
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+}
+
+// 1-3. Swiper
+.swiper-container {
+  overflow: hidden;
+  position: static;
+}
+
+.swiper-relative {
+  position: relative;
+
+  > .swiper-container {
+    width: 100%;
+  }
+}
+
+.swiper-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition-property: transform;
+
+  &.row {
+    width: calc(100% + 2 * var(--alpha-gap));
+  }
+}
+
+.swiper-container-initialized .swiper-wrapper {
+  overflow: visible;
+}
+
+.swiper-container-android .swiper-slide,
+.swiper-wrapper {
+  transform: translate3d(0px, 0, 0);
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+}
+
+.swiper-slide-invisible-blank {
+  visibility: hidden;
+}
+
+// 1-4. Button Component
+.btn {
+  color: var(--alpha-white-color) fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 12px;
+  transition: 0.3s;
+  width: 100%;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background-color: var(--alpha-primary-color);
+  border-color: var(--alpha-primary-color);
+
+  &:hover,
+  &:focus {
+    background-color: #23282d;
+    border-color: #23282d;
+  }
+}
+
+.btn-secondary {
+  background-color: #a6c76c;
+  border-color: #a6c76c;
+
+  &:hover,
+  &:focus {
+    background-color: #90b948;
+    border-color: #90b948;
+  }
+}
+
+.btn-dark {
+  background-color: #23282d;
+  border-color: #23282d;
+
+  &:hover,
+  &:focus {
+    color: #23282d;
+    background-color: #eeeef1;
+    border-color: #eeeef1;
+  }
+}
+
+// 1-5. Tab Content
+.tab-content {
+  position: relative;
+  width: 100%;
+
+  > .tab-pane {
+    position: absolute;
+    #{$left}: 0;
+    #{$right}: 0;
+    top: 0;
+    bottom: 0;
+    height: 0 !important;
+    opacity: 0;
+    z-index: -1;
+    visibility: hidden;
+  }
+
+  > .active {
+    position: relative;
+    visibility: visible;
+    height: auto !important;
+    opacity: 1;
+    z-index: auto;
+    transition: visibility 1s, opacity 1s;
+  }
+}
+
+// 1-6. Admin Content
+#wpbody-content {
+  > .wp-list-table {
+    margin-#{$right}: 20px;
+  }
+
+  > .nav-tab-wrapper {
+    width: calc(100% - 20px);
+  }
+}
+
+.alpha-admin-page #wpbody-content {
+  #screen-meta,
+  #screen-meta-links {
+    & + .notice,
+    & + .updated,
+    & + .wrap {
+      margin-top: 40px;
+    }
+  }
+  > .notice,
+  > .updated,
+  > .wrap {
+    display: block;
+    max-width: 1220px;
+    margin-#{$left}: 40px;
+    margin-#{$right}: 40px;
+    box-sizing: border-box;
+  }
+}
+
+.alpha-admin-page #update-nag,
+.alpha-admin-page .update-nag {
+  margin-top: 5px;
+}
+
+textarea {
+  padding: 5px;
+}
+
+#page-option .inside {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+// 1-7. Metabox
+.rwmb-field ul,
+.rwmb-field ol {
+  padding: 0;
+  list-style: none;
+}
+
+.rwmb-meta-box {
+  .rwmb-label {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .rwmb-label ~ .rwmb-input {
+    width: 100%;
+  }
+
+  .rwmb-media-list:not(:empty) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .rwmb-column .rwmb-text-wrapper input {
+    width: 100%;
+  }
+
+  .rwmb-tab-panel {
+    min-height: 250px;
+  }
+}
+
+.edit-post-layout .interface-interface-skeleton__content {
+  background-color: var(--alpha-white-color);
+}
+
+.edit-post-layout__metaboxes:not(:empty) {
+  padding: 2rem 0;
+}
+
+// Product Page
+.posts.wp-list-table .column-product_cat,
+.posts.wp-list-table .column-product_cat,
+.posts.wp-list-table .column-product_tag,
+.posts.wp-list-table .column-product_tag,
+.posts.wp-list-table .column-product_brand,
+.posts.wp-list-table .column-product_brand {
+  width: 10% !important;
+}
+
+// 1-8. Loading Style
+
+.d-loading {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  border-radius: inherit;
+
+  &.small i {
+    // position: absolute;
+    left: calc(50% - 10px);
+    top: calc(50% - 10px);
+    width: 20px;
+    height: 20px;
+  }
+
+  i {
+    position: absolute;
+    left: calc(50% - 17px);
+    top: calc(50% - 17px);
+    width: 34px;
+    height: 34px;
+    border: 2px solid transparent;
+    border-top-color: var(--alpha-primary-color);
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation: spin 0.75s infinite linear;
+
+    &:before {
+      content: "";
+      top: -2px;
+      left: -2px;
+      position: absolute;
+      width: inherit;
+      height: inherit;
+      border: inherit;
+      border-radius: inherit;
+      box-sizing: inherit;
+      animation: spin 1.5s infinite ease;
+    }
+  }
+
+  &:before {
+    --alpha-change-color-light-1: inherit;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--alpha-change-color-light-1);
+    opacity: 0.6;
+    border-radius: inherit;
+  }
+}
+
+// 2. Alpah Admin Dashboard Style
+// 2-1. General
+// body.toplevel_page_alpha,
+// body[class*="_page_alpha-setup-wizard"],
+// body[class*="_page_alpha-optimize-wizard"],
+// body[class*="_page_alpha-tools"],
+// body[class*="_page_alpha-layout-builder"],
+.post-type-#{$theme-name}_template {
+  #wpbody-content,
+  .wrap {
+    > .notice,
+    > .error,
+    > .updated {
+      display: none;
+    }
+  }
+}
+
+#adminmenu .toplevel_page_alpha .toplevel_page_alpha img {
+  width: 20px;
+}
+
+.alpha-wrap {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  max-width: 1220px;
+  padding: 40px;
+  color: var(--alpha-admin-text-color);
+  font-family: var(--alpha-body-font-family), sans-seriif;
+  font-size: 14px;
+  line-height: 1.5;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  > * {
+    background-color: var(--alpha-white-color);
+    border-radius: var(--alpha-border-radius-form);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  h2 {
+    font-size: 26px;
+    letter-spacing: 0;
+    font-weight: 600;
+    margin: 0;
+    text-align: $left;
+    line-height: 1.2;
+
+    span {
+      font-weight: 400;
+      color: var(--alpha-grey-color);
+    }
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  h4 {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  form h3 {
+    font-size: 18px;
+  }
+
+  h2,
+  h4 {
+    color: var(--alpha-admin-text-color-3);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--alpha-admin-text-color-1, var(--alpha-white-color));
+  }
+
+  p {
+    color: var(--alpha-admin-text-color);
+  }
+
+  .text-primary {
+    color: var(--alpha-primary-color) !important;
+  }
+
+  input,
+  select {
+    border: 1px solid var(--alpha-light-color);
+    border-radius: var(--alpha-border-radius-form);
+    color: var(--alpha-grey-color);
+    font-size: 13px;
+    transition: border-color 0.3s;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+      border-color: var(--alpha-light-color);
+    }
+  }
+
+  .alpha-input {
+    padding: 10px 20px;
+
+    &::placeholder {
+      color: #bbb;
+    }
+  }
+
+  textarea {
+    border: 1px solid var(--alpha-admin-border-color-1);
+    border-radius: 3px;
+  }
+
+  input[type="radio"] {
+    border-radius: 50%;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    height: auto;
+    min-height: 1rem;
+    margin: side-values(0 7px 0 0);
+  }
+
+  input[type="radio"]:checked:not(:disabled):before {
+    background-color: var(--alpha-primary-color);
+  }
+
+  input[type="radio"]:checked:not(:disabled),
+  input[type="checkbox"]:checked:not(:disabled) {
+    border-color: var(--alpha-primary-color);
+  }
+
+  input[type="checkbox"] {
+    position: relative;
+    top: -1px;
+    width: 20px;
+    height: 20px;
+
+    &:before {
+      content: "\f00c";
+      width: 100%;
+      margin: 0;
+      color: var(--alpha-primary-color);
+      font-size: 14px;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      line-height: 18px;
+      text-indent: 1px;
+      opacity: 0;
+    }
+
+    &:disabled:before {
+      color: var(--alpha-grey-color);
+    }
+
+    &:checked:before {
+      opacity: 1;
+    }
+  }
+
+  input[type="submit"] {
+    height: auto;
+  }
+
+  a {
+    color: var(--alpha-admin-text-color);
+    transition: color 0.3s;
+
+    &:hover,
+    &:focus {
+      color: var(--alpha-primary-color);
+      box-shadow: none;
+      outline: none;
+    }
+  }
+
+  .button {
+    padding: 5px 31px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+    background: transparent;
+    border-color: var(--alpha-dark-color);
+
+    &:hover,
+    &:focus {
+      color: var(--alpha-white-color);
+      background: #222;
+      border-color: #222;
+      box-shadow: none;
+    }
+
+    &.button-large {
+      padding: 7px 33px;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 2.3;
+      text-align: center;
+    }
+  }
+
+  .notice a {
+    padding: 0 10px;
+    font-size: 13px;
+  }
+
+  .button:not(:last-child) {
+    margin-#{$right}: 2px;
+  }
+
+  .button-dark {
+    color: var(--alpha-white-color);
+    background: var(--alpha-admin-dark-grey-color-1);
+    border-color: var(--alpha-admin-dark-grey-color-1);
+
+    &:hover,
+    &:focus {
+      color: var(--alpha-white-color);
+      background: lighten($dark-grey-color-1, 10%);
+      border-color: lighten($dark-grey-color-1, 10%);
+    }
+  }
+
+  .button-light {
+    color: var(--alpha-admin-dark-grey-color-1);
+    background: #eee;
+    border-color: #eee;
+
+    &:hover,
+    &:focus {
+      color: var(--alpha-admin-dark-grey-color-1);
+      background: darken(#eee, 10%);
+      border-color: darken(#eee, 10%);
+    }
+  }
+
+  .button-primary {
+    color: var(--alpha-white-color);
+    background: var(--alpha-primary-color);
+    border-color: var(--alpha-primary-color);
+
+    &:hover,
+    &:focus {
+      background: var(--alpha-primary-color-hover);
+      border-color: var(--alpha-primary-color-hover);
+    }
+  }
+
+  .button-outline {
+    background: transparent;
+    color: var(--alpha-admin-text-color);
+    border-color: var(--alpha-light-color);
+
+    &:hover,
+    &:focus {
+      background: var(--alpha-admin-text-color);
+      border-color: var(--alpha-admin-text-color);
+      color: var(--alpha-white-color);
+    }
+  }
+
+  // Tables
+  .wp-list-table {
+    border: none;
+    border-collapse: collapse;
+    box-shadow: none;
+
+    thead,
+    tfoot tr {
+      background: var(--alpha-admin-bg-color-2, #eaeced);
+      border: 1px solid var(--alpha-admin-bg-color-2, #eaeced);
+    }
+
+    thead {
+      border-radius: 3px 3px 0 0;
+    }
+
+    tfoot {
+      border-radius: 0 0 3px 3px;
+
+      &:before {
+        content: "";
+        display: block;
+        height: 20px;
+      }
+    }
+
+    tbody {
+      border: 1px solid var(--alpha-admin-border-color-1);
+      border-top: none;
+    }
+  }
+
+  .wp-list-table td {
+    vertical-align: middle;
+  }
+
+  .wp-list-table tbody tr:nth-child(odd) {
+    background: var(--alpha-white-color);
+  }
+
+  .wp-list-table tbody tr:nth-child(even) {
+    background: var(--alpha-admin-bg-color-1);
+  }
+
+  .column-remove {
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .alpha-sidebar-action {
+    margin-bottom: 20px;
+  }
+
+  .widefat {
+    thead th,
+    thead td,
+    tfoot th,
+    tfoot td {
+      border: none;
+    }
+
+    th:not(.sortable):not(.sorted) {
+      padding-top: 14px;
+      padding-bottom: 14px;
+    }
+
+    th,
+    thead td,
+    tfoot td {
+      font-size: 13px;
+    }
+
+    td,
+    td p td ol,
+    td ul {
+      color: var(--alpha-grey-color);
+    }
+
+    .check-column {
+      width: 2.7em;
+    }
+  }
+
+  th.sortable a,
+  th.sorted a {
+    padding: 14px 8px;
+  }
+
+  .row-title {
+    font-size: 13px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .alpha-admin-panel-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.alpha-admin-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: 3px;
+  transition: padding 0.3s;
+
+  .alpha-layouts-save {
+    #{$right}: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+
+  .alpha-toggle {
+    padding: 12.5px 32px;
+    background-color: var(--alpha-danger-color);
+    border-radius: var(--alpha-border-radius-form, 3px);
+    color: var(--alpha-white-color);
+    font-size: 13px;
+    font-weight: 600;
+    transition-property: color, background-color;
+    white-space: nowrap;
+
+    &:hover,
+    &:focus {
+      color: var(--alpha-white-color);
+      background-color: var(--alpha-danger-color-hover);
+    }
+
+    &.activated {
+      background-color: var(--alpha-success-color);
+
+      &:hover,
+      &:focus {
+        background-color: var(--alpha-success-color-hover);
+      }
+    }
+
+    i {
+      display: inline-block;
+      vertical-align: middle;
+      width: 1em;
+      height: 1em;
+      margin-#{$right}: 3px;
+      font-size: 18px;
+    }
+  }
+
+  &.show-btn {
+    padding-#{$right}: 280px;
+
+    .alpha-layouts-save.require-save {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.alpha-admin-panel-side {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    margin-top: -38px;
+
+    b {
+      color: var(--alpha-dark-color);
+      font-weight: 700;
+    }
+  }
+
+  .alpha-version {
+    text-align: center;
+    padding: 35px 10px 5vw;
+  }
+}
+
+.alpha-admin-panel-header {
+  padding: 35px 40px 32px;
+  background: var(--alpha-admin-dark-grey-color-1);
+  border-radius: side-values(3px 3px 0 0);
+
+  h1 {
+    margin: 0 0 2px;
+    padding: 0;
+    color: var(--alpha-admin-text-color-3);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  &.alpha-row {
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+}
+
+.alpha-admin-panel-body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 40px;
+  border-radius: var(--alpha-border-radius-form);
+}
+
+.alpha-admin-panel-steps {
+  --alpha-step-color-1: #444b55;
+  --alpha-step-color-2: #4e5760;
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  margin: 0;
+  background-color: var(--alpha-step-color-1);
+  color: var(--alpha-white-color);
+  font-size: 14px;
+  font-weight: 500;
+
+  li {
+    position: relative;
+    margin: 0;
+    padding: side-values(19.5px 30px 19.5px 40px);
+
+    &::before {
+      content: "";
+      position: absolute;
+      #{$right}: -15px;
+      top: 0;
+      border-#{$left}: 15px solid var(--alpha-step-color-1);
+      border-top: 30px solid transparent;
+      border-bottom: 30px solid transparent;
+      z-index: 1;
+    }
+
+    &:nth-child(2n) {
+      background-color: var(--alpha-step-color-2);
+
+      &::before {
+        border-#{$left}-color: var(--alpha-step-color-2);
+      }
+    }
+
+    &.active {
+      background: var(--alpha-primary-color);
+
+      &::before {
+        border-#{$left}-color: var(--alpha-primary-color);
+      }
+    }
+
+    a:hover {
+      color: var(--alpha-primary-color);
+    }
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+.alpha-wizard-content {
+  .wizard-title {
+    font-size: 22px;
+    line-height: 18px;
+  }
+
+  .wizard-description {
+    color: var(--alpha-grey-color);
+    border-bottom: 1px solid var(--alpha-admin-border-color);
+    margin-top: 11px;
+    margin-bottom: 22px;
+    padding-bottom: 22px;
+  }
+
+  .alpha-system-status {
+    padding: 0;
+    border-width: 0;
+  }
+
+  a:not(.button) {
+    color: var(--alpha-primary-color);
+  }
+}
+
+.alpha-admin-panel {
+  p {
+    color: var(--alpha-admin-text-color);
+    font-size: inherit;
+    line-height: 1.8;
+  }
+
+  .text-light {
+    color: var(--alpha-admin-text-color-2);
+  }
+
+  .about-heading {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  label {
+    color: var(--alpha-dark-color);
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .description {
+    color: var(--alpha-grey-color);
+  }
+
+  .status-notice {
+    margin: 2px 0 7px;
+    font-size: 12px;
+  }
+
+  .info-qt {
+    margin-top: 18px;
+    font-size: 12px;
+    font-weight: 600;
+
+    i {
+      width: auto;
+      height: auto;
+      color: var(--alpha-admin-text-color);
+      font-size: 14px;
+      vertical-align: -1px;
+    }
+
+    &.icon-fixed {
+      position: relative;
+    }
+
+    &.icon-fixed:before {
+      position: absolute;
+      #{$left}: 0;
+    }
+  }
+
+  .info {
+    font-size: 12px;
+    margin-top: 17px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    a {
+      color: var(--alpha-primary-color);
+    }
+  }
+
+  .info-qt.light-info {
+    margin: 0;
+    font-weight: 400;
+    color: var(--alpha-grey-color);
+
+    &:#{$before} {
+      margin-#{$right}: 7px;
+      font-size: 15px;
+      font-weight: 900;
+      color: var(--alpha-admin-text-color-3);
+    }
+  }
+
+  strong {
+    color: var(--alpha-admin-text-color-3);
+  }
+
+  input {
+    max-width: 545px;
+  }
+
+  .notice-alt {
+    display: inline-block;
+    border-radius: 2px;
+    margin-bottom: 15px;
+
+    &.notice-success {
+      color: #82b440;
+      background: rgba(130, 180, 64, 0.2);
+    }
+
+    &.notice-error {
+      color: #dc3232;
+      background: rgba(220, 50, 50, 0.2);
+    }
+
+    &.notice-info {
+      color: #4bb0da;
+      background: rgba(75, 176, 218, 0.2);
+    }
+
+    &.notice-warning {
+      color: darken(#ffb900, 10%);
+      background: rgba(255, 185, 0, 0.2);
+    }
+
+    strong,
+    p {
+      color: inherit;
+    }
+  }
+
+  .col-left {
+    margin-bottom: 20px;
+  }
+
+  pre {
+    max-height: 800px;
+    white-space: pre;
+    overflow-y: auto;
+  }
+
+  .alpha-notify {
+    margin: 0 0 1.5rem 0;
+    background: rgba($success-color, 0.15);
+    border: 0;
+    border-radius: var(--alpha-border-radius-form);
+
+    p {
+      color: var(--alpha-success-color);
+    }
+
+    &.error {
+      background: rgba($danger-color, 0.15);
+
+      p {
+        color: var(--alpha-danger-color);
+      }
+    }
+  }
+}
+
+.alpha-admin-panel-actions {
+  margin: 34px 0 0;
+}
+
+// 2-2 Register Section
+.alpha-active-dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  z-index: 1;
+  margin: side-values(0 40px 0 auto);
+
+  &.show {
+    .alpha-active-content {
+      top: calc(100% + 20px);
+      opacity: 1;
+    }
+  }
+}
+
+#alpha_active_wrapper {
+  margin-bottom: 40px;
+  padding: 40px 40px 34px;
+
+  a {
+    color: var(--alpha-primary-color);
+  }
+}
+
+@keyframes zooming {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+
+#alpha_registration {
+  display: flex;
+  margin-bottom: 16px;
+
+  .alpha-input-wrapper {
+    position: relative;
+    flex: 1;
+    margin: side-values(0 20px 0 0);
+  }
+
+  .alpha-input {
+    width: 100%;
+    height: 54px;
+    margin: 0;
+  }
+
+  .alpha-toggle-howto {
+    position: absolute;
+    top: 18px;
+    #{$right}: 21px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--alpha-admin-dark-grey-color-1);
+    color: var(--alpha-white-color);
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    transition: background 0.3s;
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      #{$left}: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(86, 95, 104, 0.4);
+      border-radius: 50%;
+      animation: zooming 2s infinite;
+    }
+
+    span {
+      position: relative;
+    }
+
+    &:hover,
+    &:focus {
+      background: lighten($dark-grey-color-1, 10%);
+    }
+  }
+
+  p.submit {
+    align-self: stretch;
+    padding: 0;
+    margin: 0;
+
+    .button {
+      width: 100%;
+      height: 100%;
+      padding-#{$left}: 39.5px;
+      padding-#{$right}: 39.5px;
+      line-height: 1;
+    }
+  }
+}
+
+.alpha-active-howto {
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: var(--alpha-border-radius-form);
+  border: 1px solid var(--alpha-admin-border-color-1);
+
+  h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+
+  ol {
+    margin: side-values(0 0 0 15px);
+    line-height: 1.8;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: var(--alpha-primary-color);
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+      color: var(--alpha-primary-color-hover);
+    }
+  }
+}
+
+.notice-block {
+  background: transparent;
+  border-radius: 3px;
+  font-size: 13px;
+  line-height: 20px;
+
+  strong {
+    vertical-align: middle;
+    margin-#{$right}: 3px;
+    font-size: 18px;
+  }
+
+  &.notice-success strong {
+    color: var(--alpha-success-color);
+  }
+
+  &.notice-error strong {
+    color: var(--alpha-danger-color);
+  }
+}
+
+@keyframes animation-pulse {
+  0% {
+    -webkit-transform: scale(0.1, 0.1);
+    opacity: 0;
+  }
+
+  60% {
+    -webkit-transform: scale(0.1, 0.1);
+    opacity: 0;
+  }
+
+  65% {
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(1.2, 1.2);
+    opacity: 0;
+  }
+}
+
+// 2-3. Panel
+.alpha-admin-panel {
+  position: relative;
+  margin-bottom: 40px;
+
+  .alpha-panel-title {
+    margin-bottom: 2px;
+    color: var(--alpha-white-color);
+  }
+
+  .alpha-running-info {
+    color: rgba(255, 255, 255, 0.6);
+    text-indent: 1px;
+  }
+}
+
+// 2-4. Admin Navs
+.alpha-admin-nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.alpha-admin-nav-panel {
+  position: relative;
+  display: flex;
+  padding: 20px 0;
+  cursor: pointer;
+
+  i,
+  svg {
+    margin-#{$right}: 10px;
+    font-size: 20px;
+
+    &.fa-tachometer-alt {
+      font-size: 18px;
+    }
+  }
+
+  i {
+    transition: color 0.3s;
+  }
+
+  svg {
+    transition: fill 0.3s, stroke 0.3s;
+  }
+
+  label {
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+
+  span {
+    display: block;
+    color: var(--alpha-grey-color);
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  &:hover,
+  &.active {
+    > label,
+    > i {
+      color: var(--alpha-primary-color);
+    }
+
+    > svg {
+      fill: var(--alpha-primary-color);
+      stroke: var(--alpha-primary-color);
+    }
+  }
+
+  &:hover {
+    .alpha-admin-subnavs {
+      margin-top: 0;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &:not(:last-child) {
+    margin-#{$right}: 59px;
+  }
+}
+
+.alpha-admin-subnavs {
+  position: absolute;
+  #{$left}: 0;
+  top: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -1000px;
+  padding: 10px 31px;
+  background: var(--alpha-white-color);
+  border-top: 3px solid var(--alpha-primary-color);
+  border-radius: 3px;
+  box-shadow: -13px -13px 50px 0 rgba(0, 0, 0, 0.08);
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+  white-space: nowrap;
+  visibility: hidden;
+  z-index: 10;
+
+  .alpha-admin-subnav {
+    display: flex;
+    padding: 15px 0;
+    transition: none;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid var(--alpha-admin-border-color);
+    }
+
+    i,
+    svg {
+      width: 25px;
+    }
+
+    i {
+      color: var(--alpha-admin-text-color-2);
+    }
+
+    svg {
+      fill: var(--alpha-admin-text-color-2);
+      stroke: var(--alpha-admin-text-color-2);
+    }
+
+    &:hover {
+      i {
+        color: var(--alpha-primary-color);
+      }
+
+      svg {
+        fill: var(--alpha-primary-color);
+        stroke: var(--alpha-primary-color);
+      }
+    }
+  }
+
+  svg,
+  [class*="admin-svg"] {
+    display: block;
+    width: 1em;
+    height: 1em;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+}
+
+.admin-svg-documentation {
+  background-image: url(../../../assets/images/admin/panel/documentation.svg);
+}
+
+.admin-svg-key {
+  background-image: url(../../../assets/images/admin/panel/menu_key.svg);
+}
+
+.admin-svg-showcase {
+  background-image: url(../../../assets/images/admin/panel/showcase.svg);
+}
+
+.admin-svg-support {
+  background-image: url(../../../assets/images/admin/panel/support.svg);
+}
+
+.admin-svg-reviews {
+  background-image: url(../../../assets/images/admin/panel/reviews.svg);
+}
+
+.admin-svg-request {
+  background-image: url(../../../assets/images/admin/panel/request_features.svg);
+}
+
+.admin-svg-videos {
+  background-image: url(../../../assets/images/admin/panel/howto_videos.svg);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+// 2-5. Theme Features
+.alpha-theme-features {
+  --alpha-col: 3;
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% + 2 * var(--alpha-gap));
+  margin-#{$left}: calc(-1 * var(--alpha-gap));
+  margin-#{$right}: calc(-1 * var(--alpha-gap));
+  margin: 0 calc(-1 * var(--alpha-gap)) calc(-2 * var(--alpha-gap));
+
+  > * {
+    position: relative;
+    width: calc(100% / var(--alpha-col));
+    margin-bottom: calc(2 * var(--alpha-gap));
+    padding-#{$left}: var(--alpha-gap);
+    padding-#{$right}: var(--alpha-gap);
+    flex: 0 0 auto;
+  }
+}
+
+.alpha-theme-feature {
+  height: 100%;
+  padding: 34px 30px 42px;
+  background: var(--alpha-admin-bg-color-1);
+  border-radius: var(--alpha-border-radius-form, 3px);
+  text-align: center;
+  transition: box-shadow 0.3s, background 0.3s;
+
+  i {
+    display: inline-block;
+    width: 100px;
+    height: 148px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: 0;
+    color: var(--alpha-grey-color);
+    line-height: 26px;
+  }
+
+  &:hover {
+    background: var(--alpha-white-color);
+    box-shadow: 4.3px 4.3px 32px 0 rgba(0, 0, 0, 0.06);
+  }
+}
+
+// 2-6. Change Log
+.alpha-log-versions {
+  margin: 0;
+
+  .alpha-log-version {
+    position: relative;
+    margin-bottom: 10px;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--alpha-admin-text-color);
+    background: var(--alpha-admin-bg-color);
+    // border: 1px solid var(--alpha-admin-border-color);
+    cursor: pointer;
+
+    a {
+      position: relative;
+      display: block;
+      padding: 10px 0;
+      color: inherit;
+    }
+
+    &:hover,
+    &.active {
+      color: var(--alpha-primary-color);
+
+      &::after {
+        transform: scaleY(1);
+        transform-origin: top;
+      }
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      #{$left}: -1px;
+      top: 0;
+      height: 100%;
+      border-#{$left}: 3px solid var(--alpha-primary-color);
+      transform: scaleY(0);
+      transform-origin: bottom;
+      transition: transform 0.3s;
+    }
+  }
+}
+
+.alpha-changelog-section {
+  position: absolute;
+  top: 0;
+  #{$right}: 0;
+  bottom: 0;
+  #{$left}: 40px;
+}
+
+.alpha-changelog-wrapper {
+  display: flex;
+  position: relative;
+  max-height: calc(100% - 52px);
+
+  .alpha-changelog-versions {
+    flex: 0 0 300px;
+    max-width: 300px;
+    padding-#{$right}: 40px;
+    border-#{$right}: 1px solid var(--alpha-admin-border-color);
+  }
+}
+
+.alpha-changelogs {
+  flex: 1;
+  overflow-y: auto;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    #{$right}: 0;
+  }
+
+  &::after {
+    bottom: 0;
+    background: linear-gradient(transparent, var(--alpha-white-color));
+  }
+}
+
+.alpha-changelog {
+  .alpha-release-version,
+  .alpha-log-title {
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .alpha-release-version {
+    margin: 1px 0 0;
+    font-weight: 400;
+    color: #666;
+  }
+
+  .alpha-log-title {
+    margin: 0 0 11px;
+    padding-top: 21px;
+    color: var(--alpha-primary-color);
+    font-weight: 500;
+
+    i {
+      margin-#{$right}: 10px;
+    }
+
+    &:nth-child(2) {
+      margin-top: 6px;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding-#{$left}: 47px;
+    list-style-type: disc;
+    color: var(--alpha-admin-text-color);
+    font-size: 13px;
+    line-height: 2;
+  }
+
+  li {
+    margin-bottom: 0;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    &::marker {
+      font-size: 16px;
+    }
+  }
+
+  & + .alpha-changelog {
+    margin-top: 28px;
+  }
+
+  &:last-child {
+    margin-bottom: 30px;
+  }
+}
+
+.scrollable {
+  -webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar {
+    height: 7px;
+    width: 8px;
+  }
+
+  &:hover::-webkit-scrollbar-track {
+    background: #f4f4f4;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    margin-#{$right}: 2px;
+    background: rgba(#000, 0);
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  &:hover::-webkit-scrollbar-thumb {
+    background: #363a3e;
+  }
+}
+
+.scrollable-light:hover::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.single-attachment .attachment > a {
+  display: inline-block;
+}
+
+.alpha-others-section {
+  padding: 37px 40px 35px;
+
+  .alpha-section-title {
+    margin-top: 0;
+  }
+
+  .swiper-container {
+    margin-top: -20px;
+    padding-top: 20px;
+  }
+
+  .swiper {
+    position: relative;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    cursor: pointer;
+    position: absolute;
+    top: -28px;
+    #{$left}: auto;
+    #{$right}: 0;
+    font-size: 22px;
+    line-height: 1;
+    transition: color 0.3s, opacity 0.3s;
+
+    &.swiper-button-disabled {
+      opacity: 0.3;
+    }
+
+    &:not(.swiper-button-disabled):hover,
+    &:not(.swiper-button-disabled):focus {
+      color: var(--alpha-primary-color);
+    }
+  }
+
+  .swiper-button-#{if_ltr("prev", "next")} {
+    #{$right}: 37px;
+  }
+}
+
+.alpha-product {
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+
+  label {
+    display: block;
+    margin-top: 18px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+  }
+
+  &:hover {
+    img {
+      transform: translateY(-5px);
+    }
+  }
+}
+
+.coming-soon {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  padding-bottom: 35px;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    background-color: var(--alpha-admin-bg-color);
+  }
+
+  label {
+    position: absolute;
+    top: 50%;
+    #{$left}: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+    list-style: 1.6;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.08);
+  }
+}
+
+// 2-7. What's New
+.alpha-whatsnew-item {
+  padding: 37px 40px 33px;
+  background-color: var(--alpha-admin-bg-color);
+
+  h3,
+  h4 {
+    margin: 0 0 18px;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.86;
+  }
+
+  & + .alpha-whatsnew-item {
+    margin-top: 20px;
+  }
+
+  a {
+    color: var(--alpha-primary-color);
+
+    &:not(:hover) {
+      text-decoration: none;
+    }
+  }
+}
+
+// 2-8. Info Section
+.alpha-info-section {
+  display: flex;
+  margin-bottom: 40px;
+  padding: 37px 40px;
+  animation: fadeIn 0.4s 0.4s;
+  animation-fill-mode: both;
+
+  .alpha-section-right {
+    position: relative;
+    padding-#{$left}: 40px;
+    width: calc(100% - 347px);
+    flex: 0 0 auto;
+  }
+
+  .alpha-info {
+    width: 347px;
+    flex: 0 0 auto;
+  }
+}
+
+.alpha-wrap .alpha-section-title {
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+@media (min-width: 1200px) {
+  .alpha-admin-panel .col-left {
+    flex: 0 0 60%;
+    max-width: 60%;
+    padding-#{$right}: 30px;
+    border-#{$right}: 1px solid #eee;
+  }
+
+  .alpha-admin-panel .col-right {
+    flex: 0 0 40%;
+    max-width: 40%;
+    padding-#{$left}: 30px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .alpha-admin-menu > li > a {
+    padding: 44px 2vw;
+  }
+
+  .alpha-admin-panel-header,
+  .alpha-admin-panel-body {
+    padding: 32px 30px;
+  }
+
+  .alpha-admin-panel-steps li {
+    padding-#{$left}: 30px;
+  }
+}
+
+@media (min-width: 870px) {
+  .alpha-admin-nav .button {
+    i {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 869px) {
+  .alpha-admin-nav .button {
+    &.button-large {
+      padding: 5px;
+      width: 44px;
+    }
+
+    i {
+      vertical-align: middle;
+    }
+
+    span {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 782px) {
+  .alpha-available-tools .manage-column.column-remove {
+    display: table-cell;
+  }
+
+  #alpha_registration {
+    display: block;
+
+    .alpha-code-icon {
+      padding-#{$left}: 5px;
+    }
+
+    .button {
+      margin-bottom: 0;
+    }
+  }
+
+  #alpha_purchase_code {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .alpha-admin-panel-side {
+    flex: 0 0 273px;
+    max-width: 273px;
+    border-#{$right}: 1px solid var(--alpha-admin-border-color-1);
+    margin-bottom: 10px;
+
+    > * {
+      position: sticky;
+      top: 60px;
+      min-height: 615px;
+    }
+  }
+
+  .alpha-admin-panel-content {
+    flex: 0 0 calc(100% - 273px);
+    max-width: calc(100% - 273px);
+  }
+}
+
+@media (max-width: 767px) {
+  .alpha-admin-nav {
+    padding: 0 25px;
+  }
+
+  .alpha-admin-panel-header {
+    &.alpha-row {
+      flex-wrap: wrap;
+    }
+
+    .buttons {
+      margin-top: 10px;
+    }
+  }
+
+  .alpha-version .logo {
+    margin-top: -50px;
+  }
+
+  .alpha-admin-nav > .button {
+    margin-#{$left}: 15px;
+  }
+}
+
+@media (max-width: 639px) {
+  .alpha-admin-nav {
+    display: block;
+    position: relative;
+    padding: 0;
+
+    .logo {
+      margin: 30px 20px 20px;
+    }
+
+    .button {
+      position: absolute;
+      top: 30px;
+      #{$right}: 20px;
+    }
+  }
+
+  .alpha-admin-menu {
+    > li {
+      position: static;
+      width: 33.333%;
+      border-radius: 5px 5px 0 0;
+
+      > a {
+        text-align: center;
+        padding: 5vw 2vw;
+      }
+    }
+
+    ul {
+      #{$left}: 0;
+      #{$right}: 0;
+      width: auto;
+    }
+  }
+}
+
+@media (max-width: 479px) {
+  .alpha-admin-menu {
+    display: block;
+
+    > li {
+      position: relative;
+      width: auto;
+
+      > a {
+        padding: 20px 30px;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.alpha-plugins a {
+  margin-#{$right}: 5px;
+}
+
+// 3. Alpha Modal
+.alpha-modal {
+  display: none;
+  position: fixed;
+  top: 10%;
+  #{$left}: 35px;
+  #{$right}: 0;
+  bottom: 5%;
+  z-index: 1010;
+  margin: auto;
+  width: 1280px;
+  max-width: calc(90vw - 35px);
+
+  * {
+    box-sizing: border-box;
+  }
+
+  p {
+    font-size: 1rem;
+    margin: 0 0 2rem;
+  }
+
+  > button {
+    position: absolute;
+    z-index: 11;
+    #{$right}: 0;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: #a7a7a7;
+    outline: 0;
+    font-size: 25px;
+    transition: color 0.2s;
+
+    &:hover {
+      color: #666;
+    }
+  }
+
+  h3 {
+    margin: 0 0 1rem;
+    font-size: 2rem;
+    line-height: 1.2;
+
+    b {
+      font-weight: 700;
+    }
+  }
+
+  h4 {
+    margin: 0 0 2rem;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .online-template {
+    background: var(--alpha-white-color);
+
+    &:focus + button {
+      border-color: var(--alpha-light-color);
+    }
+  }
+
+  .alpha-template-input button {
+    border: 1px solid transparent;
+    border-#{$left}: 0;
+    background: var(--alpha-admin-border-color, #444a4f);
+    color: var(--alpha-admin-text-color-1, var(--alpha-white-color));
+    border-radius: 0 4px 4px 0;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  .option label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .alpha-template-input {
+    position: relative;
+  }
+
+  input {
+    max-width: 100%;
+  }
+
+  .editors {
+    img {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      max-width: 100px;
+      border-radius: 50%;
+      padding: 15px;
+      background: var(--alpha-admin-bg-color);
+      transform: scale(0.8);
+      transition: transform 0.2s;
+    }
+
+    label {
+      position: relative;
+      margin-bottom: 1rem;
+      min-width: auto;
+    }
+
+    input[type="radio"] {
+      position: absolute;
+      visibility: hidden;
+      min-width: auto;
+    }
+
+    input:checked + img {
+      transform: none;
+    }
+  }
+
+  .wp-admin:not(.folded) & {
+    #{$left}: 160px;
+    max-width: calc(90vw - 160px);
+  }
+}
+
+.alpha-modal-box {
+  height: 100%;
+  background: #f1f3f5;
+  border-radius: var(--alpha-border-radius-form);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.alpha-modal-message {
+  position: absolute;
+  #{$right}: 140px;
+  top: 0;
+  color: var(--alpha-grey-color);
+  z-index: 11;
+  height: 50px;
+  display: flex;
+  align-items: center;
+
+  &.alert {
+    color: #b10001;
+  }
+
+  &.succes {
+    color: #a8c26e;
+  }
+}
+
+.alpha-modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  #{$left}: 0;
+  bottom: 0;
+  #{$right}: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1010;
+}
+
+.alpha-modal-open {
+  display: block;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.alpha-modal-fade {
+  display: block;
+  opacity: 1;
+}
+
+.alpha-modal-header {
+  position: relative;
+  z-index: 10;
+  height: 50px;
+  padding: 1.35em;
+  border-radius: 4px;
+  background: var(--alpha-white-color);
+
+  h2 {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .alpha-mini-logo {
+    margin: -5px 0 -3px;
+    display: inline-block;
+    vertical-align: middle;
+
+    &:before {
+      background-image: url(../../../assets/images/mini-logo.png);
+      width: 40px;
+      height: 24px;
+    }
+  }
+}
+
+.alpha-modal-body {
+  padding: 40px;
+  height: calc(100% - 50px);
+}
+
+@media (max-width: 767px) {
+  .alpha-modal .mfp-content .mfp-body {
+    display: block;
+    padding: 30px;
+  }
+
+  .alpha-modal .editors {
+    text-align: center;
+
+    label {
+      margin-#{$right}: 0;
+    }
+  }
+}
+
+// 3. Alpha Dialog
+.alpha-dialog-wrapper {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 900000;
+  font-family: "Poppins";
+  box-sizing: border-box;
+
+  &.show {
+    display: flex;
+    animation: fadeIn 0.5s cubic-bezier(0.77, 0, 0.175, 1) 1;
+  }
+}
+
+.alpha-dialog-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.alpha-dialog-close {
+  position: absolute;
+  #{$right}: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+  font-size: 19px;
+  color: #666;
+
+  &:hover,
+  &:focus {
+    color: #3a3a3a;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  &:before {
+    content: "\e96f";
+    font-family: #{$theme-font};
+  }
+}
+
+.alpha-dialog {
+  position: relative;
+  width: 340px;
+  max-width: 80%;
+  padding: 12px 30px 30px;
+  background: var(--alpha-white-color);
+  border-radius: $corner-sm;
+  box-sizing: border-box;
+  will-change: transform;
+
+  .alpha-dialog-header {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    padding: 17px 0;
+
+    h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 500;
+      color: #111;
+    }
+  }
+
+  .alpha-dialog-footer {
+    display: flex;
+    margin-top: 22px;
+
+    button {
+      flex: 1;
+      border-radius: $corner-sm;
+      font-family: inherit;
+      font-weight: 600;
+      color: #fff;
+      border: none;
+      padding: 12.5px 10px;
+      transition: background 0.3s;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    button + button {
+      margin-#{$left}: 10px;
+    }
+
+    .btn-yes {
+      background: var(--alpha-primary-color);
+
+      &:hover {
+        background: var(--alpha-primary-color-hover);
+      }
+    }
+
+    .btn-no {
+      background: #2e353d;
+
+      &:hover {
+        background: var(--alpha-dark-color-hover);
+      }
+    }
+  }
+
+  .show & {
+    animation: fadeInScale 0.5s 1 cubic-bezier(0.77, 0, 0.175, 1);
+  }
+}
+
+.alpha-dialog-closing {
+  opacity: 0;
+  transition: opacity 0.5s 0.2s;
+
+  .alpha-dialog {
+    opacity: 0;
+    animation: fadeOutScale 0.5s 1 cubic-bezier(0.77, 0, 0.175, 1);
+  }
+}
+
+.alpha-dialog-content {
+  color: #999;
+
+  p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  > p {
+    margin: 1em 0 0;
+  }
+}
+
+.kirki-install-dialog .alpha-dialog-overlay {
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.9, 0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes fadeOutScale {
+  0% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0.9, 0.9);
+  }
+}
+
+// 5. Optimize Wizard Style
+// 5-1. Installed Plugins Section
+.installed-plugins {
+  max-width: 850px;
+  border: 1px solid var(--alpha-admin-border-color-1);
+  border-radius: 5px;
+  overflow: hidden;
+
+  li {
+    margin-bottom: 0;
+    padding: 7px;
+
+    @media (min-width: 480px) {
+      a,
+      span {
+        float: #{$right};
+      }
+    }
+
+    @media (max-width: 479px) {
+      span:before {
+        content: " - ";
+      }
+    }
+
+    &:nth-child(2n) {
+      background: #f4f4f4;
+    }
+  }
+
+  .plugins-label {
+    padding: 10px 7px;
+    font-weight: 700;
+  }
+}
+
+.alpha-optimize-resources-form label {
+  margin-bottom: 0.8rem;
+}
+
+// 5-2. Plugins Tab Style
+.alpha-setup-default-plugins .wizard-description {
+  border: none;
+  margin-bottom: 0;
+  padding-bottom: 8px;
+}
+
+.alpha-plugins {
+  li {
+    margin-bottom: 17px;
+  }
+
+  label {
+    font-weight: 500;
+  }
+}
+
+.alpha-setup_wizard .alpha-plugins {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 855px;
+  max-width: 100%;
+
+  li {
+    display: flex !important;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 13px 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+  }
+
+  li.hidden {
+    display: none !important;
+  }
+  
+  .button-load-plugins {
+    margin: 13px 0 0 0;
+
+    a {
+      border-bottom: 1px solid var(--alpha-primary-color);
+    }
+  }
+
+  .plugin-heading {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .plugin-status {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .plugin-version {
+    flex: 1;
+  }
+
+  .plugin-heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: #313438;
+
+    @include mq(xl, max) {
+      font-size: 14px;
+    }
+  }
+
+  .plugin-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-#{$right}: 14px;
+
+    img {
+      width: 34px;
+    }
+  }
+
+  .info {
+    margin: side-values(0 10px 0 0);
+    padding: 2px 10px;
+    border-radius: 3px;
+    color: #27be6a;
+    background-color: rgba(39, 190, 106, .1);
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .required {
+    color: #fa5050;
+    background-color: rgba(250, 80, 80, .1);
+  }
+  .recommended {
+    color: #b22fe8;
+    background-color: rgb(178, 47, 232, .1);
+  }
+  .update {
+    color: #2b88e7;
+    background-color: rgba(43, 136, 231, .1);
+  }
+
+  .plugin-version span {
+    padding: 2px 10px;
+    border-radius: 3px;
+    background-color: #ededed;
+    font-size: 10px;
+    margin-#{$right}: 10px;
+
+    & + span {
+      color: #2b88e7;
+      background-color: rgba(43, 136, 231, .1);
+    }
+  }
+  .plugin-action {
+    input {
+      margin: 0;
+    }
+    .d-loading {
+      visibility: hidden;
+
+      i {
+        #{$left}: auto;
+        #{$right}: 15px;
+      }
+    }
+  }
+
+  li p a {
+    margin-#{$right}: 5px;
+    color: var(--alpha-primary-color);
+    text-decoration: underline;
+  }
+}
+
+// 6. Setup Wizard Style
+// 6-1. Demos Section
+.alpha-admin-page {
+  .mfp-bg {
+    background: #000;
+    opacity: 0.8;
+  }
+}
+
+.alpha-install-demos {
+  label {
+    font-size: 12px;
+    color: var(--alpha-dark-color);
+  }
+
+  .button-upload {
+    margin-bottom: 7px;
+  }
+
+  .theme-screenshot {
+    border-radius: 3px 3px 0 0;
+    transition: filter 0.3s;
+  }
+
+  .theme-wrapper {
+    position: relative;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 2px 10px rgba(0, 0, 0, 0.08);
+    border-radius: var(--alpha-border-radius-form);
+    transition: transform 0.2s cubic-bezier(0.21, 0.6, 0.35, 1),
+      box-shadow 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+
+    &:hover {
+      // transform: scale(0.9);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+
+      .theme-screenshot {
+        filter: brightness(0.4);
+      }
+
+      .demo-button {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  }
+
+  a.demo-button {
+    position: absolute;
+    #{$left}: 50%;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    line-height: 43px;
+    margin: side-values(-35px 0 0 10px);
+    color: var(--alpha-white-color);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    font-size: 0;
+    text-decoration: none;
+    text-align: center;
+    transform: scale(0.5);
+    transition: opacity 0.3s, transform 0.3s, background-color 0.3s,
+    border-color 0.3s;
+    opacity: 0;
+
+    &.demo-preview {
+      margin-#{$left}: -60px;
+    }
+
+    &:before {
+      font-size: 16px;
+    }
+
+    &:hover {
+      background-color: var(--alpha-primary-color);
+      border-color: var(--alpha-primary-color);
+    }
+  }
+
+  .theme-name {
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px 20px;
+    background: #f5f5f5;
+    border-radius: 0 0 3px 3px;
+  }
+
+  .theme-status {
+    position: absolute;
+    #{$right}: 10px;
+    text-transform: capitalize;
+    font-size: 12px;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .theme-new {
+    background-color: #01c95f;
+  }
+
+  .theme-popular {
+    background-color: #cf2fcd;
+  }
+
+  .theme-updated {
+    background-color: #1066d1;
+  }
+
+  .plugins-used {
+    display: none;
+  }
+}
+
+.alpha-installing-notes {
+  display: none;
+  position: relative;
+  margin: 15px 0 0;
+  min-height: 40px;
+  font-size: 11px;
+  color: #999;
+
+  &.show {
+    display: block;
+
+    & + .import-result {
+      margin-top: 0;
+    }
+  }
+
+  .alpha-installing-note {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity .7s;
+    margin-bottom: 0;
+
+    &.show {
+      transition: opacity .7s .7s;
+      opacity: 1;
+    }
+  }
+}
+
+#theme-install-demos {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px -28.5px;
+  padding: 30px 20px;
+
+  .theme {
+    padding: 0 10px;
+    margin: 0 0 30px 0;
+    width: calc(25% - 10px);
+    border: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+
+  &::-webkit-scrollbar {
+    height: 10px;
+    width: 7px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #ebebeb;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--alpha-white-color);
+    border-radius: 10px;
+    margin: 8px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1599px) {
+  #theme-install-demos .theme {
+    width: calc(33.3333% - 15px);
+  }
+}
+
+@media (max-width: 1199px) {
+  #theme-install-demos .theme {
+    width: calc(50% - 20px);
+  }
+
+  .demo-sort-filters ul li {
+    margin-#{$right}: 18px;
+  }
+}
+
+.theme-screenshot {
+  display: block;
+  width: 100%;
+  height: auto
+}
+
+.theme-import-panel {
+  flex: 0 0 100%;
+  max-width: 100%;
+
+  .demo-plugin {
+    position: relative;
+    font-size: 16px;
+    float: #{$right};
+    background: #f1f3f5;
+    padding-#{$left}: 10px;
+    box-shadow: none;
+    outline: none;
+
+    &.installed,
+    &.installing {
+      pointer-events: none;
+    }
+  }
+
+  .plugins-used .thumb + div {
+    position: relative;
+
+    h5 {
+      display: inline-block;
+      position: relative;
+      padding-#{$right}: 10px;
+      background: #f1f3f5;
+    }
+
+    &::before {
+      content: "";
+      width: 100%;
+      height: 1px;
+      border-bottom: 1px dotted #9b9b9b;
+      position: absolute;
+      #{$left}: 0;
+      bottom: 20px;
+      z-index: 0;
+    }
+  }
+}
+
+.alpha-install-demo-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+
+  .import-result {
+    margin-bottom: 0;
+  }
+}
+
+.alpha-install-demo {
+  position: relative;
+  margin: auto;
+  font-size: 14px;
+  background: #f1f3f5;
+  border-radius: 5px;
+  margin: 60px auto 30px;
+  font-family: var(--alpha-body-font-family);
+
+  a:focus {
+    box-shadow: none;
+  }
+
+  strong {
+    display: block;
+    line-height: 2;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  h3 {
+    margin: 1em 0;
+    text-align: center;
+  }
+
+  h3.text-start {
+    text-align: left;
+  }
+
+  .theme-screenshot {
+    box-shadow: none;
+  }
+
+  input[type="radio"] {
+    margin: side-values(-0.25rem 0.25rem 0 0);
+  }
+
+  input[type="checkbox"] {
+    margin-#{$left}: 0;
+  }
+
+  .plugins-used {
+    padding: 0;
+    margin: 0;
+
+    > li {
+      display: table;
+      position: relative;
+      width: 100%;
+      height: 48px;
+
+      > * {
+        display: table-cell;
+        vertical-align: middle;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+      
+      .d-loading {
+        visibility: hidden;
+
+        &:before {
+          background: #f1f3f5;
+        }
+      }
+    }
+
+    .thumb {
+      position: relative;
+      width: 24px;
+      padding-#{$right}: 8px;
+      text-align: center;
+    }
+
+    h5 {
+      font-size: 14px;
+      margin: 0 0 4px 0;
+    }
+
+    p {
+      padding-bottom: 15px;
+    }
+  }
+}
+
+.alpha-install-demo,
+.alpha-remove-demo {
+  max-width: 583px;
+
+  .mfp-close {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+  }
+}
+
+.alpha-install-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+
+  & > div {
+    flex: 1;
+    padding: 0 3px;
+    background: transparent;
+  }
+
+  h3 {
+    margin-top: 0;
+    font-size: 1.3em;
+    text-align: left;
+  }
+
+  label {
+    display: block;
+  }
+
+  .notice-alt {
+    line-height: 1.7;
+    color: #222;
+  }
+
+  .btn {
+    color: var(--alpha-white-color);
+  }
+}
+
+.alpha-install-demo-header {
+  height: 50px;
+  padding: 1.35em;
+  background: #fff;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 3px 3px 0 0;
+
+  h2 {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1;
+  }
+
+  .alpha-mini-logo {
+    margin: -5px 0 -3px;
+    display: inline-block;
+    vertical-align: middle;
+
+    &:before {
+      background-image: url(../../../assets/images/mini-logo.png);
+      width: 40px;
+      height: 24px;
+    }
+  }
+}
+
+.alpha-install-options {
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .btn-activate {
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+/* Loading Icon */
+@keyframes spin {
+  0% {
+    transform: none;
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.alpha-loading {
+  position: absolute;
+  #{$left}: 0;
+  #{$right}: 0;
+  top: 0;
+  bottom: 0;
+  box-sizing: content-box;
+  z-index: 1;
+}
+
+.alpha-installing-options {
+  margin-top: 30px;
+
+  > div {
+    display: none;
+    position: relative;
+    padding-#{$left}: 30px;
+    margin-bottom: 5px;
+    line-height: 24px;
+  }
+
+  > .prepare,
+  > .installing,
+  > .installed {
+    display: block;
+  }
+
+  .alpha-loading {
+    background: transparent;
+    width: 16px;
+    height: 16px;
+
+    &:after {
+      content: "\f111";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 100;
+      font-size: 20px;
+      color: var(--alpha-primary-color);
+      transition: opacity 0.3s;
+      display: block;
+    }
+  }
+
+  .installing .alpha-loading {
+    border: 2px solid transparent;
+    border-top-color: var(--alpha-primary-color);
+    border-radius: 50%;
+    animation: spin 0.75s infinite linear;
+
+    &:before {
+      content: "";
+      top: -2px;
+      #{$left}: -2px;
+      box-sizing: inherit;
+      position: absolute;
+      width: inherit;
+      height: inherit;
+      border: inherit;
+      border-radius: inherit;
+      animation: spin 1.5s infinite ease;
+    }
+
+    &:after {
+      opacity: 0;
+      margin: side-values(-4px 0 0 -2px);
+    }
+  }
+
+  .installed .alpha-loading:after {
+    content: "\f058";
+  }
+}
+
+.alpha-install-editors {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  label {
+    min-width: auto;
+    margin-#{$right}: 0;
+  }
+
+  input {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  img {
+    max-width: 80px;
+    border-radius: 50%;
+    border: 3px solid $border-color;
+    padding: 15px;
+    background: var(--alpha-admin-bg-color);
+    transform: scale(0.6);
+    transition: transform 0.2s;
+  }
+
+  input:checked + img {
+    transform: scale(0.8);
+  }
+
+  > label.d-none {
+    display: none;
+  }
+
+  label:first-child:last-child {
+    display: none;
+  }
+}
+
+.alpha-setup-demo-header {
+  flex: 1;
+
+  p.lead {
+    margin-top: 0;
+  }
+}
+
+.logo-select {
+  margin-#{$right}: 2rem;
+
+  label {
+    margin-#{$right}: 1rem;
+  }
+}
+
+#current-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+  background: #f4f4f4;
+  overflow: hidden;
+  border-radius: 4px;
+  width: 200px;
+  height: 70px;
+}
+
+// 6-2. Demo Import & Remove demo content
+.alpha-remove-demo {
+  position: relative;
+  margin: auto;
+  font-size: 0.875rem;
+  background: #f1f3f5;
+  border-radius: 5px;
+  font-family: var(--alpha-body-font-family);
+
+  label {
+    margin-bottom: 0.5rem;
+  }
+
+  .alpha-wrap {
+    padding: 30px;
+  }
+}
+
+.remove-status > h5 {
+  font-size: 0.875rem;
+  position: relative;
+
+  &.alpha-installing-options {
+    padding-#{$left}: 28px;
+  }
+
+  &.success {
+    color: var(--alpha-primary-color);
+  }
+}
+
+// 6-3. System Status
+.alpha-system-status {
+  display: inline-block;
+  margin: 0;
+  padding: side-values(22px 25px 22px 28px);
+  width: 100%;
+  border: 1px solid var(--alpha-admin-border-color-1);
+  border-radius: var(--alpha-border-radius-form);
+  line-height: 41px;
+
+  li {
+    margin-bottom: 0;
+  }
+
+  i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 27px;
+    height: 27px;
+    margin-#{$right}: 5px;
+    color: var(--alpha-success-color);
+    font-weight: 600;
+    border-radius: 50%;
+    background-color: rgba(154, 179, 93, 0.15);
+
+    &.error {
+      color: var(--alpha-danger-color);
+      background-color: rgba(249, 104, 104, 0.15);
+    }
+  }
+
+  .status-notice {
+    margin-top: 3px;
+    margin-bottom: 8px;
+    color: var(--alpha-admin-text-color-1);
+    font-size: 12px;
+    text-indent: 2px;
+  }
+}
+
+// 6-4. Step Section
+@media (max-width: 767px) {
+  .alpha-install-demo {
+    max-width: 500px;
+  }
+
+  .alpha-install-editors {
+    display: flex;
+    justify-content: space-between;
+
+    label {
+      flex: 0 0 45%;
+      max-width: 45%;
+      min-width: auto;
+    }
+  }
+
+  .alpha-install-demo-row h3 {
+    margin: side-values(2rem 0 0.5rem);
+  }
+
+  .alpha-install-section > div {
+    flex: 0 0 auto;
+    max-width: 100%;
+  }
+}
+
+// 6-5. Ready Section
+.alpha-support {
+  position: relative;
+  padding: 30px 35px;
+  margin-bottom: 20px;
+  min-height: 210px;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  border: 1px solid #f0f0f0;
+  border-radius: 3px;
+
+  li:before {
+    content: "-";
+    margin-#{$right}: 3px;
+  }
+
+  strong {
+    font-weight: 700;
+  }
+
+  .system-status .circle {
+    position: absolute;
+    top: 20px;
+    #{$left}: -20px;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    background: var(--alpha-white-color);
+    border: 1px solid #f3f3f3;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .system-status {
+    margin-top: 0;
+    font-weight: 700;
+
+    .success,
+    &.success i {
+      color: #5ca86f;
+    }
+
+    .error,
+    &.error i {
+      color: #c50707;
+    }
+  }
+}
+.alpha-setup-next-steps .external-links {
+  display: flex;
+  align-items: center;
+
+  li {
+    margin-#{$right}: 15px;
+  }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 24px;
+    border: 1px solid #e1e1e1;  
+    border-radius: 3px;
+    color: var(--alpha-admin-text-color-3);
+    font-size: 13px;
+    transition: .3s;
+
+    i {
+      font-size: 1.2em;
+      color: #999;
+      margin-#{$right}: 9px;
+      transition: color .3s;
+    }
+
+    &:hover {
+      color: var(--alpha-primary-color);
+      border-color: var(--alpha-primary-color);
+      
+      i {
+        color: var(--alpha-primary-color);
+      }
+    }
+  }
+}
+
+// Responsive
+@media (min-width: 1600px) {
+  .alpha-support:first-child {
+    width: calc(40% - 15px);
+    margin-#{$right}: 15px;
+  }
+
+  .alpha-support:last-child {
+    width: calc(60% - 15px);
+    margin-#{$left}: 15px;
+  }
+}
+
+@include mq(1439px, max) {
+  .alpha-admin-nav-panel:not(:last-child),
+  .alpha-admin-logo {
+    margin-#{$right}: 30px;
+  }
+
+  .alpha-admin-logo {
+    min-width: 180px;
+  }
+}
+
+@include mq(xl, max) {
+  .alpha-system-status {
+    padding: side-values(20px 0 20px 20px);
+  }
+
+  .alpha-section-left {
+    padding-#{$right}: 20px;
+  }
+
+  .alpha-admin-nav-panel {
+    max-width: 200px;
+  }
+
+  .alpha-theme-features > * {
+    --alpha-col: 2;
+  }
+}
+
+@include mq(lg, max) {
+  .alpha-admin-nav-panel > i,
+  .alpha-admin-nav-panel > svg {
+    display: none;
+  }
+}
+
+@include mq(md, max) {
+  .alpha-theme-features > * {
+    --alpha-col: 1;
+  }
+}
+
+// 7. Critical css for critical wizard
+#alpha-select-particular {
+  position: absolute;
+  padding: 0;
+  clip: rect(0 0 0 0);
+}
+
+
+// 8. Patcher & Rollback
+#toplevel_page_alpha .wp-submenu li a[href*="admin.php?page=alpha-critical"],
+#toplevel_page_alpha .wp-submenu li a[href*="admin.php?page=alpha-patcher"],
+#toplevel_page_alpha .wp-submenu li a[href*="admin.php?page=alpha-rollback"] {
+  position: relative;
+
+  span {
+    margin-#{$left}: 10px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+}
+#toplevel_page_alpha:not(.wp-has-current-submenu) li a[href*="admin.php?page=alpha-critical"],
+#toplevel_page_alpha:not(.wp-has-current-submenu) li a[href*="admin.php?page=alpha-patcher"],
+#toplevel_page_alpha:not(.wp-has-current-submenu) li a[href*="admin.php?page=alpha-rollback"] {
+ margin-#{$left}: -5px;
+}
+#toplevel_page_alpha .wp-submenu li:last-child a[href*="admin.php?page=alpha-rollback"] {
+  padding-bottom: 8px;
+  margin-bottom: -8px;
+}
+
+.alpha-rollback #alpha_versions_table {
+    border: 0;
+}
+.alpha-rollback tbody {
+	th, td {
+		padding: 15px 10px;
+	}
+	th {
+		padding-#{$left}: 40px;
+	}
+}
+.alpha-rollback .column-title {
+	padding-#{$left}: 40px;
+}
+
+.alpha-rollback {
+	.version-select {
+		margin-#{$right}: 10px;
+		height: 45px;
+		width: 100px;
+		font-size: 14px;
+	}
+	.warning {
+		color: #a00;
+	}
+	.installing {
+		.button {
+			position: relative;
+		}
+		opacity: .5;
+		.alpha-loading {
+			background: transparent;
+		}
+	}
+	.alpha-loading {
+		position: absolute;
+		left: calc(50% - 10px);
+		top: calc(50% - 10px);
+		width: 20px;
+		height: 20px;
+	}
+
+	.installing .alpha-loading {
+		border: 2px solid transparent;
+		border-top-color: #27c;
+		border-radius: 50%;
+		animation: spin .75s infinite linear;
+	}
+}

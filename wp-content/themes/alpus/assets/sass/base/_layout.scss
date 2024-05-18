@@ -1,0 +1,57 @@
+/* -------------------------------------------
+    Layout
+---------------------------------------------- */
+
+.container,
+.container-fluid,
+.fixed .container,
+.fixed .conatiner-fluid {
+    width: 100%;
+    padding-left: calc(2 * var(--alpha-gap));
+    padding-right: calc(2 * var(--alpha-gap));
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    max-width: var(--alpha-container-width);
+}
+
+.container-fluid {
+    max-width: var(--alpha-container-fluid-width);
+
+    .container {
+        max-width: calc(var(--alpha-container-width) - 40px);
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.container .container-fluid,
+.container-fluid .container-fluid {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container .container {
+    width: 100%;
+}
+
+.sticky-content > .container {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    @include mq(xs, max) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@include mq(xs, max) {
+    .container,
+    .container-fluid {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

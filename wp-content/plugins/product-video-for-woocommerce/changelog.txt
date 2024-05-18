@@ -1,0 +1,111 @@
+*** Product Video for WooCommerce Plugin Change log ***
+
+2023-04-14 - version 1.5.1
+* Fix - Fixed double video showing issue.
+
+2023-04-02 - version 1.5.0
+* Update - Improved slider arrows to navigate video gallery.
+* Update - Improved CSS and JS.
+* Fix - Fixed width & height issues of product thumbnail on product pages.
+* Update - Custom Woo Gallery is now a default gallery unless customer shifts to HTML5 lightbox gallery.
+* Update - Remove autoplay option.
+* Update - Custom Woo Gallery compatibility with Elementor.
+* Update - Compatible with WooCommerce High-Performance Order Storage (HPOS).
+
+2023-03-01 - version 1.4.7
+* Other - Compatibility with variations image swatches.
+* Update - Improved layout of Custom Woo Gallery Style.
+* Update - Performance enhancements.
+
+2022-10-03 - version 1.4.6
+* Update - Compatibility updated for latest versions of WooCommerce and WordPress.
+* Fix - Fixed nonce issues.
+
+2022-03-30 - version 1.4.5
+* Fix - Fixed print "unchecked" string issue.
+
+
+2022-03-14 - version 1.4.4
+* Fix - Fixed checkbox on product edit page to display product feature image as first image in gallery.
+
+
+2022-02-07 - version 1.4.3
+* Update - Version update of html5lightbox.
+* Fix - Fixed HTML5lightbox popup issue on the category pages.
+* Fix - Fixed console errors of slick slider.
+* Fix - Fixed favicon issue.
+
+
+2022-01-04 - version 1.4.2
+* Fix - Featured Image not working on html5 gallery.
+* Fix - Auto play not working on iPhone.
+
+2021-10-08 - version 1.4.1
+* Add - Add checkbox on product edit page to display product feature image as first image in gallery.
+* Update - Move settings to WooCommerce settings tabs.
+* Fix - Fixed Issue of HTML5 Gallery place holder on popup.
+
+2021-10-08 - version 1.4.0
+* Feature - Added new Gallery style in this version.
+* Add - Added Width Field for HTML5 LightBox Gallery Images.
+* Add - Added positions for Custom Woo Gallery (Left, Right, Top, Bottom).
+* Add - Added list of play icons.
+* Add - Added field to get the number of thumbnails to show.
+* Add - Added settings like Autoplay, Arrow, Dots.
+* Add - Added facebook video width Field in Third Party Feature Video Tab for product and shop page.
+* Add - Added Preview Of Custom Video On Product on Rule Level.
+* Fix - Fixed Elementor and Divi Builder Compatibility.
+* Fix - Fixed Width of Gallery thumbnails in 1.3.8 version.
+* Fix - Fixed width and height of Videos in 1.3.8 version.
+* Fix - Fixed Enqueue files only when archive or single page load.
+* Fix - Fixed typo errors in 1.3.8 version.
+
+2021-07-06 - version 1.3.9
+* Fix - Fixed PHP code print issue.
+
+2021-06-01 - version 1.3.8
+* Fix - Issue fixed with multisite activation.
+
+2021-03-03 - version 1.3.7
+* Fix - Fixed product quick edit overriding the featured video checkboxes.
+
+2021-01-21 - version 1.3.6
+* Fix - Fixed thumbnail display issue in version 1.3.5.
+
+2021-01-16 - version 1.3.5
+* Fix - Fixed typo errors.
+* Fix - Fixed error message in order email.
+
+2021-01-14 - version 1.3.4
+* Fix - Fixed JS issues on admin side with WordPress 5.6 and above.
+
+2020-10-19 - version 1.3.3
+* Fix - Issue fixed with custom video on apple devices.
+* Fix - Issue fixed with import/export video data with products.
+
+2020-04-21 - version 1.3.2
+* Fix - Product video gallery size issue fixed for different themes.
+* Update - Compatibility with elementor and divi builder.
+* Fix - Issue fixed with Facebook video.
+
+2020-03-29 - version 1.3.1
+* Fix - Fix CSS conflict with drop downs in admin panel.
+
+2020-03-20 - version 1.3.0
+* Fix - Issue fixed with upsell and cross sell products.
+* Fix - Missing JS file error message in console.
+
+2020-03-10 - version 1.2.0
+* Fix - Product image duplication Error on Product listing issue fixed.
+* Fix - The size of feature Video will be adjusted according to the theme automatically. Video is responsive as well.
+* Fix - Product Video will not replace the gallery of those products who don't have a video.
+* Fix - Mute & autoplay video issue fixed.
+* Fix - yes, option not saved for loop video option issue fixed.
+
+2019-12-13 - version 1.1.0
+* Fix - Failed Security Check issue fixed.
+* Fix - Issue fixed when featured video is disabled and Gallery video not displayed.
+* Fix - Missing JS file error message in console.
+
+2019-10-18 - version 1.0.0
+* Other - Initial release of the plugin.

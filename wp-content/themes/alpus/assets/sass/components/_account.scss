@@ -1,0 +1,131 @@
+// Login Form CSS
+.alpha-form-login {
+    font-size: 1.3rem;
+    p {
+        font-size: inherit;
+        line-height: 1.84;
+        &:empty:before {
+            content: none;
+        }
+    }
+    
+    .form-row {
+        font-size: 1.3rem ;
+        margin-bottom: 1.2rem;
+        label {
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+        span {
+            vertical-align: middle;
+        }
+        .form-control {
+            height: 3.7rem;
+        }
+        .input-text {
+            background: var(--alpha-change-color-light-1);
+        }
+        input {
+            margin-#{$right}: .5rem;
+            &[type="radio"] {
+                vertical-align: sub;
+            }
+        } 
+    }
+
+    .form-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 2rem 0;
+        font-size: 1.2rem ;
+
+        p {
+            margin-bottom: 8px;
+            line-height: inherit;
+        }
+    }
+
+    .button {
+        padding: 1.6rem 1rem;
+        background-color: var(--alpha-dark-color);
+        border-color: var(--alpha-dark-color);
+
+        &:hover,
+        &:focus {
+            background-color: var(--alpha-dark-color-hover);
+            border-color: var(--alpha-dark-color-hover);
+        }
+    }
+
+    &.register button {
+        margin-top: 2.5rem;
+    }
+
+    .lost-link {
+        text-align: $right;
+        color: $danger-color;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .social-login {
+        margin-bottom: 2.5rem;
+        color: var(--alpha-grey-color);
+
+        p {
+            margin-bottom: 8px;
+            font-size: 1.2rem ;
+        }
+    }
+
+    .social-icon {
+        color: var(--alpha-body-color);
+
+        &.framed {
+            border-color: var(--alpha-change-color-light-3);
+        }
+    }
+
+    .custom-checkbox {
+        margin-bottom: 2.5rem;
+        line-height: initial;
+    }
+
+    .woocommerce-password-strength {
+        margin: 10px 0;
+        padding: 8px;
+        color: var(--alpha-change-color-light-1);
+        text-align: center;
+        background: var(--alpha-primary-color);
+
+        &.short {
+            background: $alert-color;
+        }
+
+        &.bad {
+            background: $danger-color;
+        }
+
+        &.good {
+            background: $success-color;
+        }
+    }
+
+    .woocommerce-password-hint {
+        font-size: 1.2rem ;
+        line-height: 1.86;
+    }
+
+    .title {
+        font-size: 1.3rem;
+        font-weight: normal;
+        color: var(--alpha-body-color);
+        margin-bottom: 1.5rem;
+    }
+    .button {
+        display: block;
+        width: 100%;
+    }
+}

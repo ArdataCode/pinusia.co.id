@@ -1,0 +1,421 @@
+/* -------------------------------------------
+	Grid
+		1. Space
+			1. Gutter Row
+			2. Columns
+			3. Column
+		2. Grid Layout
+		3. Creative Grid Layouts
+		4. Compatibility with Elementor
+		4. Type Builder Extend
+
+---------------------------------------------- */
+
+// 1. Space
+// 1-1 Gutter Row
+.row {
+  --alpha-col: 1;
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% + 2 * var(--alpha-gap));
+  margin-left: calc(-1 * var(--alpha-gap));
+  margin-right: calc(-1 * var(--alpha-gap));
+  
+  > * {
+      position: relative;
+      width: calc(100% / var(--alpha-col));
+      padding-left: var(--alpha-gap);
+      padding-right: var(--alpha-gap);
+      flex: 0 0 auto;
+  }    
+}
+.gutter-xl {
+  --alpha-gap: 25px;
+}
+.gutter-lg {
+  --alpha-gap: 15px;
+}
+.gutter-md {
+  --alpha-gap: 10px;
+}
+.gutter-sm {
+  --alpha-gap: 5px;
+}
+.gutter-xs {
+  --alpha-gap: 1px;
+}
+.gutter-no {
+  --alpha-gap: 0px;
+}
+
+@include mq(sm, max) {
+  .gutter-lg {
+    --alpha-gap: 10px;
+  }
+}
+
+// 1-2. Columns
+@include cols-css();
+
+@include mq(xs) {
+  @include cols-css(xs);
+}
+
+@include mq(sm) {
+  @include cols-css(sm);
+}
+
+@include mq(md) {
+  @include cols-css(md);
+}
+
+@include mq(lg) {
+  @include cols-css(lg);
+}
+
+@include mq(xl) {
+  @include cols-css(xl);
+}
+
+@include mq(1400px) {
+  @include cols-css(xlg);
+}
+
+@include mq(2400px) {
+  @include cols-css(xxl);
+}
+
+// 1-3. Column
+@include col-css();
+
+@include mq(xs) {
+  @include col-css(xs);
+}
+
+@include mq(sm) {
+  @include col-css(sm);
+}
+
+@include mq(md) {
+  @include col-css(md);
+}
+
+@include mq(lg) {
+  @include col-css(lg);
+}
+
+@include mq(xl) {
+  @include col-css(xl);
+}
+
+@include mq(xxl) {
+  .col-xxl-2 {
+    flex: 0 0 16.6666%;
+    max-width: 16.6666%;
+  }
+}
+
+// 2. Grid Layout
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% + 2 * var(--alpha-gap));
+  margin: calc(-1 * var(--alpha-gap));
+
+  .grid-item {
+    padding: var(--alpha-gap);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.creative-grid {
+  margin: calc(-1 * var(--alpha-gap));
+  
+  > .grid-item {
+    padding: var(--alpha-gap);
+  }
+
+  figure,
+  figure img {
+    height: 100%;
+  }
+
+  &:not(.products) .banner-img .d-lazyload {
+    height: 100% !important;
+    padding-top: 0 !important;
+  }
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.grid-float {
+  display: block !important;
+
+  .grid-item {
+    float: $left;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+.alpha-posts-grid-container.grid {
+  margin: 0 calc(-1 * var(--alpha-gap));
+}
+
+// 3. Creative Grid presets
+.creative-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 25%);
+  grid-auto-rows: 1fr;
+
+  &.preset-grid {
+    grid-auto-rows: auto;
+  }
+
+  @media (max-width: 991px) {
+    grid-template-columns: repeat(auto-fill, 50%);
+  }
+}
+
+.grid-layout-1 {
+  grid-template-columns: repeat(auto-fill, 20%);
+
+  > li:nth-child(7n + 1) {
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+  }
+
+  @media (max-width: 991px) and (min-width: 768px) {
+    grid-template-columns: repeat(auto-fill, calc(100% / 12));
+
+    > li {
+      grid-column-end: span 3;
+    }
+
+    > li:nth-child(7n + 1) {
+      grid-column-end: span 8;
+    }
+
+    > li:nth-child(7n + 2),
+    > li:nth-child(7n + 3) {
+      grid-column-end: span 4;
+    }
+  }
+
+  @media (max-width: 767px) {
+    > li {
+      grid-column-end: span 1;
+    }
+
+    > li:nth-child(7n + 1) {
+      grid-column-end: span 2;
+    }
+  }
+}
+
+.grid-layout-2 {
+  grid-template-columns: 25% 50% 25%;
+
+  > li:nth-child(5n + 2) {
+    grid-row-end: span 2;
+  }
+
+  @media (max-width: 991px) {
+    > li:nth-child(5n + 2) {
+      // grid-area: 2 / 1 / 3 / 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+  }
+}
+
+.grid-layout-3 {
+  grid-template-columns: repeat(auto-fill, calc(100% / 6));
+
+  > li:nth-child(9n + 3) {
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+  }
+
+  @media (max-width: 991px) {
+    > li:nth-child(9n + 3) {
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+  }
+}
+
+.grid-layout-4 {
+  grid-template-columns: 50% 25% 25%;
+
+  > li:nth-child(5n + 1) {
+    grid-row-end: span 2;
+  }
+
+  @media (max-width: 991px) {
+    > li:nth-child(5n + 1) {
+      grid-column-end: span 2;
+    }
+  }
+}
+
+.grid-layout-5 {
+  grid-template-columns: 25% 25% 50%;
+
+  > li:nth-child(5n + 3) {
+    grid-row-end: span 2;
+  }
+
+  @media (max-width: 991px) {
+    > li:nth-child(5n) {
+      grid-column-end: span 2;
+    }
+  }
+}
+
+.grid-layout-6 {
+  grid-template-columns: 50% 25% 25%;
+
+  > li:nth-child(4n + 1) {
+    grid-row-end: span 2;
+  }
+
+  > li:nth-child(4n + 2) {
+    grid-row-end: span 2;
+  }
+
+  @media (max-width: 991px) {
+    > li:nth-child(4n + 1) {
+      grid-column-end: span 2;
+    }
+  }
+}
+
+.grid-layout-7 {
+  grid-template-columns: 50% 25% 25%;
+
+  > li:nth-child(4n + 1) {
+    grid-row-end: span 2;
+  }
+
+  > li:nth-child(4n + 3) {
+    grid-row-end: span 2;
+  }
+
+  @media (max-width: 991px) {
+    > li:nth-child(4n + 1) {
+      grid-column-end: span 2;
+    }
+  }
+}
+
+.grid-layout-8 {
+  grid-template-columns: 33.33% 33.33% 33.33%;
+
+  > li:nth-child(4n + 1) {
+    grid-column-end: span 2;
+  }
+
+  > li:nth-child(4n + 2) {
+    grid-row-end: span 2;
+  }
+
+  @media (max-width: 991px) {
+    > li:nth-child(4n + 1) {
+      grid-column-end: span 2;
+    }
+  }
+}
+
+.grid-layout-9 {
+  grid-template-columns: 33.33% 33.33% 33.33%;
+
+  > li:nth-child(4n + 1) {
+    grid-row-end: span 2;
+  }
+
+  > li:nth-child(4n + 2) {
+    grid-column-end: span 2;
+  }
+
+  @media (max-width: 991px) {
+    > li:nth-child(4n + 2) {
+      grid-column-end: span 2;
+      grid-row-start: 3;
+      grid-column-start: 1;
+    }
+  }
+}
+
+.editor-mode > [class*="grid-item"] {
+  position: relative;
+  overflow: hidden;
+  border: 1px dashed rgba(34, 34, 34, 0.4);
+
+  &:before {
+    content: attr(data-grid-idx);
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    color: var(--alpha-change-color-light-1);
+    font-size: 1.5rem;
+    line-height: 1;
+    z-index: 99;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    right: -4rem;
+    top: -4rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: #71d7f7; // this is elementor color
+    opacity: 0.7;
+    z-index: 98;
+  }
+}
+
+// 4. Compatibility with Elementor
+.elementor-section .elementor-container.grid {
+  .grid-item > .elementor-widget-wrap:not(.banner-content) {
+    padding: 0;
+
+    & {
+      height: 100%;
+    }
+  }
+}
+
+.elementor-section .elementor-container.grid.gutter-xs {
+  width: calc(100% + 2px);
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+@media (max-width: 479px) {
+  .elementor-section.elementor-section-boxed
+    .elementor-container.grid.gutter-xs {
+    width: calc(100% + 2px);
+  }
+}
+
+// 5. Tyep Builder Extend
+.alpha-tb-item {
+  margin-bottom: calc(2 * var(--alpha-gap));
+}
+
+.creative-grid .alpha-tb-item {
+  margin-bottom: 0;
+}

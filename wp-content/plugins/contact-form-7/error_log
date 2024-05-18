@@ -1,0 +1,8 @@
+[20-Mar-2024 08:42:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "WPCF7_PLUGIN_DIR" in /home/ujianori/pinusia.co.id/wp-content/plugins/contact-form-7/load.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-content/plugins/contact-form-7/load.php on line 3
+[20-Mar-2024 08:42:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/ujianori/pinusia.co.id/wp-content/plugins/contact-form-7/wp-contact-form-7.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 23

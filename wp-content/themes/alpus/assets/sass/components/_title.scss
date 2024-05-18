@@ -1,0 +1,197 @@
+/* -------------------------------------------
+    Titles
+        1. Base
+        2. Alignment
+        3. Types
+            3-1. Cross Type
+            3-2. Underline Type
+            3-3. Underline Type 2
+            3-4. Background Type
+        4. Compatibility with Elementor
+---------------------------------------------- */
+
+// 1. Base
+.title-wrapper {
+    display: flex;
+    align-items: center;
+
+    .divider {
+        margin: 0 1.5rem;
+    }
+
+    svg {
+        width: var(--alpha-heading-icon-size, 1em);
+        height: inherit;
+    }
+}
+
+.title {
+    margin-bottom: 0;
+    max-width: 100%;
+    transition: color .3s;
+
+    &::before,
+    &::after {
+        height: 2px;
+        background: #edeef0;
+    }
+}
+
+@include mq(sm, max) {
+    .title-wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+// 2. Alignment
+.title-left .title {
+    margin-#{$right}: auto;
+}
+
+.title-right .title {
+    margin-#{$left}: auto;
+    text-align: right;
+}
+
+.title-center .title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.rtl .title-left .#{$theme-icon-prefix}-icon-long-arrow-right:before {
+    content: "\e92b";
+}
+
+.link-left {
+    .title {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    &.title-left {
+        justify-content: if-ltr(flex-start, flex-end);
+        text-align: left;
+    }
+
+    &.title-center {
+        justify-content: center;
+    }
+
+    &.title-right {
+        justify-content: if-ltr(flex-end, flex-start);
+        text-align: right;
+    }
+}
+
+// 3-1. Cross Type
+.title-cross {
+    .title {
+        display: flex;
+        position: relative;
+        align-items: center;
+        flex: 1;
+
+        &::before {
+            margin-#{$right}: 3rem;
+        }
+
+        &::after {
+            margin-#{$left}: 3rem;
+        }
+
+        &::before,
+        &::after {
+            flex: 1;
+            content: '';
+            z-index: 1;
+        }
+    }
+
+    &.title-left .title::before,
+    &.title-right .title::after {
+        content: none
+    }
+}
+
+// 3-2. Underline Type
+.title-underline {
+    position: relative;
+    text-align: $left;
+
+    &:after {
+        content: '';
+        margin: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        height: 1px;
+        background: #edeef0;
+    }
+
+    .title {
+        display: inline-block;
+        flex: 0 0 auto;
+        position: relative;
+        z-index: 2;
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            bottom: 0;
+            background: var(--alpha-primary-color);
+        }
+    }
+}
+
+// 3-3. Underline Type 2
+.title-underline2 {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--alpha-change-light-border-color);
+
+    .title {
+        font-weight: 700;
+        font-size: 2rem;
+        text-transform: capitalize;
+    }
+
+    .btn-link {
+        padding: .5rem 0;
+        text-transform: capitalize;
+    }
+}
+
+//3-4. Background Type
+.title-background .title {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-gradient .title {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, var(--alpha-primary-color) 0%, var(--alpha-secondary-color) 100%);
+}
+
+.title-background-image .title {
+    background-color: #987979;
+    background-image: url(../images/placeholders/thumb-placeholder.jpg);
+}
+
+// 4. Compatiblity with Elementor
+.elementor-heading-title {
+    line-height: var(--alpha-heading-line-height, var(--alpha-body-line-height));
+}
+
+p.elementor-heading-title {
+    line-height: var(--alpha-body-line-height);
+}
+
+.elementor .elementor-widget-heading hr {
+    margin: 1rem auto;
+}

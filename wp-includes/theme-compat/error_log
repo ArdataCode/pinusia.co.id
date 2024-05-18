@@ -1,0 +1,36 @@
+[20-Mar-2024 08:39:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/comments.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/comments.php on line 9
+[20-Mar-2024 08:39:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/embed-404.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/embed-404.php on line 14
+[20-Mar-2024 08:39:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function post_class() in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/embed-content.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/embed-content.php on line 13
+[20-Mar-2024 08:39:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2024 08:39:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/footer-embed.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/footer-embed.php on line 18
+[20-Mar-2024 08:39:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/footer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/footer.php on line 9
+[20-Mar-2024 08:39:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/header-embed.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/header-embed.php on line 19
+[20-Mar-2024 08:39:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/header.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/header.php on line 9
+[20-Mar-2024 08:39:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/sidebar.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/theme-compat/sidebar.php on line 9

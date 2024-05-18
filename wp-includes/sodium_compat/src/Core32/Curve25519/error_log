@@ -1,0 +1,4 @@
+[20-Mar-2024 08:41:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core32_Util" not found in /home/ujianori/pinusia.co.id/wp-includes/sodium_compat/src/Core32/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/sodium_compat/src/Core32/Curve25519/H.php on line 12

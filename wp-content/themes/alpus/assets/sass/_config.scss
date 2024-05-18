@@ -1,0 +1,67 @@
+/* -------------------------------------------
+	Alpha Config Variables
+------------------------------------------- */
+
+
+// 1. Colors
+$primary-color: #66ae4e !default;
+$secondary-color: #f93 !default;
+$light-grey: #f1f1f1 !default;
+$border-color: #e5e5e5 !default;
+
+$success-color: #66ae4e !default;
+$success-color-light: lighten($success-color, 40%) !default;
+$info-color: #369 !default;
+$info-color-light: lighten($info-color, 40%) !default;
+$alert-color: #ffa800 !default;
+$alert-color-light: lighten($alert-color, 40%) !default;
+$danger-color: #f96768 !default;
+$danger-color-light: lighten($danger-color, 40%) !default;
+
+// 2. Breakpoints
+$breakpoints: (
+	xs: 480px,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1600px,
+	xlst: 1920px
+);
+$max-breakpoints: (
+	xs: 479px,
+	sm: 575px,
+	md: 767px,
+	lg: 991px,
+	xl: 1199px,
+	xxl: 1599px
+);
+
+// 3. Color of Social Icons
+$social-facebook: #1b4f9b;
+$social-twitter: #00adef;
+$social-linkedin: #0073b2;
+$social-email: #dd4b39;
+$social-youtube: #2c567e;
+$social-google: #dd4b39;
+$social-pinterest: #f96a02;
+$social-reddit: #ff4107;
+$social-tumblr: #304e6c;
+$social-vk: #6383a8;
+$social-whatsapp: #3c8a38;
+$social-xing: #1a7576;
+$social-instagram: #cc0001;
+$social-youtube: #2c567e;
+
+// 4. Corners
+$corner-sm: 3px;
+$corner-md: 5px;
+$corner-lg: 10px;
+
+// 5. Direction
+$dir: ltr !default;
+
+// 6. Theme
+$theme-name: alpha !default;
+$theme-icon-prefix: a !default;
+$theme-font: 'alpha' !default;

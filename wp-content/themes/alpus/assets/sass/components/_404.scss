@@ -1,0 +1,53 @@
+/* -------------------------------------------
+	Erorr 404 Page
+---------------------------------------------- */
+
+.error404 .main {
+	padding-top: 0;
+	padding-bottom: 0;
+	border: none;
+}
+
+.area_404 {
+	position: relative;
+	background-image: url(../images/404.jpg);
+	text-align: center;
+	min-height: 1040px;
+	font-size: 16px;
+
+	.content_404 {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 24.2%;
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	img {
+		margin-bottom: 26px;
+	}
+
+	h1 {
+		font-size: 1.75em;
+		font-weight: 400;
+		color: #3a3a3a;
+
+		strong {
+			font-size: 1.285em;
+			font-weight: 600;
+		}
+	}
+
+	p {
+		margin-top: 12px;
+		margin-bottom: 39px;
+		padding: 0 1.4286em;
+		color: #888;
+	}
+
+	.btn i {
+		font-size: 1.3em;
+	}
+}

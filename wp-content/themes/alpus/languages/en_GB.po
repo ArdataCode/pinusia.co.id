@@ -1,0 +1,6021 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Alpha 1.0\n"
+"POT-Creation-Date: 2023-05-27 00:16+0900\n"
+"PO-Revision-Date: 2023-05-27 00:16+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:44
+msgid "Oops!"
+msgstr ""
+
+#: 404.php:44
+msgid "This page cannot be found."
+msgstr ""
+
+#: 404.php:46
+msgid "Go Home"
+msgstr ""
+
+#: bbpress/form-reply.php:30
+#, php-format
+msgid "Reply To: %s"
+msgstr ""
+
+#: bbpress/form-reply.php:30
+#, php-format
+msgid "Reply #%1$s in %2$s"
+msgstr ""
+
+#: bbpress/form-reply.php:38
+msgid ""
+"This topic is marked as closed to new replies, however your posting "
+"capabilities still allow you to reply."
+msgstr ""
+
+#: bbpress/form-reply.php:48
+msgid ""
+"This forum is closed to new content, however your posting capabilities still "
+"allow you to post."
+msgstr ""
+
+#: bbpress/form-reply.php:58 bbpress/form-topic.php:70
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+#: bbpress/form-reply.php:79
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes:"
+msgstr ""
+
+#: bbpress/form-reply.php:90 framework/templates/posts/single/post-tag.php:18
+msgid "Tags:"
+msgstr ""
+
+#: bbpress/form-reply.php:108 bbpress/form-topic.php:176
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-reply.php:112 bbpress/form-topic.php:180
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-reply.php:129
+msgid "Reply To:"
+msgstr ""
+
+#: bbpress/form-reply.php:138
+msgid "Reply Status:"
+msgstr ""
+
+#: bbpress/form-reply.php:153 bbpress/form-topic.php:196
+msgid "Keep a log of this edit:"
+msgstr ""
+
+#: bbpress/form-reply.php:157 bbpress/form-topic.php:200
+msgid "Optional reason for editing:"
+msgstr ""
+
+#: bbpress/form-reply.php:176 bbpress/form-topic.php:215 comments.php:81
+#: framework/admin/importer/theme-wordpress-importer.php:478
+#: framework/admin/importer/wordpress-importer.php:374
+#: framework/templates/woocommerce/single-product-reviews.php:141
+#: woocommerce/single-product-reviews.php:118
+msgid "Submit"
+msgstr ""
+
+#: bbpress/form-reply.php:200
+#, php-format
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr ""
+
+#: bbpress/form-reply.php:210 bbpress/form-topic.php:239
+#, php-format
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#: bbpress/form-reply.php:223
+msgid "You cannot reply to this topic."
+msgstr ""
+
+#: bbpress/form-reply.php:224
+msgid "You must be logged in to reply to this topic."
+msgstr ""
+
+#: bbpress/form-topic.php:44
+#, php-format
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-topic.php:47
+#, php-format
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-topic.php:48
+msgid "Create New Topic"
+msgstr ""
+
+#: bbpress/form-topic.php:60
+msgid ""
+"This forum is marked as closed to new topics, however your posting "
+"capabilities still allow you to create a topic."
+msgstr ""
+
+#: bbpress/form-topic.php:85
+#, php-format
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#: bbpress/form-topic.php:100
+#, php-format
+msgid "You may use these %s tags and attributes:"
+msgstr ""
+
+#: bbpress/form-topic.php:111
+msgid "Topic Tags:"
+msgstr ""
+
+#: bbpress/form-topic.php:124
+msgid "Forum:"
+msgstr ""
+
+#: bbpress/form-topic.php:128
+msgid "&mdash; No forum &mdash;"
+msgstr ""
+
+#: bbpress/form-topic.php:145
+msgid "Topic Type:"
+msgstr ""
+
+#: bbpress/form-topic.php:157
+msgid "Topic Status:"
+msgstr ""
+
+#: bbpress/form-topic.php:252
+msgid "You cannot create new topics."
+msgstr ""
+
+#: bbpress/form-topic.php:253
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+#: bbpress/form-user-edit.php:17 bbpress/form-user-edit.php:22 comments.php:91
+#: framework/plugins/woocommerce/woo-functions.php:575
+#: framework/templates/woocommerce/single-product-reviews.php:149
+#: woocommerce/single-product-reviews.php:126
+msgid "Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:27
+msgid "First Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:32
+msgid "Last Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:37
+msgid "Nickname"
+msgstr ""
+
+#: bbpress/form-user-edit.php:42
+msgid "Display Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:52 bbpress/form-user-edit.php:55
+msgid "Contact Info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:60
+msgid "Website"
+msgstr ""
+
+#: bbpress/form-user-edit.php:80 bbpress/form-user-edit.php:89
+msgid "About Yourself"
+msgstr ""
+
+#: bbpress/form-user-edit.php:81 bbpress/form-user-edit.php:90
+msgid "About the user"
+msgstr ""
+
+#: bbpress/form-user-edit.php:97
+msgid "Biographical Info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:105 bbpress/form-user-edit.php:108
+#: framework/admin/customizer/class-alpha-customizer.php:1023
+#: framework/theme-options.php:187 inc/theme-options.php:192
+msgid "Account"
+msgstr ""
+
+#: bbpress/form-user-edit.php:113
+#: framework/templates/woocommerce/myaccount/form-login.php:85
+#: framework/theme-actions.php:619 woocommerce/myaccount/form-login.php:85
+msgid "Username"
+msgstr ""
+
+#: bbpress/form-user-edit.php:118 comments.php:92
+#: framework/templates/woocommerce/share.php:119
+#: framework/templates/woocommerce/share.php:120
+#: framework/templates/woocommerce/single-product-reviews.php:155
+#: framework/theme-functions.php:151 woocommerce/single-product-reviews.php:132
+msgid "Email"
+msgstr ""
+
+#: bbpress/form-user-edit.php:125
+msgid "Language"
+msgstr ""
+
+#: bbpress/form-user-edit.php:137 bbpress/form-user-edit.php:140
+msgid "User Role"
+msgstr ""
+
+#: bbpress/form-user-edit.php:147
+msgid "Network Role"
+msgstr ""
+
+#: bbpress/form-user-edit.php:150
+msgid "Grant this user super admin privileges for the Network."
+msgstr ""
+
+#: bbpress/form-user-edit.php:167
+msgid "Save Changes"
+msgstr ""
+
+#: bbpress/form-user-edit.php:175
+msgid "Update Profile"
+msgstr ""
+
+#: bbpress/form-user-edit.php:176
+msgid "Update User"
+msgstr ""
+
+#: comments.php:32
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:32
+msgid "% Comment"
+msgid_plural "% Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:81 framework/theme-actions.php:1199
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:94
+msgid "Comment"
+msgstr ""
+
+#: footer.php:75
+#, php-format
+msgid " WordPress Theme &copy; %s. All Rights Reserved"
+msgstr ""
+
+#: footer.php:94
+msgid "Top"
+msgstr ""
+
+#: framework/admin/admin/admin.js:264 framework/admin/admin/admin.min.js:1
+msgid "Title"
+msgstr ""
+
+#: framework/admin/admin/admin.js:270 framework/admin/admin/admin.js:413
+#: framework/admin/admin/admin.min.js:1
+msgid "OK"
+msgstr ""
+
+#: framework/admin/admin/admin.js:352 framework/admin/admin/admin.min.js:1
+msgid "Yes"
+msgstr ""
+
+#: framework/admin/admin/admin.js:353 framework/admin/admin/admin.min.js:1
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:724
+msgid "No"
+msgstr ""
+
+#: framework/admin/admin/admin.js:407 framework/admin/admin/admin.min.js:1
+msgid "Install Kirki Customizer"
+msgstr ""
+
+#: framework/admin/admin/admin.js:408 framework/admin/admin/admin.min.js:1
+msgid ""
+"You need to install <a href=\"https://wordpress.org/plugins/kirki/\" target="
+"\"_blank\">Kirki Customizer</a> plugin to use full theme options."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:379
+msgid "Navigator"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:428
+#: framework/admin/customizer/class-alpha-customizer.php:579
+#: framework/admin/customizer/class-alpha-customizer.php:963
+#: framework/admin/customizer/class-alpha-customizer.php:968
+msgid "Menu Labels"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:443
+msgid "Label Text to Change"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:445
+#, fuzzy
+#| msgid "Footer Background Color"
+msgid "Label Background Color to Change"
+msgstr "Footer Background Colour"
+
+#: framework/admin/customizer/class-alpha-customizer.php:448
+msgid "Change"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:449
+#: framework/templates/woocommerce/wishlist-view.php:235
+#: woocommerce/wishlist-view.php:235
+msgid "Remove"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:461
+msgid "Input Label Text"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:463
+#, fuzzy
+#| msgid "Footer Background Color"
+msgid "Choose Label Background Color"
+msgstr "Footer Background Colour"
+
+#: framework/admin/customizer/class-alpha-customizer.php:466
+#: framework/templates/woocommerce/myaccount/my-address.php:95
+#: woocommerce/myaccount/my-address.php:82
+msgid "Add"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:480
+msgid "None"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:485
+msgid "Style"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:489
+msgid "Page Layouts"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:493
+msgid "Menus"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:497
+#: framework/admin/setup-wizard/views/demo.php:111
+#: inc/admin/setup-wizard/views/demo.php:108
+msgid "Widgets"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:501
+msgid "Miscellaneous"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:505
+msgid "Features"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:513
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:68
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:73
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:78
+msgid "General"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:518
+msgid "Header & Footer"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:523
+#: framework/admin/customizer/class-alpha-customizer.php:1145
+#: framework/theme-options.php:84
+#: inc/admin/customizer/class-alpha-customizer-extend.php:321
+msgid "Blog"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:528
+msgid "Custom CSS & JS"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:532
+msgid "Maintenance"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:537
+msgid "Site Identity"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:541
+msgid "Homepage Settings"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:545
+#: framework/admin/customizer/class-alpha-customizer.php:558
+#: framework/theme-options.php:83 inc/theme-options.php:83
+#: inc/theme-options.php:86
+msgid "Color"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:549
+msgid "Header Image"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:553
+msgid "Background Image"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:563
+msgid "Typography"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:568
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:85
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:311
+msgid "Page Title Bar"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:573
+msgid "Breadcrumbs"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:584
+#: framework/admin/customizer/class-alpha-customizer.php:994
+#: framework/templates/header/header.php:73 framework/theme-functions.php:1076
+#: inc/templates/header/header.php:94
+msgid "Mobile Menu"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:589
+msgid "Mobile Sticky Icon Bar"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:595
+#: framework/admin/customizer/class-alpha-customizer.php:1379
+#: inc/admin/customizer/class-alpha-customizer-extend.php:368
+msgid "Ajax Filter"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:600
+#: framework/admin/customizer/class-alpha-customizer.php:1404
+#: inc/admin/customizer/class-alpha-customizer-extend.php:392
+msgid "Lazy Load"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:605
+#: framework/admin/customizer/class-alpha-customizer.php:1623
+#: framework/admin/customizer/class-alpha-customizer.php:1656
+msgid "Quickview"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:610
+#: framework/admin/customizer/class-alpha-customizer.php:1026
+#: framework/admin/customizer/class-alpha-customizer.php:1463
+#: framework/theme-actions.php:896 framework/theme-functions.php:1126
+#: framework/theme-functions.php:1525 framework/theme-options.php:191
+#: inc/admin/customizer/class-alpha-customizer-extend.php:404
+#: inc/general-function.php:102 inc/general-function.php:135
+#: inc/general-function.php:427 inc/theme-options.php:196
+msgid "Search"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:615
+#: framework/admin/customizer/class-alpha-customizer.php:1354
+msgid "Social Login"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:621
+msgid "Image Size & Quality"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:626
+#: inc/admin/customizer/class-alpha-customizer-extend.php:416
+msgid "Import/Export/Reset"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:631
+#: inc/admin/customizer/class-alpha-customizer-extend.php:427
+msgid "SEO"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:636
+#: framework/admin/customizer/class-alpha-customizer.php:1316
+#: framework/admin/customizer/class-alpha-customizer.php:1321
+#: inc/admin/customizer/class-alpha-customizer-extend.php:438
+msgid "White Label"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:648
+msgid "Site Layout"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:653
+msgid "Site Type"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:664
+msgid "Site Width (px)"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:677
+msgid "Site Gap (px)"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:690
+#, fuzzy
+#| msgid "Footer Background Color"
+msgid "Site Background"
+msgstr "Footer Background Colour"
+
+#: framework/admin/customizer/class-alpha-customizer.php:691
+msgid "Change background of outside the frame."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:705
+#, fuzzy
+#| msgid "Footer Background Color"
+msgid "Content Background"
+msgstr "Footer Background Colour"
+
+#: framework/admin/customizer/class-alpha-customizer.php:715
+msgid "Container Width"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:720
+msgid "Container Width (px)"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:726
+msgid "Container Fluid Width (px)"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:733
+msgid "Gutter Spacing"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:733
+#, php-format
+msgid ""
+"Set site gutter spacing (default gap spacing between columns, projects, "
+"products etc) in Elementor %1$sSite Settings%2$s/Layout/Layout Settings"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:734
+#: framework/admin/customizer/class-alpha-customizer.php:1348
+#: framework/admin/customizer/class-alpha-customizer.php:1373
+#: framework/admin/customizer/class-alpha-customizer.php:1398
+#: framework/admin/customizer/class-alpha-customizer.php:1457
+#: framework/admin/customizer/class-alpha-customizer.php:1650
+#: inc/admin/customizer/class-alpha-customizer-extend.php:288
+msgid "Theme Option Descrpition Image"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:742
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:507
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:81
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:299
+msgid "Header"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:742
+msgid "Create your header template and show it in Layout Builder"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:745
+msgid "Header Builder"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:746
+#: framework/admin/customizer/class-alpha-customizer.php:759
+#: framework/admin/customizer/class-alpha-customizer.php:1136
+#: framework/admin/customizer/class-alpha-customizer.php:1149
+#: framework/admin/customizer/class-alpha-customizer.php:1591
+#: framework/admin/customizer/class-alpha-customizer.php:1694
+#, php-format
+msgid "Please install %s Core Plugin"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:747
+#: framework/admin/customizer/class-alpha-customizer.php:760
+#: framework/admin/customizer/class-alpha-customizer.php:1137
+#: framework/admin/customizer/class-alpha-customizer.php:1150
+#: framework/admin/customizer/class-alpha-customizer.php:1592
+#: framework/admin/customizer/class-alpha-customizer.php:1695
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:338
+#: framework/admin/setup-wizard/views/plugins.php:13
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:358
+#: inc/admin/setup-wizard/views/plugins.php:13
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:749
+#: framework/admin/customizer/class-alpha-customizer.php:761
+#: framework/admin/customizer/class-alpha-customizer.php:1139
+#: framework/admin/customizer/class-alpha-customizer.php:1151
+#: framework/admin/customizer/class-alpha-customizer.php:1594
+#: framework/admin/customizer/class-alpha-customizer.php:1697
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:495
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:240
+#: framework/admin/panel/class-alpha-admin-panel.php:94
+#: framework/admin/panel/class-alpha-admin-panel.php:95
+msgid "Layout Builder"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:755
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:541
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:123
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:305
+msgid "Footer"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:755
+msgid "Create your footer template and show it in Layout Builder"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:761
+msgid "Footer Builder"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:769
+msgid "Colors"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:774
+msgid "Primary Color"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:783
+msgid "Secondary Color"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:792
+msgid "Dark Color"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:801
+msgid "Light Color"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:812
+#: inc/admin/customizer/class-alpha-customizer-extend.php:111
+msgid "Default Typography"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:824
+#: inc/admin/customizer/class-alpha-customizer-extend.php:125
+msgid "Heading Typography"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:836
+#: inc/admin/customizer/class-alpha-customizer-extend.php:208
+msgid "Google Fonts"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:841
+#: inc/admin/customizer/class-alpha-customizer-extend.php:214
+msgid "Select google fonts use throughout the site."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:849
+#: framework/admin/customizer/class-alpha-customizer.php:857
+#: inc/admin/customizer/class-alpha-customizer-extend.php:223
+#: inc/admin/customizer/class-alpha-customizer-extend.php:232
+msgid "Font 1"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:850
+#: framework/admin/customizer/class-alpha-customizer.php:870
+#: inc/admin/customizer/class-alpha-customizer-extend.php:224
+#: inc/admin/customizer/class-alpha-customizer-extend.php:246
+msgid "Font 2"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:851
+#: framework/admin/customizer/class-alpha-customizer.php:883
+#: inc/admin/customizer/class-alpha-customizer-extend.php:225
+#: inc/admin/customizer/class-alpha-customizer-extend.php:260
+msgid "Font 3"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:899
+msgid "Title Bar Style"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:905
+msgid "Title Bar Height (px)"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:911
+#, fuzzy
+#| msgid "Footer Background Color"
+msgid "Title Bar Background"
+msgstr "Footer Background Colour"
+
+#: framework/admin/customizer/class-alpha-customizer.php:918
+msgid "Title Bar Typography"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:924
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:315
+msgid "Page Title"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:931
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:320
+msgid "Page Subtitle"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:941
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:90
+msgid "Breadcrumb"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:947
+msgid "Breadcrumb Delimiter"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:953
+msgid "Breadcrumb Typography"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:981
+msgid "New Label"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:994
+msgid "Create New Menu"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1000
+msgid "Mobile Menus"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1010
+msgid "Mobile Icon Bar"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1016
+msgid "Mobile Bar Icons"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1019
+msgid "Mobile Menu Toggle"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1020
+#: framework/theme-options.php:181 inc/theme-options.php:186
+msgid "Home"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1021
+#: framework/admin/customizer/class-alpha-customizer.php:1539
+#: framework/admin/customizer/class-alpha-customizer.php:1587
+#: inc/admin/customizer/class-alpha-customizer-extend.php:332
+msgid "Shop"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1022
+#: framework/plugins/woocommerce/woo-functions.php:661
+#: framework/theme-options.php:185 inc/theme-options.php:190
+msgid "Wishlist"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1024
+#: framework/admin/customizer/class-alpha-customizer.php:1554
+#: framework/admin/customizer/class-alpha-customizer.php:1634
+#: framework/plugins/woocommerce/product-loop.php:598
+#: framework/theme-functions.php:1100
+#: inc/plugins/woocommerce/product-loop-extend.php:106
+msgid "Compare"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1025
+#: framework/templates/woocommerce/cart/mini-cart.php:28
+#: framework/theme-options.php:189 inc/theme-options.php:194
+#: woocommerce/cart/mini-cart.php:28
+msgid "Cart"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1027
+#: framework/theme-options.php:193 inc/theme-options.php:198
+msgid "To Top"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1033
+msgid "Menu Label"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1039
+msgid "Menu Icon"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1045
+msgid "Home Label"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1051
+msgid "Home Icon"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1057
+msgid "Shop Label"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1063
+msgid "Shop Icon"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1069
+msgid "Wishlist Label"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1075
+msgid "Wishlist Icon"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1081
+msgid "Account Label"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1087
+msgid "Account Icon"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1093
+msgid "Cart Label"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1099
+msgid "Cart Icon"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1105
+msgid "Search Label"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1111
+msgid "Search Icon"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1117
+msgid "To Top Label"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1123
+msgid "To Top Icon"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1132
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:261
+msgid "Single Post"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1132
+msgid "Create your post single page template and show it in Layout Builder"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1135
+msgid "Single Builder"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1145
+msgid "Create your post archive page template and show it in Layout Builder"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1151
+msgid "Archive Builder"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1158
+msgid "CSS code"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1169
+msgid "Maintenance Mode"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1170
+msgid ""
+"This mode is for showing alternative page during the maintenance of the site."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1175
+msgid "Select a Maintenance Page"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1195
+msgid "Image Quality and Threshold"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1200
+msgid "Image Quality(%)"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1201
+msgid ""
+"Quality level between 0 (low) and 100 (high) of the JPEG. After changing "
+"this value, please install and run the Regenerate Thumbnails plugin once."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1210
+msgid "Big Image Size Threshold(px)"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1211
+msgid ""
+"Threshold for image height and width in pixels. WordPress will scale down "
+"newly uploaded images to this values as max-width or max-height. Set to "
+"\"0\" to disable the threshold completely."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1220
+msgid "Custom Image Size"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1227
+msgid "image size"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1233
+msgid "Image Size Name"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1237
+msgid "Width (px)"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1241
+msgid "Height (px)"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1256
+msgid "Import Options"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1262
+msgid "Please select source option file to import"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1268
+#: framework/admin/setup-wizard/views/demo.php:242
+#: inc/admin/setup-wizard/views/demo.php:233
+#: inc/admin/setup-wizard/views/demo.php:235
+msgid "Import"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1273
+msgid "Export Options"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1278
+msgid "Export theme options"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1278
+msgid "Download Theme Options"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1284
+msgid "Reset Options"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1290
+msgid "Reset Theme Options"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1297
+msgid "Use by search engines for ranking"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1302
+msgid "Share &amp; Social Links"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1303
+msgid "Add \"nofollow\" attribute to social links for SEO."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1308
+msgid "Mobile Menu Items"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1309
+msgid "Add \"nofollow\" attribute to mobile menu items for SEO."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1322
+msgid "Theme name in AdminPanel"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1327
+msgid "White Icon"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1328
+msgid "Theme icon in Admin Menu and Admin Bar"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1333
+msgid "White Logo"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1334
+msgid "Theme logo in AdminPanel"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1342
+#: framework/admin/customizer/class-alpha-customizer.php:1367
+#: framework/admin/customizer/class-alpha-customizer.php:1392
+#: framework/admin/customizer/class-alpha-customizer.php:1451
+#: framework/admin/customizer/class-alpha-customizer.php:1644
+msgid "About This Feature"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1347
+msgid ""
+"With this feature, customers could be allowed to login your site with famous "
+"social site's user information."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1359
+msgid "Enable Social Login"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1360
+msgid "Enable login by Nextend Social Login plugin."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1372
+msgid ""
+"Make your page-speed faster than the others with modern ajax search feature."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1383
+msgid "Enable Ajax Filter"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1397
+msgid "All images will be lazyloaded when they come into screen."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1409
+msgid "Loading Overlay"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1410
+msgid "Display overlay animation while loading."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1415
+msgid "Skeleton Screen"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1416
+msgid "Display the virtual area of each element on page while loading."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1421
+msgid "Menu Lazyload"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1422
+msgid "Menus will be saved in browsers after lazyload."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1427
+msgid "Images Lazyload"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1428
+msgid "All images will be lazyloaded."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1433
+msgid "Lazyload Image Initial Color"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1456
+msgid ""
+"Without redirecting or entering search results page, you can get the results "
+"instantly and quickly."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1468
+msgid "Live Search"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1469
+msgid "Search results will be displayed instantly."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1474
+#, php-format
+msgid "Use %1$sRelevanssi%2$s for Live Search"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1487
+msgid "Search Post Type"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1491
+#: framework/admin/customizer/class-alpha-customizer.php:1495
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:174
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:324
+msgid "All"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1492
+#: framework/templates/woocommerce/cart/cart.php:35
+#: framework/templates/woocommerce/cart/cart.php:80
+#: framework/templates/woocommerce/checkout/form-pay.php:27
+#: framework/templates/woocommerce/wishlist-view.php:63
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:69
+#: woocommerce/wishlist-view.php:63
+msgid "Product"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1493
+#: framework/admin/customizer/class-alpha-customizer.php:1496
+msgid "Post"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1513
+msgid "JS code"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1528
+msgid "WooCommerce"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1544
+#: framework/admin/customizer/class-alpha-customizer.php:1690
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:235
+msgid "Single Product"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1549
+#: framework/admin/customizer/class-alpha-customizer.php:1601
+msgid "Product Type"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1561
+msgid "Instagram Photos"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1567
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:241
+#: inc/admin/customizer/class-alpha-customizer-extend.php:344
+msgid "Cart Page"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1572
+#: framework/class-alpha-assets.php:371
+msgid "Checkout"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1587
+msgid "Create your shop page template and show it in Layout Builder"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1590
+msgid "Shop Builder"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1607
+msgid "Change Image on Hover"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1608
+msgid "Enable to show second product image when mouse enters."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1614
+msgid "Open product on second click on mobile"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1615
+msgid ""
+"Enable to navigate to product detail page on second click. First click would "
+"work as hover effect on mobile."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1624
+#, php-format
+msgid ""
+"You can customize quickview options in %1$sFeatures/Quickview%2$s panel."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1625
+msgid "Go to Quickview Options"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1635
+#, php-format
+msgid "You can customize compare options in %1$sFeatures/Compare%2$s panel."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1636
+msgid "Go to Compare Options"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1649
+msgid ""
+"Choose your favourite one of 3 quickview types - default, offcanvas or "
+"animate."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1661
+msgid "Quickview Type"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1671
+msgid "Thumbnails Position"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1690
+msgid "Create your single product page template and show it in Layout Builder"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1693
+msgid "Product Builder"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1705
+msgid "Product Data Tab"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1711
+msgid "Description Title"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1718
+msgid "Specification Title"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1719
+#: framework/theme-options.php:200 inc/theme-options.php:205
+msgid "Specification"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1726
+msgid "Reviews Title"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1727
+#: framework/theme-options.php:201 inc/theme-options.php:206
+msgid "Customer Reviews"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1737
+msgid "Custom Tab"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1743
+msgid "Custom Tab Title"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1744
+msgid "Show custom tab in all product pages."
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1751
+msgid "Custom Tab Content ( Block Builder )"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1760
+msgid "Quantity Input in Mini Cart"
+msgstr ""
+
+#: framework/admin/customizer/class-alpha-customizer.php:1761
+msgid "Show quantity input in mini cart list."
+msgstr ""
+
+#: framework/admin/importer/importer-api.php:300
+msgid "The package could not be downloaded."
+msgstr ""
+
+#: framework/admin/importer/importer-api.php:322
+msgid "WordPress filesystem error."
+msgstr ""
+
+#: framework/admin/importer/importer-api.php:327
+msgid "The package could not be unziped."
+msgstr ""
+
+#: framework/admin/importer/importer-api.php:332
+#, php-format
+msgid "Demo data directory does not exist (%s)."
+msgstr ""
+
+#: framework/admin/importer/parsers.php:45
+#: framework/admin/importer/parsers.php:93
+#: framework/admin/importer/parsers.php:101
+#: framework/admin/importer/theme-parsers.php:46
+#: framework/admin/importer/theme-parsers.php:96
+#: framework/admin/importer/theme-parsers.php:104
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: framework/admin/importer/parsers.php:46
+#: framework/admin/importer/theme-parsers.php:47
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: framework/admin/importer/parsers.php:106
+#: framework/admin/importer/parsers.php:112
+#: framework/admin/importer/parsers.php:403
+#: framework/admin/importer/parsers.php:637
+#: framework/admin/importer/theme-parsers.php:109
+#: framework/admin/importer/theme-parsers.php:115
+#: framework/admin/importer/theme-parsers.php:408
+#: framework/admin/importer/theme-parsers.php:645
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:210
+msgid "Imported categories"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:215
+msgid "Imported tags"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:220
+msgid "Imported terms"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:226
+msgid "Imported posts"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:232
+msgid "Importing posts"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:241
+msgid "Importing menus"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:247
+#: framework/admin/importer/theme-wordpress-importer.php:255
+#: framework/admin/importer/theme-wordpress-importer.php:260
+msgid "Processing menus"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:267
+msgid "Successfully imported dummy content!"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:314
+#: framework/admin/importer/theme-wordpress-importer.php:323
+#: framework/admin/importer/theme-wordpress-importer.php:380
+#: framework/admin/importer/theme-wordpress-importer.php:384
+#: framework/admin/importer/theme-wordpress-importer.php:394
+#: framework/admin/importer/wordpress-importer.php:205
+#: framework/admin/importer/wordpress-importer.php:214
+#: framework/admin/importer/wordpress-importer.php:276
+#: framework/admin/importer/wordpress-importer.php:280
+#: framework/admin/importer/wordpress-importer.php:290
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:315
+#: framework/admin/importer/wordpress-importer.php:206
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:386
+#: framework/admin/importer/wordpress-importer.php:282
+#, php-format
+msgid ""
+"The export file could not be found at %s. It is likely that this was caused "
+"by a permissions problem."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:403
+#: framework/admin/importer/wordpress-importer.php:299
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:429
+#: framework/admin/importer/wordpress-importer.php:325
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:456
+#: framework/admin/importer/wordpress-importer.php:352
+msgid "Assign Authors"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:458
+#: framework/admin/importer/wordpress-importer.php:354
+#, php-format
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as %1$sadmin%2$ss "
+"entries."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:461
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user's role will be set as %s. Manually changing the "
+"new user&#8217;s details will be necessary."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:471
+#: framework/admin/importer/wordpress-importer.php:367
+msgid "Import Attachments"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:474
+#: framework/admin/importer/wordpress-importer.php:370
+msgid "Download and import file attachments"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:493
+#: framework/admin/importer/wordpress-importer.php:389
+msgid "Import author:"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:507
+#: framework/admin/importer/wordpress-importer.php:403
+msgid "or create new user with login name:"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:510
+#: framework/admin/importer/wordpress-importer.php:406
+msgid "as a new user:"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:518
+#: framework/admin/importer/wordpress-importer.php:414
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:520
+#: framework/admin/importer/wordpress-importer.php:416
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:527
+#: framework/admin/importer/wordpress-importer.php:423
+msgid "- Select -"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:586
+#: framework/admin/importer/wordpress-importer.php:482
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:676
+#: framework/admin/importer/wordpress-importer.php:570
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:736
+#: framework/admin/importer/wordpress-importer.php:628
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:780
+#: framework/admin/importer/theme-wordpress-importer.php:1081
+#: framework/admin/importer/wordpress-importer.php:670
+#, php-format
+msgctxt "taxonomy label"
+msgid "Search %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:781
+#: framework/admin/importer/theme-wordpress-importer.php:1082
+#: framework/admin/importer/wordpress-importer.php:671
+#, php-format
+msgctxt "taxonomy label"
+msgid "All %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:782
+#: framework/admin/importer/theme-wordpress-importer.php:1083
+#: framework/admin/importer/wordpress-importer.php:672
+#, php-format
+msgctxt "taxonomy label"
+msgid "Parent %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:783
+#: framework/admin/importer/theme-wordpress-importer.php:1084
+#: framework/admin/importer/wordpress-importer.php:673
+#, php-format
+msgctxt "taxonomy label"
+msgid "Parent %s:"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:784
+#: framework/admin/importer/theme-wordpress-importer.php:1085
+#: framework/admin/importer/wordpress-importer.php:674
+#, php-format
+msgctxt "taxonomy label"
+msgid "View %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:785
+#: framework/admin/importer/theme-wordpress-importer.php:1086
+#: framework/admin/importer/wordpress-importer.php:675
+#, php-format
+msgctxt "taxonomy label"
+msgid "Edit %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:786
+#: framework/admin/importer/theme-wordpress-importer.php:1087
+#: framework/admin/importer/wordpress-importer.php:676
+#, php-format
+msgctxt "taxonomy label"
+msgid "Update %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:787
+#: framework/admin/importer/theme-wordpress-importer.php:1088
+#: framework/admin/importer/wordpress-importer.php:677
+#, php-format
+msgctxt "taxonomy label"
+msgid "Add New %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:788
+#: framework/admin/importer/theme-wordpress-importer.php:1089
+#: framework/admin/importer/wordpress-importer.php:678
+#, php-format
+msgctxt "taxonomy label"
+msgid "New %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:789
+#: framework/admin/importer/theme-wordpress-importer.php:1090
+#: framework/admin/importer/wordpress-importer.php:679
+#, php-format
+msgctxt "taxonomy label"
+msgid "Popular %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:790
+#: framework/admin/importer/theme-wordpress-importer.php:1091
+#: framework/admin/importer/wordpress-importer.php:680
+#, php-format
+msgctxt "taxonomy label"
+msgid "Separate %s with commas"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:791
+#: framework/admin/importer/theme-wordpress-importer.php:1092
+#: framework/admin/importer/wordpress-importer.php:681
+#, php-format
+msgctxt "taxonomy label"
+msgid "Add or remove %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:792
+#: framework/admin/importer/theme-wordpress-importer.php:793
+#: framework/admin/importer/theme-wordpress-importer.php:794
+#: framework/admin/importer/theme-wordpress-importer.php:1093
+#: framework/admin/importer/theme-wordpress-importer.php:1094
+#: framework/admin/importer/theme-wordpress-importer.php:1095
+#: framework/admin/importer/wordpress-importer.php:682
+#: framework/admin/importer/wordpress-importer.php:683
+#: framework/admin/importer/wordpress-importer.php:684
+#, php-format
+msgctxt "taxonomy label"
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:795
+#: framework/admin/importer/theme-wordpress-importer.php:1096
+#: framework/admin/importer/wordpress-importer.php:685
+#, php-format
+msgctxt "taxonomy label"
+msgid "Back to %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:955
+#: framework/admin/importer/theme-wordpress-importer.php:1434
+#: framework/admin/importer/wordpress-importer.php:847
+#: framework/admin/importer/wordpress-importer.php:1203
+#, php-format
+msgid "Failed to import %1$s %2$s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1193
+#: framework/admin/importer/wordpress-importer.php:956
+#, php-format
+msgid "Failed to import &#8220;%1$s&#8221;: Invalid post type %2$s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1284
+#: framework/admin/importer/theme-wordpress-importer.php:1393
+#: framework/admin/importer/wordpress-importer.php:1056
+#: framework/admin/importer/wordpress-importer.php:1164
+#, php-format
+msgid "Failed to import %1$s &#8220;%2$s&#8221;"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1616
+#: framework/admin/importer/wordpress-importer.php:1388
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1623
+#: framework/admin/importer/wordpress-importer.php:1395
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1711
+#: framework/admin/importer/wordpress-importer.php:1483
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1728
+#: framework/admin/importer/wordpress-importer.php:1499
+msgid "Invalid file type"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1791
+#: framework/admin/importer/wordpress-importer.php:1562
+msgid "Could not create temporary file."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1813
+#: framework/admin/importer/wordpress-importer.php:1584
+#, php-format
+msgid "Request failed due to an error: %1$s (%2$s)"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1829
+#: framework/admin/importer/wordpress-importer.php:1600
+#, php-format
+msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1841
+#: framework/admin/importer/wordpress-importer.php:1612
+msgid "Remote server did not respond"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1848
+#: framework/admin/importer/wordpress-importer.php:1619
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1853
+#: framework/admin/importer/wordpress-importer.php:1624
+msgid "Downloaded file has incorrect size"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1859
+#: framework/admin/importer/wordpress-importer.php:1630
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1891
+#: framework/admin/importer/wordpress-importer.php:1662
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:1906
+#: framework/admin/importer/wordpress-importer.php:1677
+msgid "The uploaded file could not be moved"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:2031
+#: framework/admin/importer/wordpress-importer.php:1796
+msgid "Import WordPress"
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:2039
+#: framework/admin/importer/wordpress-importer.php:1804
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:2054
+#: framework/admin/importer/wordpress-importer.php:1819
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: framework/admin/importer/theme-wordpress-importer.php:2055
+#: framework/admin/importer/wordpress-importer.php:1820
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: framework/admin/importer/wordpress-importer.php:260
+msgid "All done."
+msgstr ""
+
+#: framework/admin/importer/wordpress-importer.php:260
+msgid "Have fun!"
+msgstr ""
+
+#: framework/admin/importer/wordpress-importer.php:261
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: framework/admin/importer/wordpress-importer.php:357
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: framework/admin/importer/wordpress-importer.php:1006
+#, php-format
+msgid "%1$s &#8220;%2$s&#8221; already exists."
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:173
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:331
+msgid "Default"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:175
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:183
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:191
+msgid "Hide"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:176
+msgid "My Templates"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:177
+msgid "Duplicate"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:178
+msgid "Options"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:179
+msgid "Apply this "
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:180
+msgid " for:"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:181
+msgid "Delete"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:182
+msgid "Open"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:183
+#: framework/templates/woocommerce/cart/mini-cart.php:28
+#: framework/templates/woocommerce/wishlist-view-images.php:90
+msgid "Close"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:184
+msgid "Copy Options"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:185
+msgid "Paste Options"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:186
+msgid "Do you want to delete this layout?"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:187
+msgid "Create Layout for "
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:217
+msgid "All Layouts"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:221
+msgid "Home Page"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:225
+msgid "General Page"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:231
+msgid "Shop Page"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:249
+msgid "Checkout Page"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:257
+msgid "Blog Page"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:265
+msgid "Search Page"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:268
+msgid "All Post Types"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:274
+msgid "404 Page"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:331
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:367
+#: framework/theme-options.php:183 inc/theme-options.php:188
+msgid "Categories"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:342
+msgid "Brands"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:353
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:378
+msgid "Tags"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:392
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:400
+msgid "All Shop Pages"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:402
+msgid "All Blog Pages"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:404
+msgid "All Pages"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:426
+msgid "All Product Pages"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:428
+msgid "All Post Pages"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:442
+#, php-format
+msgid "Select Individual %s"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:448
+msgid "Child of Pages"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:449
+msgid "Select Parent Pages"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:475
+#, php-format
+msgid "%s Layout"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:496
+msgid ""
+"Create a remarkable site with fully customizable layouts and online library."
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:504
+msgid "General Settings"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:510
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:87
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:92
+msgid "Page Header"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:513
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:95
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:341
+msgid "Top Block"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:516
+msgid "Horizontal Filter"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:520
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:534
+msgid "Sidebar"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:524
+msgid "Inner Top"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:527
+msgid "Content"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:530
+msgid "Inner Bottom"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:538
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:119
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:347
+msgid "Bottom Block"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:551
+#, php-format
+msgid "%s Studio"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:553
+#, php-format
+msgid "%1$s %2$sLayout%3$s"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:557
+#: framework/admin/panel/views/header.php:102
+#: inc/admin/panel/views/header.php:107
+msgid "Save Layouts"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder-admin.php:602
+msgid "Nonce Error."
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:66
+msgid "Wrap"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:71
+msgid "Popup"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:76
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:293
+msgid "Top Notice Block"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:99
+msgid "Top Filter Sidebar"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:103
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:371
+msgid "Left Sidebar"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:107
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:395
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:111
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:353
+msgid "Inner Top Block"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:115
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:359
+msgid "Inner Bottom Block"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:127
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:419
+msgid "404 Layout"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:275
+msgid "Wrap except header and footer"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:279
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:332
+msgid "Container"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:283
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:333
+msgid "Container Fluid"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:287
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:334
+msgid "Full"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:316
+msgid ""
+"If you give title in page metabox, its priority is higher than layout "
+"builder."
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:321
+msgid ""
+"If you give subtitle in page metabox, its priority is higher than layout "
+"builder."
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:325
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:329
+msgid "Breadcrumb Wrap"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:365
+msgid "Horizontal Filter Widgets"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:375
+msgid "Sidebar Type"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:379
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:403
+msgid "Classic"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:383
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:407
+msgid "Off Canvas"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:389
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:413
+msgid "Sidebar Width e.g: 250px"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:399
+msgid "Right Sidebar Type"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:702
+#, php-format
+msgid "Products tagged &ldquo;%s&rdquo;"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:723
+msgid "You searched for:"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:724
+msgid "Search Results Found"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:731
+msgid "This author has written"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:731
+msgid "articles"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:738
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:741
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:741
+msgctxt "Page title monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:745
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:745
+msgctxt "Page title yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: framework/admin/layout-builder/class-alpha-layout-builder.php:762
+msgid "Error 404"
+msgstr ""
+
+#: framework/admin/layout-builder/layout-builder-admin.js:1138
+#: framework/admin/layout-builder/layout-builder-admin.js:1140
+#: framework/admin/layout-builder/layout-builder-admin.min.js:1
+#: inc/admin/layout-builder/layout-builder-admin.js:1560
+#: inc/admin/layout-builder/layout-builder-admin.js:1577
+#: inc/admin/layout-builder/layout-builder-admin.min.js:1
+msgid "Please create a new "
+msgstr ""
+
+#: framework/admin/layout-builder/layout-builder-admin.js:1140
+#: framework/admin/layout-builder/layout-builder-admin.min.js:1
+#: inc/admin/layout-builder/layout-builder-admin.js:1579
+#: inc/admin/layout-builder/layout-builder-admin.min.js:1
+msgid "single product"
+msgstr ""
+
+#: framework/admin/layout-builder/layout-builder-admin.js:1140
+#: framework/admin/layout-builder/layout-builder-admin.min.js:1
+#: inc/admin/layout-builder/layout-builder-admin.js:1581
+#: inc/admin/layout-builder/layout-builder-admin.min.js:1
+msgid "shop layout"
+msgstr ""
+
+#: framework/admin/layout-builder/layout-builder-admin.js:1143
+#: framework/admin/layout-builder/layout-builder-admin.min.js:1
+#: inc/admin/layout-builder/layout-builder-admin.js:1593
+#: inc/admin/layout-builder/layout-builder-admin.min.js:1
+msgid "Please activate "
+msgstr ""
+
+#: framework/admin/layout-builder/layout-builder.js:78
+#: framework/admin/layout-builder/layout-builder.min.js:1
+msgid "There is no layout option."
+msgstr ""
+
+#: framework/admin/panel/class-alpha-admin-panel.php:41
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: framework/admin/panel/class-alpha-admin-panel.php:51
+#: framework/admin/panel/class-alpha-admin-panel.php:52
+msgid "Dashboard"
+msgstr ""
+
+#: framework/admin/panel/class-alpha-admin-panel.php:61
+#: framework/admin/panel/class-alpha-admin-panel.php:62
+#: framework/admin/setup-wizard/views/demo.php:112
+#: inc/admin/setup-wizard/views/demo.php:109
+msgid "Theme Options"
+msgstr ""
+
+#: framework/admin/panel/class-alpha-admin-panel.php:72
+#: framework/admin/panel/class-alpha-admin-panel.php:73
+#: inc/admin/admin/class-alpha-admin.php:145
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:453
+msgid "Setup Wizard"
+msgstr ""
+
+#: framework/admin/panel/class-alpha-admin-panel.php:83
+#: framework/admin/panel/class-alpha-admin-panel.php:84
+#: inc/admin/admin/class-alpha-admin.php:151
+#: inc/admin/optimize-wizard/class-alpha-optimize-wizard.php:139
+msgid "Optimize Wizard"
+msgstr ""
+
+#: framework/admin/panel/class-alpha-admin-panel.php:104
+#: framework/admin/panel/class-alpha-admin-panel.php:105
+msgid "Templates"
+msgstr ""
+
+#: framework/admin/panel/class-alpha-admin-panel.php:115
+#: framework/admin/panel/class-alpha-admin-panel.php:116
+msgid "Sidebars"
+msgstr ""
+
+#: framework/admin/panel/class-alpha-admin-panel.php:126
+#: framework/admin/panel/class-alpha-admin-panel.php:127
+msgid "Tools"
+msgstr ""
+
+#: framework/admin/panel/class-alpha-admin-panel.php:137
+#: framework/admin/panel/class-alpha-admin-panel.php:138
+msgid "Critical CSS"
+msgstr ""
+
+#: framework/admin/panel/class-alpha-admin-panel.php:148
+#: framework/admin/panel/class-alpha-admin-panel.php:149
+#: framework/admin/patcher/class-alpha-patcher.php:117
+msgid "Patcher"
+msgstr ""
+
+#: framework/admin/panel/class-alpha-admin-panel.php:159
+#: framework/admin/panel/class-alpha-admin-panel.php:160
+#: framework/admin/rollback/class-alpha-rollback.php:380
+msgid "Rollback"
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:26
+#: inc/admin/setup-wizard/views/activation.php:33
+msgid ""
+"You are using Envato Hosted, this subscription code can not be deregistered."
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:30
+msgid "Please register your purchase"
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:42
+#: framework/admin/panel/views/header.php:93
+msgid "Registered"
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:43
+#: inc/admin/setup-wizard/views/activation.php:51
+msgid "Deactivate"
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:45
+#: framework/admin/panel/views/header.php:95
+msgid "Unregistered"
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:46
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2836
+#: inc/admin/setup-wizard/views/activation.php:54
+msgid "Activate"
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:53
+#: inc/admin/setup-wizard/views/activation.php:61
+msgid " Please check purchase code again."
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:57
+#: inc/admin/setup-wizard/views/activation.php:65
+msgid "Purchase code not updated. We will keep the existing one."
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:60
+#: inc/admin/setup-wizard/views/activation.php:68
+#, php-format
+msgid ""
+"%1$s Welcome! Your product is registered now. Enjoy %2$s Theme and automatic "
+"updates."
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:63
+#, php-format
+msgid ""
+"Thank you for choosing %s theme from ThemeForest. Please register your "
+"purchase and make sure that you have fulfilled all of the requirements."
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:69
+msgid "Where can I find my purchase code?"
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:71
+#, php-format
+msgid "Please go to %1$sThemeForest.net/downloads%2$s"
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:72
+msgid "Click the "
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:72
+msgid "Download"
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:72
+#, php-format
+msgid "button in %1$s row"
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:73
+msgid "Select "
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:73
+msgid "License Certificate &amp; Purchase code"
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:74
+msgid "Copy"
+msgstr ""
+
+#: framework/admin/panel/views/activation.php:74
+msgid "Item Purchase Code"
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:68
+#: inc/admin/panel/views/dashboard.php:68
+msgid "System Info"
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:77
+#: framework/admin/setup-wizard/views/status.php:49
+#: inc/admin/panel/views/dashboard.php:77
+msgid "Uploads folder writable"
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:80
+#: framework/admin/setup-wizard/views/status.php:52
+#: inc/admin/panel/views/dashboard.php:80
+msgid ""
+"Uploads folder must be writable. Please set write permission to your wp-"
+"content/uploads folder."
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:91
+#: framework/admin/setup-wizard/views/status.php:63
+#: inc/admin/panel/views/dashboard.php:91
+msgid "WP File System"
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:94
+#: framework/admin/setup-wizard/views/status.php:66
+#: inc/admin/panel/views/dashboard.php:94
+msgid ""
+"File System access is required for pre-built websites and plugins "
+"installation. Please contact your hosting provider."
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:106
+#: framework/admin/setup-wizard/views/status.php:78
+#: inc/admin/panel/views/dashboard.php:106
+msgid "ZipArchive"
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:109
+#: framework/admin/setup-wizard/views/status.php:81
+#: inc/admin/panel/views/dashboard.php:109
+msgid ""
+"ZipArchive is required for pre-built websites and plugins installation. "
+"Please contact your hosting provider."
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:117
+#: framework/admin/setup-wizard/views/status.php:89
+#: inc/admin/panel/views/dashboard.php:117
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:118
+#: framework/admin/setup-wizard/views/status.php:90
+#: inc/admin/panel/views/dashboard.php:118
+msgid ""
+"Suhosin may need to be configured to increase its data submission limits."
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:134
+#: framework/admin/setup-wizard/views/status.php:106
+#: inc/admin/panel/views/dashboard.php:134
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:142
+#: framework/admin/setup-wizard/views/status.php:114
+#: inc/admin/panel/views/dashboard.php:142
+#, php-format
+msgid "Minimum %1$s128 MB%2$s is required, %1$s256 MB%2$s is recommended."
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:146
+#: framework/admin/setup-wizard/views/status.php:118
+#: inc/admin/panel/views/dashboard.php:146
+#, php-format
+msgid "Current memory limit is OK, however %1$s256 MB%2$s is recommended."
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:163
+#: framework/admin/setup-wizard/views/status.php:135
+#: inc/admin/panel/views/dashboard.php:163
+msgid "PHP max_execution_time"
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:171
+#: framework/admin/setup-wizard/views/status.php:143
+#: inc/admin/panel/views/dashboard.php:171
+#, php-format
+msgid "Minimum %1$s300%2$s is required, %1$s600%2$s is recommended."
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:175
+#: framework/admin/setup-wizard/views/status.php:147
+#: inc/admin/panel/views/dashboard.php:175
+#, php-format
+msgid "Current time limit is OK, however %1$s600%2$s is recommended."
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:188
+#: framework/admin/setup-wizard/views/status.php:160
+#: inc/admin/panel/views/dashboard.php:188
+msgid "PHP max_input_vars"
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:195
+#: inc/admin/panel/views/dashboard.php:195
+#, php-format
+msgid "Minimum %1$s2000%2$s is required"
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:206
+#: inc/admin/panel/views/dashboard.php:206
+msgid "Change Log"
+msgstr ""
+
+#: framework/admin/panel/views/dashboard.php:220
+#: inc/admin/panel/views/dashboard.php:263
+msgid "Recommended Themes"
+msgstr ""
+
+#: framework/admin/panel/views/header.php:24
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2663
+#: inc/admin/panel/views/header.php:24
+msgid "Version"
+msgstr ""
+
+#: framework/admin/panel/views/header.php:114
+#: inc/admin/panel/views/header.php:116
+#, php-format
+msgid "Welcome to %1$s!"
+msgstr ""
+
+#: framework/admin/panel/views/header.php:115
+#, php-format
+msgid ""
+"Thanks for choosing %s. Get ready to build beautiful and attractive website? "
+"We hope you enjoy it!"
+msgstr ""
+
+#: framework/admin/panel/wizard.js:1036 framework/admin/panel/wizard.js:1084
+#: framework/admin/panel/wizard.min.js:1 inc/admin/panel/wizard.js:995
+#: inc/admin/panel/wizard.js:1043 inc/admin/panel/wizard.min.js:1
+msgid "failure"
+msgstr ""
+
+#: framework/admin/patcher/assets/patcher.js:43
+#: framework/admin/patcher/assets/patcher.min.js:1
+msgid ""
+"The below patches could not be applied. Because your files have write "
+"permission or aren't existed."
+msgstr ""
+
+#: framework/admin/patcher/assets/patcher.js:45
+#: framework/admin/patcher/assets/patcher.min.js:1
+msgid "All files patched successfully."
+msgstr ""
+
+#: framework/admin/patcher/assets/patcher.js:58
+#: framework/admin/patcher/assets/patcher.min.js:1
+msgid "The API server could not be reached."
+msgstr ""
+
+#: framework/admin/patcher/class-alpha-patcher.php:118
+#, php-format
+msgid ""
+"With this, you can apply fixes to your site between %s releases and update "
+"partially."
+msgstr ""
+
+#: framework/admin/patcher/views/index.php:13
+msgid "Patch Files"
+msgstr ""
+
+#: framework/admin/patcher/views/index.php:17
+#, php-format
+msgid "The %s patches server could not be reached."
+msgstr ""
+
+#: framework/admin/patcher/views/index.php:27
+msgid "Patches Path"
+msgstr ""
+
+#: framework/admin/patcher/views/index.php:28
+msgid "Patch Action"
+msgstr ""
+
+#: framework/admin/patcher/views/index.php:39
+msgid "Should update"
+msgstr ""
+
+#: framework/admin/patcher/views/index.php:48
+msgid "Should delete"
+msgstr ""
+
+#: framework/admin/patcher/views/index.php:61
+#, php-format
+msgid ""
+"Your Theme version is %1$s and Core Plugin version is %2$s. Currently there "
+"are no patches available."
+msgstr ""
+
+#: framework/admin/patcher/views/index.php:64
+msgid "Refresh Patches"
+msgstr ""
+
+#: framework/admin/patcher/views/index.php:66
+msgid "Apply Patches"
+msgstr ""
+
+#: framework/admin/patcher/views/index.php:72
+msgid "Changelog"
+msgstr ""
+
+#: framework/admin/plugins/class-alpha-tgm-plugins.php:133
+#: inc/admin/plugins/class-alpha-tgm-plugins.php:136
+msgid ""
+"This plugin generates static html files from your dynamic WordPress blog."
+msgstr ""
+
+#: framework/admin/plugins/class-alpha-tgm-plugins.php:141
+#: inc/admin/plugins/class-alpha-tgm-plugins.php:144
+msgid ""
+"This plugin reduces HTTP requests by merging CSS & Javascript files into "
+"groups of files, while attempting to use the least amount of files as "
+"possible."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:337
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:340
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:343
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:346
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:352
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:358
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:364
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:370
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:376
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:381
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:386
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:391
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:396
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:915
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2643
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3694
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3269
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:398
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3062
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:400
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:405
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:406
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:407
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:610
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:611
+msgid "Update Required"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1024
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1024
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1034
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1034
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1225
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3058
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2092
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2383
+#: framework/admin/setup-wizard/views/plugins.php:67
+#: inc/admin/setup-wizard/views/plugins.php:67
+msgid "Required"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2386
+#: framework/admin/setup-wizard/views/plugins.php:69
+#: inc/admin/setup-wizard/views/plugins.php:69
+msgid "Recommended"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2402
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2405
+msgid "External Source"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2408
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2425
+msgid "Not Installed"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2429
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2431
+msgid "Active"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2437
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2440
+msgid "Requires Update"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2443
+msgid "Update recommended"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2452
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2498
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2502
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2506
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2510
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2592
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2600
+msgid "Installed version:"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2608
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2620
+msgid "Available version:"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2643
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2657
+msgid "Plugin"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2658
+msgid "Source"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2659
+msgid "Type"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2664
+#: framework/templates/woocommerce/checkout/thankyou.php:52
+msgid "Status"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2713
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2718
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2724
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2794
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2827
+#: framework/admin/setup-wizard/views/demo.php:254
+#: framework/admin/setup-wizard/views/demo.php:270
+#: inc/admin/setup-wizard/views/demo.php:255
+#: inc/admin/setup-wizard/views/demo.php:271
+msgid "Install"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2833
+#: framework/admin/setup-wizard/views/addons.php:55
+#: framework/admin/setup-wizard/views/plugins.php:62
+#: framework/admin/setup-wizard/views/plugins.php:72
+#: inc/admin/setup-wizard/views/plugins.php:62
+#: inc/admin/setup-wizard/views/plugins.php:72
+msgid "Update"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2867
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2869
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2910
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2912
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3018
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3044
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3268
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3612
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3615
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3617
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3621
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3623
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3623
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3631
+msgid "Show Details"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3623
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3631
+msgid "Hide Details"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3624
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3626
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3629
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3631
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3632
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/admin/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3634
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/admin/rollback/class-alpha-rollback.php:381
+msgid ""
+"Experiencing an issue with New version? Rollback to a previous version "
+"before the issue appeared."
+msgstr ""
+
+#: framework/admin/rollback/class-alpha-rollback.php:411
+#: framework/admin/tools/class-alpha-tools.php:266
+msgid "Action Name"
+msgstr ""
+
+#: framework/admin/rollback/class-alpha-rollback.php:412
+#: framework/admin/tools/class-alpha-tools.php:267
+msgid "Action"
+msgstr ""
+
+#: framework/admin/rollback/class-alpha-rollback.php:419
+#: framework/admin/rollback/class-alpha-rollback.php:459
+msgid "Warning: Please backup your database before making the rollback."
+msgstr ""
+
+#: framework/admin/rollback/class-alpha-rollback.php:431
+#: framework/admin/rollback/class-alpha-rollback.php:474
+msgid "Downgrade"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/addons.php:13
+msgid "Install Addons"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/addons.php:21
+msgid "This will install the default addons which are used in Alpha."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/addons.php:23
+msgid "Please check the addons to install:"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/addons.php:39
+msgid "Load more"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/addons.php:53
+#: framework/admin/setup-wizard/views/plugins.php:60
+#: inc/admin/setup-wizard/views/plugins.php:60
+msgid "Installation"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/addons.php:57
+#: framework/admin/setup-wizard/views/plugins.php:64
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:344
+#: inc/admin/setup-wizard/views/plugins.php:64
+msgid "Activation"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/addons.php:62
+#, php-format
+msgid "%s required"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/addons.php:65
+#, php-format
+msgid "%s recommended for certain demos"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/addons.php:76
+#: framework/admin/setup-wizard/views/plugins.php:105
+#: inc/admin/setup-wizard/views/plugins.php:105
+#, php-format
+msgid ""
+"Using %1$sElementor%2$s and %1$sVisual Composer%2$s togther affects your "
+"site performance."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/addons.php:80
+msgid ""
+"Good news! All addons are already installed and up to date. Please continue."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/addons.php:85
+#: framework/admin/setup-wizard/views/customize.php:26
+#: framework/admin/setup-wizard/views/customize.php:55
+#: framework/admin/setup-wizard/views/demo.php:290
+#: framework/admin/setup-wizard/views/plugins.php:114
+#: framework/admin/setup-wizard/views/status.php:184
+#: inc/admin/setup-wizard/views/activation.php:106
+#: inc/admin/setup-wizard/views/demo.php:291
+#: inc/admin/setup-wizard/views/plugins.php:114
+msgid "Continue"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/customize.php:12
+#, php-format
+msgid "Setup %s Child Theme (Optional)"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/customize.php:14
+#, php-format
+msgid ""
+"If you are going to make changes to the theme source code please use a %1$s "
+"rather than modifying the main theme HTML/CSS/PHP code. %2$s This allows the "
+"parent theme to receive updates without overwriting your source code. Use "
+"the form below to create and activate the Child Theme."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/customize.php:14
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:351
+msgid "Child Theme"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/customize.php:22
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:680
+#, php-format
+msgid ""
+"Child Theme %1$s has been created and activated!%2$s Folder is located in "
+"%3$s"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/customize.php:41
+msgid "Child Theme Title:"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/customize.php:45
+msgid ""
+"If you're not sure what a Child Theme is just click the \"Skip this step\" "
+"button."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/customize.php:48
+#: framework/admin/setup-wizard/views/demo.php:289
+#: inc/admin/setup-wizard/views/demo.php:290
+msgid "Skip this step"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/customize.php:49
+msgid "Create and Use Child Theme"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:18
+#: inc/admin/setup-wizard/views/demo.php:18
+msgid "Demo Content Installation"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:19
+#: inc/admin/setup-wizard/views/demo.php:19
+msgid ""
+"In this step you can upload your logo and select your favourite demo from "
+"the list below."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:24
+#: inc/admin/setup-wizard/views/demo.php:24
+msgid "Your Logo:"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:46
+#: framework/admin/setup-wizard/views/demo.php:117
+#: inc/admin/setup-wizard/views/demo.php:46
+#: inc/admin/setup-wizard/views/demo.php:114
+msgid "Remove Import Data"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:49
+#: inc/admin/setup-wizard/views/demo.php:49
+msgid "Demo Contents Remove"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:53
+#: inc/admin/setup-wizard/views/demo.php:53
+msgid "Pages"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:54
+#: inc/admin/setup-wizard/views/demo.php:54
+msgid "Posts"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:55
+msgid "Portfolios"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:56
+msgid "Members"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:57
+msgid "Events"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:92
+#: inc/admin/setup-wizard/views/demo.php:89
+#, php-format
+msgid "%2$s"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:97
+#: inc/admin/setup-wizard/views/demo.php:94
+msgid "Attachments"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:99
+#: framework/plugins/woocommerce/product-category/product-category-default.php:161
+#: inc/admin/setup-wizard/views/demo.php:96
+msgid "Products"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:101
+#: inc/admin/setup-wizard/views/demo.php:98
+msgid "Builders"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:103
+#: inc/admin/setup-wizard/views/demo.php:100
+msgid "Revsliders"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:106
+#: inc/admin/setup-wizard/views/demo.php:103
+msgid "ACF Fields"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:109
+#: inc/admin/setup-wizard/views/demo.php:106
+msgid "WPForms"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:115
+#: inc/admin/setup-wizard/views/demo.php:112
+#, php-format
+msgid ""
+"Please backup your site before uninstall. All imported and overridden "
+"contents from %s demos would be removed."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:122
+#: inc/admin/setup-wizard/views/demo.php:119
+msgid "Select Demo"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:144
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:434
+#: inc/admin/setup-wizard/views/demo.php:141
+msgid "Demo Import"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:157
+#: framework/admin/setup-wizard/views/demo.php:188
+#: inc/admin/setup-wizard/views/demo.php:154
+#: inc/admin/setup-wizard/views/demo.php:181
+msgid "Import theme options"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:158
+#: framework/admin/setup-wizard/views/demo.php:190
+#: inc/admin/setup-wizard/views/demo.php:155
+#: inc/admin/setup-wizard/views/demo.php:183
+msgid "Reset menus"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:159
+#: framework/admin/setup-wizard/views/demo.php:191
+#: inc/admin/setup-wizard/views/demo.php:156
+#: inc/admin/setup-wizard/views/demo.php:184
+msgid "Reset widgets"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:160
+#: framework/admin/setup-wizard/views/demo.php:192
+#: inc/admin/setup-wizard/views/demo.php:157
+#: inc/admin/setup-wizard/views/demo.php:185
+msgid "Import dummy content"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:161
+#: framework/admin/setup-wizard/views/demo.php:193
+#: inc/admin/setup-wizard/views/demo.php:158
+#: inc/admin/setup-wizard/views/demo.php:186
+msgid "Import widgets"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:182
+#: inc/admin/setup-wizard/views/demo.php:175
+msgid "Elementor"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:187
+#: inc/admin/setup-wizard/views/demo.php:180
+msgid "Select Content to Import"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:194
+#: inc/admin/setup-wizard/views/demo.php:187
+msgid "Override existing contents"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:197
+#: inc/admin/setup-wizard/views/demo.php:190
+msgid "Do you want to import demo? It can also take a minute to complete."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:198
+#: inc/admin/setup-wizard/views/demo.php:191
+msgid "Standard Import"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:200
+#: inc/admin/setup-wizard/views/demo.php:193
+#, php-format
+msgid ""
+"Your server performance does not satisfy %s demo importer engine's "
+"requirement. We recommend you to use the alternative method to perform demo "
+"import without any issues but it may take a while compared to the standard "
+"import."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:202
+#: inc/admin/setup-wizard/views/demo.php:195
+msgid ""
+"If you have any issues with standard import, please use Alternative mode. "
+"But it may take much time than standard import."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:204
+#: inc/admin/setup-wizard/views/demo.php:197
+msgid "Alternative Mode"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:208
+msgid "Activate Theme"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:241
+#: inc/admin/setup-wizard/views/demo.php:231
+msgid "Preview"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:281
+#: inc/admin/setup-wizard/views/demo.php:282
+msgid ""
+"Installing a demo provides pages, posts, menus, images, theme options, "
+"widgets and more."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:282
+#: inc/admin/setup-wizard/views/demo.php:283
+msgid "IMPORTANT: "
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:282
+#: inc/admin/setup-wizard/views/demo.php:283
+msgid ""
+"The included plugins need to be installed and activated before you install a "
+"demo."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/demo.php:284
+#: inc/admin/setup-wizard/views/demo.php:285
+#, php-format
+msgid ""
+"Please check %1$sStatus%2$s step to ensure your server meets all "
+"requirements for a successful import. Settings that need attention will be "
+"listed in red."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/plugins.php:15
+#: inc/admin/setup-wizard/views/plugins.php:15
+#, php-format
+msgid ""
+"Below is the list of required | recommended plugins used in %s Theme. Please "
+"check them for installation."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/plugins.php:16
+#: inc/admin/setup-wizard/views/plugins.php:16
+msgid "Please check the plugins to install:"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/plugins.php:45
+#: framework/templates/posts/post-loop-end.php:24
+#: framework/templates/woocommerce/loop/loop-start.php:58
+#: framework/theme-functions.php:507
+#: inc/admin/setup-wizard/views/plugins.php:45
+#: woocommerce/loop/loop-start.php:70
+msgid "Load More"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/plugins.php:109
+#: inc/admin/setup-wizard/views/plugins.php:109
+msgid ""
+"Good news! All plugins are already installed and up to date. Please continue."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:38
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:337
+msgid "System Status"
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:39
+msgid "Check your current server performance."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:170
+msgid ""
+"Do not worry if you are unable to update your server configuration due to "
+"hosting limit, you can use \"Alternative Import\" method in Demo Content "
+"import page."
+msgstr ""
+
+#: framework/admin/setup-wizard/views/status.php:174
+msgid ""
+"php.ini values are shown above. Real values may vary, please check your "
+"limits using"
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:75
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:102
+msgid "Tool does not exist."
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:127
+msgid "Merged css and js files"
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:128
+msgid "Clear resources"
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:129
+msgid "This tool will clear the all combined stylesheets and javascripts."
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:132
+msgid "Addon transients"
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:133
+#: framework/admin/tools/class-alpha-tools.php:138
+#: framework/admin/tools/class-alpha-tools.php:143
+msgid "Clear transients"
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:134
+#, php-format
+msgid ""
+"This tool will clear the %s Addon features(Brand, Vendor, Patcher etc) "
+"transients cache."
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:137
+msgid "Plugin transients"
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:139
+#, php-format
+msgid ""
+"This tool will clear the plugin(%s Core Plugin, WPBakery Page Builder) "
+"update transients cache."
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:142
+msgid "Studio block transients"
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:144
+#, php-format
+msgid "This tool will clear the %s Studio block transients cache."
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:167
+msgid "Addon transients are cleared."
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:173
+msgid "Plugin transients are cleared."
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:182
+#, php-format
+msgid "%s Studio transients are cleared."
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:195
+msgid "Merged javascripts and stylesheets are all cleared."
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:199
+msgid "Refreshed successfully."
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:212
+#, php-format
+msgid "There was an error calling %s"
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:214
+msgid "Tool ran."
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:218
+msgid "There was an error calling this tool. There is no callback present."
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:245
+msgid "Management Tools"
+msgstr ""
+
+#: framework/admin/tools/class-alpha-tools.php:246
+#, php-format
+msgid "Keep your site health instantly using %s Tools."
+msgstr ""
+
+#: framework/class-alpha-assets.php:255
+msgid "Loading..."
+msgstr ""
+
+#: framework/class-alpha-assets.php:256
+msgid "Loading failed"
+msgstr ""
+
+#: framework/class-alpha-assets.php:257
+msgid "The content could not be loaded."
+msgstr ""
+
+#: framework/class-alpha-assets.php:258
+msgid "Click to edit this element."
+msgstr ""
+
+#: framework/class-alpha-assets.php:266 framework/class-alpha-assets.php:275
+msgid "Years"
+msgstr ""
+
+#: framework/class-alpha-assets.php:267 framework/class-alpha-assets.php:276
+msgid "Months"
+msgstr ""
+
+#: framework/class-alpha-assets.php:268 framework/class-alpha-assets.php:277
+msgid "Weeks"
+msgstr ""
+
+#: framework/class-alpha-assets.php:269 framework/class-alpha-assets.php:278
+msgid "Days"
+msgstr ""
+
+#: framework/class-alpha-assets.php:270
+msgid "Hours"
+msgstr ""
+
+#: framework/class-alpha-assets.php:271
+msgid "Minutes"
+msgstr ""
+
+#: framework/class-alpha-assets.php:272
+msgid "Seconds"
+msgstr ""
+
+#: framework/class-alpha-assets.php:279
+msgid "Hrs"
+msgstr ""
+
+#: framework/class-alpha-assets.php:280
+msgid "Mins"
+msgstr ""
+
+#: framework/class-alpha-assets.php:281
+msgid "Secs"
+msgstr ""
+
+#: framework/class-alpha-assets.php:284 framework/class-alpha-assets.php:293
+msgid "Year"
+msgstr ""
+
+#: framework/class-alpha-assets.php:285 framework/class-alpha-assets.php:294
+msgid "Month"
+msgstr ""
+
+#: framework/class-alpha-assets.php:286 framework/class-alpha-assets.php:295
+msgid "Week"
+msgstr ""
+
+#: framework/class-alpha-assets.php:287 framework/class-alpha-assets.php:296
+msgid "Day"
+msgstr ""
+
+#: framework/class-alpha-assets.php:288 framework/class-alpha-assets.php:297
+msgid "Hour"
+msgstr ""
+
+#: framework/class-alpha-assets.php:289
+msgid "Minute"
+msgstr ""
+
+#: framework/class-alpha-assets.php:290
+msgid "Second"
+msgstr ""
+
+#: framework/class-alpha-assets.php:298
+msgid "Min"
+msgstr ""
+
+#: framework/class-alpha-assets.php:299
+msgid "Sec"
+msgstr ""
+
+#: framework/class-alpha-assets.php:369
+#, php-format
+msgid "all %d"
+msgstr ""
+
+#: framework/class-alpha-assets.php:370
+msgid "You already voted!"
+msgstr ""
+
+#: framework/class-alpha-assets.php:372
+msgid "View Cart"
+msgstr ""
+
+#: framework/class-alpha-assets.php:373
+msgid "Add to wishlist"
+msgstr ""
+
+#: framework/class-alpha-assets.php:374
+msgid "has been added to cart"
+msgstr ""
+
+#: framework/class-alpha-assets.php:375
+msgid "Select a category"
+msgstr ""
+
+#: framework/class-alpha-assets.php:376
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: framework/class-alpha-support.php:42
+msgid "Currency Switcher"
+msgstr ""
+
+#: framework/class-alpha-support.php:43
+msgid "Language Switcher"
+msgstr ""
+
+#: framework/class-alpha-support.php:44
+msgid "Main Menu"
+msgstr ""
+
+#: framework/class-alpha-support.php:93
+msgid "Small"
+msgstr ""
+
+#: framework/class-alpha-support.php:94
+msgid "S"
+msgstr ""
+
+#: framework/class-alpha-support.php:99
+msgid "Normal"
+msgstr ""
+
+#: framework/class-alpha-support.php:100
+msgid "N"
+msgstr ""
+
+#: framework/class-alpha-support.php:105
+msgid "Medium"
+msgstr ""
+
+#: framework/class-alpha-support.php:106
+msgid "M"
+msgstr ""
+
+#: framework/class-alpha-support.php:111
+msgid "Large"
+msgstr ""
+
+#: framework/class-alpha-support.php:112
+msgid "L"
+msgstr ""
+
+#: framework/class-alpha-support.php:117
+msgid "Huge"
+msgstr ""
+
+#: framework/class-alpha-support.php:118
+msgid "huge"
+msgstr ""
+
+#: framework/class-alpha-support.php:130
+#: framework/plugins/elementor/elementor.php:125
+#: framework/plugins/elementor/elementor.php:149
+msgid "Primary"
+msgstr ""
+
+#: framework/class-alpha-support.php:135
+#: framework/plugins/elementor/elementor.php:130
+#: framework/plugins/elementor/elementor.php:156
+msgid "Secondary"
+msgstr ""
+
+#: framework/class-alpha-support.php:140
+msgid "Alert"
+msgstr ""
+
+#: framework/class-alpha-support.php:145
+msgid "Dark"
+msgstr ""
+
+#: framework/class-alpha-support.php:150
+msgid "White"
+msgstr ""
+
+#: framework/class-alpha-support.php:155
+msgid "Default Font Color"
+msgstr ""
+
+#: framework/class-alpha-support.php:160
+msgid "Transparent"
+msgstr ""
+
+#: framework/class-alpha-support.php:200
+msgid "Alpha Custom"
+msgstr ""
+
+#: framework/class-alpha-support.php:238
+msgid "Blog Sidebar"
+msgstr ""
+
+#: framework/class-alpha-support.php:247
+msgid "Shop Sidebar"
+msgstr ""
+
+#: framework/class-alpha-support.php:254
+msgid "Product Sidebar"
+msgstr ""
+
+#: framework/common-functions.php:560
+#: framework/plugins/woocommerce/product-single.php:471
+#: framework/theme-functions.php:533 framework/theme-functions.php:606
+#: framework/theme-functions.php:608
+msgid "Prev"
+msgstr ""
+
+#: framework/common-functions.php:561
+#: framework/plugins/woocommerce/product-single.php:479
+#: framework/templates/woocommerce/myaccount/orders.php:106
+#: framework/theme-functions.php:534 framework/theme-functions.php:611
+#: framework/theme-functions.php:613 woocommerce/myaccount/orders.php:95
+msgid "Next"
+msgstr ""
+
+#: framework/plugins/elementor/elementor.php:135
+#: framework/plugins/elementor/elementor.php:163
+msgid "Text"
+msgstr ""
+
+#: framework/plugins/elementor/elementor.php:140
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:813
+msgid "Success"
+msgstr ""
+
+#: framework/plugins/elementor/elementor.php:170
+msgid "Accent"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-archive.php:96
+msgid "Show "
+msgstr ""
+
+#: framework/plugins/woocommerce/product-category/product-category-default.php:169
+msgid "Shop Now"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-loop.php:194
+#: framework/plugins/woocommerce/product-loop.php:242
+#: framework/plugins/woocommerce/product-loop.php:265
+#: framework/templates/woocommerce/wishlist-view-images.php:195
+#: framework/templates/woocommerce/wishlist-view-mobile.php:189
+#: framework/templates/woocommerce/wishlist-view-modern.php:193
+#: framework/templates/woocommerce/wishlist-view.php:208
+#: inc/plugins/woocommerce/product-loop-extend.php:163
+#: woocommerce/wishlist-view-mobile.php:189 woocommerce/wishlist-view.php:208
+msgid "Quick View"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-loop.php:511
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-loop.php:525
+msgid "reviews"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-loop.php:591
+#: framework/plugins/woocommerce/product-loop.php:601 inc/history.php:69
+#: inc/history.php:82 inc/history.php:98
+#: inc/plugins/woocommerce/product-loop-extend.php:104
+#: inc/plugins/woocommerce/product-loop-extend.php:109
+msgid "Added"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-single.php:606
+#: framework/plugins/woocommerce/product-single.php:675
+#: framework/plugins/woocommerce/product-single/product-single-gallery.php:37
+#: framework/plugins/woocommerce/product-single/product-single-horizontal.php:38
+#: framework/plugins/woocommerce/product-single/product-single-sticky-thumbs.php:36
+#: framework/plugins/woocommerce/product-single/product-single-vertical.php:59
+msgid "Awaiting product image"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-single.php:790
+#: inc/plugins/woocommerce/product-single-extend.php:262
+msgid "Brand: "
+msgstr ""
+
+#: framework/plugins/woocommerce/product-single.php:860
+#: inc/plugins/woocommerce/product-single-extend.php:101
+msgid "Offer Ends In:"
+msgstr ""
+
+#: framework/plugins/woocommerce/product-single.php:861
+#: inc/plugins/woocommerce/product-single-extend.php:102
+msgid "days"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:380
+msgid "Product added to cart successfully"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:446
+msgid "Default sorting"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:447
+msgid "Sort by popularity"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:448
+msgid "Sort by average rating"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:449
+msgid "Sort by latest"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:450
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:451
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:461
+msgid "Relevance"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:505
+msgid "Cart is cleared."
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:577
+#: framework/plugins/woocommerce/woo-functions.php:594
+#: framework/plugins/woocommerce/woo-functions.php:611
+#, php-format
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:581
+msgid "Company"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:582
+msgid "Address"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:583
+#: framework/templates/woocommerce/cart/shipping-calculator.php:74
+#: woocommerce/cart/shipping-calculator.php:74
+msgid "City"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:584
+msgid "Country"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:585
+msgid "Postcode"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:586
+msgid "Phone"
+msgstr ""
+
+#: framework/plugins/woocommerce/woo-functions.php:665
+#: inc/general-function.php:305
+msgid "Vendor Dashboard"
+msgstr ""
+
+#: framework/templates/header/header.php:67 inc/templates/header/header.php:88
+msgid "Logo"
+msgstr ""
+
+#: framework/templates/posts/archive.php:53 page.php:39
+msgid "Nothing Found"
+msgstr ""
+
+#: framework/templates/posts/archive.php:60
+#, php-format
+msgid "Ready to publish your first post? %1$sGet started here%2$s."
+msgstr ""
+
+#: framework/templates/posts/archive.php:70
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: framework/templates/posts/loop/post-content.php:13
+#: framework/theme-actions.php:1281
+msgid "Read More"
+msgstr ""
+
+#: framework/templates/posts/loop/post-meta.php:16
+#: inc/templates/posts/single/post-meta.php:18
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: framework/templates/posts/loop/post-meta.php:31
+#: inc/templates/posts/single/post-meta.php:37
+#, php-format
+msgid "%1$s0%2$s Comment"
+msgstr ""
+
+#: framework/templates/posts/loop/post-meta.php:33
+#: inc/templates/posts/single/post-meta.php:39
+#, php-format
+msgid "%1$s1%2$s Comment"
+msgstr ""
+
+#: framework/templates/posts/loop/post-meta.php:35
+#: inc/templates/posts/single/post-meta.php:41
+#, php-format
+msgid "%1$s%2$s%3$s Comments"
+msgstr ""
+
+#: framework/templates/posts/post-filter.php:32
+msgid "All Blog Posts"
+msgstr ""
+
+#: framework/templates/posts/single/post-author.php:40
+#: inc/templates/posts/single/post-author.php:33
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: framework/templates/posts/single/post-navigation.php:18
+msgid "Previous Post"
+msgstr ""
+
+#: framework/templates/posts/single/post-navigation.php:19
+msgid "Next Post"
+msgstr ""
+
+#: framework/templates/posts/single/post-related.php:49
+#: inc/templates/posts/single/post-related.php:49
+#, php-format
+msgid "Related %s"
+msgstr ""
+
+#: framework/templates/woocommerce/add-to-wishlist-move.php:46
+msgid "In your wishlist"
+msgstr ""
+
+#: framework/templates/woocommerce/add-to-wishlist-move.php:50
+#: framework/templates/woocommerce/add-to-wishlist-remove.php:51
+msgid "View &rsaquo;"
+msgstr ""
+
+#: framework/templates/woocommerce/add-to-wishlist-move.php:51
+#: framework/templates/woocommerce/add-to-wishlist-move.php:141
+#: framework/templates/woocommerce/add-to-wishlist-popup.php:62
+#: framework/templates/woocommerce/add-to-wishlist-remove.php:50
+msgid "or"
+msgstr ""
+
+#: framework/templates/woocommerce/add-to-wishlist-move.php:55
+msgid "Move to another wishlist"
+msgstr ""
+
+#: framework/templates/woocommerce/add-to-wishlist-move.php:88
+#, php-format
+msgid ""
+"This item is already in the <b>%s wishlist</b>.<br/>You can move it to "
+"another list:"
+msgstr ""
+
+#: framework/templates/woocommerce/add-to-wishlist-move.php:107
+#: framework/templates/woocommerce/add-to-wishlist-popup.php:63
+#: framework/templates/woocommerce/add-to-wishlist-popup.php:79
+msgid "Create a new list"
+msgstr ""
+
+#: framework/templates/woocommerce/add-to-wishlist-move.php:115
+msgid "Wishlist name"
+msgstr ""
+
+#: framework/templates/woocommerce/add-to-wishlist-move.php:136
+#: framework/templates/woocommerce/wishlist-view-images.php:214
+#: framework/templates/woocommerce/wishlist-view-mobile.php:210
+#: framework/templates/woocommerce/wishlist-view-modern.php:212
+#: framework/templates/woocommerce/wishlist-view.php:242
+#: woocommerce/wishlist-view-mobile.php:210 woocommerce/wishlist-view.php:242
+msgid "Move"
+msgstr ""
+
+#: framework/templates/woocommerce/add-to-wishlist-move.php:142
+msgid "click to remove it"
+msgstr ""
+
+#: framework/templates/woocommerce/add-to-wishlist-popup.php:61
+msgid "Choose a wishlist"
+msgstr ""
+
+#: framework/templates/woocommerce/add-to-wishlist-popup.php:87
+msgid "Enter wishlist name"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-empty.php:39
+msgid "Go to shop"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:36
+#: framework/templates/woocommerce/cart/cart-totals.php:96
+#: framework/templates/woocommerce/cart/cart-totals.php:97
+msgid "Shipping"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:57
+#, php-format
+msgid "Shipping to %s."
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:58
+msgid "Change address"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:60
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:68
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:70
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:73
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:76
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-shipping.php:77
+msgid "Enter a different address"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-totals.php:29
+msgid "Cart Totals"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-totals.php:41
+#: framework/templates/woocommerce/cart/cart-totals.php:42
+#: framework/templates/woocommerce/cart/cart.php:39
+#: framework/templates/woocommerce/cart/cart.php:128
+#: woocommerce/cart/cart.php:39 woocommerce/cart/cart.php:117
+msgid "Subtotal"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-totals.php:75
+#, php-format
+msgctxt "shipping packages"
+msgid "Shipping %d"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-totals.php:75
+msgctxt "shipping packages"
+msgid "Shipping"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-totals.php:116
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart-totals.php:142
+#: framework/templates/woocommerce/cart/cart-totals.php:143
+#: framework/templates/woocommerce/checkout/thankyou.php:62
+msgid "Total"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:37
+#: framework/templates/woocommerce/cart/cart.php:100
+#: framework/templates/woocommerce/wishlist-view.php:73
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:89
+#: woocommerce/single-product/add-to-cart/grouped.php:80
+#: woocommerce/wishlist-view.php:73
+msgid "Price"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:38
+#: framework/templates/woocommerce/cart/cart.php:106
+#: framework/templates/woocommerce/global/quantity-input.php:28
+#: framework/templates/woocommerce/wishlist-view.php:84
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:95
+#: woocommerce/global/quantity-input.php:28
+#: woocommerce/single-product/add-to-cart/grouped.php:89
+#: woocommerce/wishlist-view.php:84
+msgid "Quantity"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:70
+#: framework/templates/woocommerce/cart/mini-cart.php:88
+#: woocommerce/cart/cart.php:126 woocommerce/cart/mini-cart.php:88
+msgid "Remove this item"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:95
+#: woocommerce/cart/cart.php:84
+msgid "Available on backorder"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:144
+#: woocommerce/cart/mini-cart.php:144
+msgid "Continue Shopping"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:145
+msgid "Clear cart"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:146
+#: woocommerce/cart/cart.php:154
+msgid "Update cart"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:151
+msgid "Coupon Discount"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:153
+msgid "Enter coupon code here..."
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cart.php:154
+#: framework/templates/woocommerce/checkout/form-coupon.php:35
+#: woocommerce/cart/cart.php:149 woocommerce/checkout/form-coupon.php:35
+msgid "Apply coupon"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/cross-sells.php:25
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/mini-cart.php:27
+#: woocommerce/cart/mini-cart.php:27
+msgid "Shopping Cart"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/mini-cart.php:141
+msgid "No products in the cart."
+msgstr ""
+
+#: framework/templates/woocommerce/cart/proceed-to-checkout-button.php:26
+#: woocommerce/cart/proceed-to-checkout-button.php:26
+msgid "Proceed to checkout"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/shipping-calculator.php:29
+#: woocommerce/cart/shipping-calculator.php:29
+msgid "Select a country / region&hellip;"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/shipping-calculator.php:48
+#: framework/templates/woocommerce/cart/shipping-calculator.php:53
+#: framework/templates/woocommerce/cart/shipping-calculator.php:65
+#: woocommerce/cart/shipping-calculator.php:48
+#: woocommerce/cart/shipping-calculator.php:53
+#: woocommerce/cart/shipping-calculator.php:65
+msgid "State / County"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/shipping-calculator.php:54
+#: woocommerce/cart/shipping-calculator.php:54
+msgid "Select an option&hellip;"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/shipping-calculator.php:80
+#: woocommerce/cart/shipping-calculator.php:80
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: framework/templates/woocommerce/cart/shipping-calculator.php:84
+#: woocommerce/cart/shipping-calculator.php:84
+msgid "Update Totals"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-billing.php:24
+#: woocommerce/checkout/form-billing.php:24
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-billing.php:28
+#: woocommerce/checkout/form-billing.php:28
+msgid "Billing details"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-billing.php:53
+#: woocommerce/checkout/form-billing.php:53
+msgid "Create an account?"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-checkout.php:24
+#: woocommerce/checkout/form-checkout.php:24
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-checkout.php:60
+#: woocommerce/checkout/form-checkout.php:60
+msgid "Your order"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-coupon.php:26
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Have a coupon?"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-coupon.php:26
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Enter your code"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-coupon.php:31
+#: woocommerce/checkout/form-coupon.php:31
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-coupon.php:34
+#: woocommerce/checkout/form-coupon.php:34
+msgid "Coupon code"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-login.php:26
+msgid "Returning customer?"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-login.php:26
+#: framework/templates/woocommerce/global/form-login.php:57
+#: woocommerce/myaccount/form-login.php:32
+msgid "Login"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-login.php:32
+msgid ""
+"If you have shopped with us before, please enter your details below. If you "
+"are a new customer, please proceed to the Billing section."
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-pay.php:28
+msgid "Qty"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-pay.php:29
+msgid "Totals"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-pay.php:81
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-shipping.php:26
+#: woocommerce/checkout/form-shipping.php:26
+msgid "Ship to a different address?"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/form-shipping.php:57
+#: framework/templates/woocommerce/single-product/tabs/additional-information.php:22
+#: woocommerce/checkout/form-shipping.php:57
+msgid "Additional information"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/payment.php:25
+msgid "Payment Methods"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/payment.php:35
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/payment.php:44
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/payment.php:46
+msgid "Update totals"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/thankyou.php:31
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/thankyou.php:34
+msgid "Pay"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/thankyou.php:36
+msgid "My account"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/thankyou.php:42
+#: framework/templates/woocommerce/checkout/thankyou.php:82
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/thankyou.php:47
+msgid "Order number"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/thankyou.php:57
+msgid "Date"
+msgstr ""
+
+#: framework/templates/woocommerce/checkout/thankyou.php:68
+msgid "Payment method"
+msgstr ""
+
+#: framework/templates/woocommerce/global/form-login.php:34
+msgid "Username or email"
+msgstr ""
+
+#: framework/templates/woocommerce/global/form-login.php:38
+#: framework/templates/woocommerce/myaccount/form-login.php:51
+#: framework/templates/woocommerce/myaccount/form-login.php:99
+#: framework/theme-actions.php:588 woocommerce/myaccount/form-login.php:51
+#: woocommerce/myaccount/form-login.php:99
+msgid "Password"
+msgstr ""
+
+#: framework/templates/woocommerce/global/form-login.php:48
+#: framework/templates/woocommerce/myaccount/form-login.php:59
+#: framework/theme-actions.php:596 woocommerce/myaccount/form-login.php:59
+msgid "Remember me"
+msgstr ""
+
+#: framework/templates/woocommerce/global/form-login.php:51
+#: framework/templates/woocommerce/myaccount/form-login.php:62
+#: framework/theme-actions.php:599
+msgid "Lost your password?"
+msgstr ""
+
+#: framework/templates/woocommerce/global/quantity-input.php:28
+#: woocommerce/global/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: framework/templates/woocommerce/global/quantity-input.php:33
+#: framework/templates/woocommerce/wishlist-view-images.php:166
+#: framework/templates/woocommerce/wishlist-view-mobile.php:163
+#: framework/templates/woocommerce/wishlist-view-modern.php:164
+#: woocommerce/wishlist-view-mobile.php:163
+msgid "Quantity:"
+msgstr ""
+
+#: framework/templates/woocommerce/global/quantity-input.php:45
+#: woocommerce/global/quantity-input.php:45
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: framework/templates/woocommerce/global/quantity-input.php:47
+#: woocommerce/global/quantity-input.php:47
+msgid "Minus"
+msgstr ""
+
+#: framework/templates/woocommerce/global/quantity-input.php:48
+#: woocommerce/global/quantity-input.php:48
+msgid "Plus"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/no-products-found.php:22
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: framework/templates/woocommerce/loop/orderby.php:58
+msgid "Filters"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/orderby.php:64
+msgid "Sort By :"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/orderby.php:66
+msgid "Shop order"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/orderby.php:103
+#: framework/templates/woocommerce/single-product/add-to-cart/variable.php:74
+#: woocommerce/single-product/add-to-cart/variable.php:99
+msgid "Clean All"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/result-count.php:33
+#, php-format
+msgid "Showing %1$sall %2$d%3$s Product"
+msgid_plural "Showing %1$sall %2$d%3$s Products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/templates/woocommerce/loop/result-count.php:40
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %4$s%1$d&ndash;%2$d of %3$d%5$s Product"
+msgid_plural "Showing %4$s%1$d&ndash;%2$d of %3$d%5$s Products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/templates/woocommerce/loop/sale-flash.php:40
+#: woocommerce/loop/sale-flash.php:44
+msgid "Hot"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/sale-flash.php:45
+#: woocommerce/loop/sale-flash.php:39
+msgid "New"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/sale-flash.php:59
+#, php-format
+msgid "%d%% off"
+msgstr ""
+
+#: framework/templates/woocommerce/loop/sale-flash.php:65
+msgid "Out of Stock"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/dashboard.php:59
+#: woocommerce/myaccount/dashboard.php:59
+#, php-format
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/dashboard.php:69
+#: woocommerce/myaccount/dashboard.php:69
+#, php-format
+msgid ""
+"From your account dashboard you can view your <a href=\"%1$s\">recent "
+"orders</a>, manage your <a href=\"%2$s\">billing address</a>, and <a href="
+"\"%3$s\">edit your password and account details</a>."
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/dashboard.php:72
+#: woocommerce/myaccount/dashboard.php:72
+#, php-format
+msgid ""
+"From your account dashboard you can view your <a href=\"%1$s\">recent "
+"orders</a>, manage your <a href=\"%2$s\">shipping and billing addresses</a>, "
+"and <a href=\"%3$s\">edit your password and account details</a>."
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/downloads.php:32
+#: framework/templates/woocommerce/order/order-downloads.php:22
+msgid "Downloads"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/downloads.php:46
+#: woocommerce/myaccount/downloads.php:47
+msgid "No downloads available yet."
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/downloads.php:48
+#: framework/templates/woocommerce/myaccount/orders.php:95
+#: woocommerce/myaccount/downloads.php:50
+msgid "Go To Shop"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:27
+msgid "Account Details"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:36
+#: woocommerce/myaccount/form-edit-account.php:27
+msgid "First name"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:40
+#: woocommerce/myaccount/form-edit-account.php:31
+msgid "Last name"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:46
+#: woocommerce/myaccount/form-edit-account.php:37
+msgid "Display name"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:47
+#: woocommerce/myaccount/form-edit-account.php:38
+msgid ""
+"This will be how your name will be displayed in the account section and in "
+"reviews"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:52
+msgid "Email address"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:57
+msgid "Biography"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:62
+msgid "Password change"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:66
+#: woocommerce/myaccount/form-edit-account.php:51
+msgid "Current password "
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:67
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:74
+msgid "leave blank to leave unchanged"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:73
+#: woocommerce/myaccount/form-edit-account.php:58
+msgid "New password "
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:79
+msgid "Confirm password"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-account.php:88
+#: woocommerce/myaccount/form-edit-account.php:73
+msgid "Save changes"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-address.php:20
+#: framework/templates/woocommerce/myaccount/my-address.php:28
+#: framework/templates/woocommerce/myaccount/my-address.php:37
+#: framework/templates/woocommerce/order/order-details-customer.php:32
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/myaccount/my-address.php:37
+msgid "Billing address"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-address.php:20
+#: framework/templates/woocommerce/myaccount/my-address.php:29
+#: framework/templates/woocommerce/order/order-details-customer.php:53
+#: woocommerce/myaccount/my-address.php:29
+msgid "Shipping address"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-edit-address.php:46
+msgid "Save address"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-login.php:32
+#: framework/templates/woocommerce/myaccount/form-login.php:67
+#: framework/theme-actions.php:571 framework/theme-actions.php:604
+msgid "Sign In"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-login.php:36
+#: framework/templates/woocommerce/myaccount/form-login.php:127
+#: framework/theme-actions.php:574 framework/theme-actions.php:631
+msgid "Sign Up"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-login.php:47
+#: framework/theme-actions.php:584 woocommerce/myaccount/form-login.php:47
+msgid "Username or email address"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-login.php:92
+#: framework/theme-actions.php:624 woocommerce/myaccount/form-login.php:92
+msgid "Your Email address"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-login.php:105
+#: woocommerce/myaccount/form-login.php:105
+msgid "A link to set a new password will be sent to your email address."
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/form-login.php:122
+#, php-format
+msgid "%1$sI agree to the %2$s"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/my-address.php:49
+msgid "Addresses"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/my-address.php:54
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/my-address.php:74
+#: woocommerce/myaccount/my-address.php:61
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/my-address.php:95
+#: woocommerce/myaccount/my-address.php:82
+msgid "Edit Your Billing Address"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/my-address.php:95
+#: woocommerce/myaccount/my-address.php:82
+msgid "Edit Your Shipping Address"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/orders.php:29
+msgid "Orders"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/orders.php:58
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/orders.php:72
+#: woocommerce/myaccount/orders.php:63
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/templates/woocommerce/myaccount/orders.php:102
+#: woocommerce/myaccount/orders.php:91
+msgid "Previous"
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/orders.php:113
+#: woocommerce/myaccount/orders.php:102
+msgid "No order has been made yet."
+msgstr ""
+
+#: framework/templates/woocommerce/myaccount/orders.php:114
+#: woocommerce/myaccount/orders.php:103
+msgid "Browse products"
+msgstr ""
+
+#: framework/templates/woocommerce/order/order-details-customer.php:35
+#: framework/templates/woocommerce/order/order-details-customer.php:55
+#: framework/templates/woocommerce/single-product/meta.php:52
+#: woocommerce/single-product/meta.php:36
+msgid "N/A"
+msgstr ""
+
+#: framework/templates/woocommerce/order/order-details-customer.php:66
+msgid "Back To List"
+msgstr ""
+
+#: framework/templates/woocommerce/order/order-downloads.php:54
+msgid "&infin;"
+msgstr ""
+
+#: framework/templates/woocommerce/order/order-downloads.php:60
+msgid "Never"
+msgstr ""
+
+#: framework/templates/woocommerce/share.php:59
+#: framework/templates/woocommerce/share.php:60
+#: framework/theme-functions.php:136 inc/admin/admin/class-alpha-admin.php:81
+msgid "Facebook"
+msgstr ""
+
+#: framework/templates/woocommerce/share.php:79
+#: framework/templates/woocommerce/share.php:80
+#: framework/theme-functions.php:141 inc/admin/admin/class-alpha-admin.php:88
+msgid "Twitter"
+msgstr ""
+
+#: framework/templates/woocommerce/share.php:99
+#: framework/templates/woocommerce/share.php:100
+#: framework/theme-functions.php:156
+msgid "Pinterest"
+msgstr ""
+
+#: framework/templates/woocommerce/share.php:139
+#: framework/theme-functions.php:176
+msgid "WhatsApp"
+msgstr ""
+
+#: framework/templates/woocommerce/share.php:140
+msgid "Whatsapp"
+msgstr ""
+
+#: framework/templates/woocommerce/share.php:151
+msgid "(Now"
+msgstr ""
+
+#: framework/templates/woocommerce/share.php:151
+msgid "copy"
+msgstr ""
+
+#: framework/templates/woocommerce/share.php:151
+msgid "this wishlist link and share it anywhere)"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:62
+#: woocommerce/single-product-reviews.php:53
+msgid "Average Rating"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:64
+#: framework/templates/woocommerce/single-product-reviews.php:84
+#: woocommerce/single-product-reviews.php:55
+#: woocommerce/single-product-reviews.php:74
+msgid "Rated"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:112
+#: framework/theme-actions.php:1199
+msgid "Submit Review"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:135
+#: woocommerce/single-product-reviews.php:112
+msgid "Submit Your Review"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:135
+#: woocommerce/single-product-reviews.php:112
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:137
+#: woocommerce/single-product-reviews.php:114
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:180
+#: woocommerce/single-product-reviews.php:157
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:184
+#: woocommerce/single-product-reviews.php:161
+msgid "Your Rating Of This Product"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:185
+#: woocommerce/single-product-reviews.php:162
+msgid "Rate&hellip;"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:186
+#: woocommerce/single-product-reviews.php:163
+msgid "Perfect"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:187
+#: woocommerce/single-product-reviews.php:164
+msgid "Good"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:188
+#: woocommerce/single-product-reviews.php:165
+msgid "Average"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:189
+#: woocommerce/single-product-reviews.php:166
+msgid "Not that bad"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:190
+#: woocommerce/single-product-reviews.php:167
+msgid "Very poor"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:194
+#: woocommerce/single-product-reviews.php:171
+msgid "Your review"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:201
+#: woocommerce/single-product-reviews.php:178
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:206
+msgid "No such review exists."
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:218
+msgid "There are no reviews yet."
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:232
+msgid "Show all"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:236
+msgid "Most Helpful Positive"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:241
+msgid "Most Helpful Negative"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:246
+msgid "Highest Rating"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:251
+msgid "Lowest Rating"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:267
+msgid "No positive review exists."
+msgstr ""
+
+#: framework/templates/woocommerce/single-product-reviews.php:268
+msgid "No negative review exists."
+msgstr ""
+
+#: framework/templates/woocommerce/single-product/add-to-cart/variable.php:32
+#: woocommerce/single-product/add-to-cart/variable.php:38
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: framework/templates/woocommerce/single-product/meta.php:39
+msgid "Brands: "
+msgstr ""
+
+#: framework/templates/woocommerce/single-product/meta.php:43
+#: woocommerce/single-product/meta.php:27
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/templates/woocommerce/single-product/meta.php:48
+#: woocommerce/single-product/meta.php:32
+msgid "SKU:"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product/related.php:31
+#: woocommerce/single-product/related.php:30
+msgid "Related Products"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product/related.php:33
+msgid "Related products"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product/related.php:41
+#: framework/templates/woocommerce/single-product/up-sells.php:37
+msgid "More Products"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product/review-meta.php:27
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product/review-meta.php:37
+msgid "verified owner"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product/tabs/description.php:22
+#: framework/theme-options.php:199 inc/theme-options.php:204
+msgid "Description"
+msgstr ""
+
+#: framework/templates/woocommerce/single-product/up-sells.php:30
+#: woocommerce/single-product/up-sells.php:30
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-header.php:45
+#: woocommerce/wishlist-view-header.php:45
+msgid "Edit title"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-header.php:52
+#: woocommerce/wishlist-view-header.php:52
+msgid "Save"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-header.php:55
+#: woocommerce/wishlist-view-header.php:55
+msgid "Cancel"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-images.php:136
+#: framework/templates/woocommerce/wishlist-view-mobile.php:125
+#: framework/templates/woocommerce/wishlist-view-modern.php:134
+#: woocommerce/wishlist-view-mobile.php:125
+msgid "Added on:"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-images.php:147
+#: framework/templates/woocommerce/wishlist-view-mobile.php:136
+#: woocommerce/wishlist-view-mobile.php:136
+msgid "Price:"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-images.php:181
+#: framework/templates/woocommerce/wishlist-view-mobile.php:178
+#: framework/templates/woocommerce/wishlist-view-modern.php:179
+#: woocommerce/wishlist-view-mobile.php:178
+msgid "Stock:"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-images.php:184
+#: framework/templates/woocommerce/wishlist-view-mobile.php:181
+#: framework/templates/woocommerce/wishlist-view-modern.php:182
+#: framework/templates/woocommerce/wishlist-view.php:193
+#: woocommerce/wishlist-view-mobile.php:181 woocommerce/wishlist-view.php:193
+msgid "Out of stock"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-images.php:184
+#: framework/templates/woocommerce/wishlist-view-mobile.php:181
+#: framework/templates/woocommerce/wishlist-view-modern.php:182
+#: framework/templates/woocommerce/wishlist-view.php:193
+#: woocommerce/wishlist-view-mobile.php:181 woocommerce/wishlist-view.php:193
+msgid "In Stock"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-images.php:235
+#: framework/templates/woocommerce/wishlist-view-mobile.php:229
+#: framework/templates/woocommerce/wishlist-view-modern.php:231
+#: framework/templates/woocommerce/wishlist-view.php:261
+#: woocommerce/wishlist-view-mobile.php:229 woocommerce/wishlist-view.php:261
+msgid "Move to another list &rsaquo;"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-images.php:243
+#: framework/templates/woocommerce/wishlist-view-mobile.php:76
+#: framework/templates/woocommerce/wishlist-view-modern.php:239
+#: framework/templates/woocommerce/wishlist-view.php:147
+#: framework/templates/woocommerce/wishlist-view.php:235
+#: woocommerce/wishlist-view-mobile.php:76 woocommerce/wishlist-view.php:147
+#: woocommerce/wishlist-view.php:235
+msgid "Remove this product"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-images.php:260
+#: framework/templates/woocommerce/wishlist-view-mobile.php:242
+#: framework/templates/woocommerce/wishlist-view-modern.php:256
+#: woocommerce/wishlist-view-mobile.php:242
+msgid "No products added to the wishlist"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view-modern.php:145
+msgid "Unit Price:"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view.php:95
+#: woocommerce/wishlist-view.php:95
+msgid "Stock status"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view.php:104
+#: woocommerce/wishlist-view.php:104
+msgid "Actions"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view.php:113
+#: woocommerce/wishlist-view.php:113
+msgid "Arrange"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view.php:203
+#: woocommerce/wishlist-view.php:203
+#, php-format
+msgid "Added on: %s"
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view.php:286
+#: woocommerce/wishlist-view.php:286
+msgid "No products added to the wishlist."
+msgstr ""
+
+#: framework/templates/woocommerce/wishlist-view.php:291
+#: woocommerce/wishlist-view.php:291
+msgid "GO TO SHOP"
+msgstr ""
+
+#: framework/theme-actions.php:148
+msgid "Categories to search"
+msgstr ""
+
+#: framework/theme-actions.php:149
+msgid "Product categories to search"
+msgstr ""
+
+#: framework/theme-actions.php:692 framework/theme-actions.php:705
+#: framework/theme-actions.php:824
+msgid "Error:"
+msgstr ""
+
+#: framework/theme-actions.php:708
+msgid "Username is required."
+msgstr ""
+
+#: framework/theme-actions.php:740
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: framework/theme-actions.php:750
+msgid "Wrong username or password."
+msgstr ""
+
+#: framework/theme-actions.php:827
+msgid "Username and Email both are required."
+msgstr ""
+
+#: framework/theme-actions.php:863
+msgid "Register successful, redirecting..."
+msgstr ""
+
+#: framework/theme-actions.php:873
+msgid "Register failed."
+msgstr ""
+
+#: framework/theme-actions.php:1067
+msgid "Send"
+msgstr ""
+
+#: framework/theme-actions.php:1192
+msgid "Your Name"
+msgstr ""
+
+#: framework/theme-actions.php:1193
+msgid "Your Email"
+msgstr ""
+
+#: framework/theme-actions.php:1197
+msgid "Write Your Review Here&hellip;"
+msgstr ""
+
+#: framework/theme-functions.php:146
+msgid "Linkedin"
+msgstr ""
+
+#: framework/theme-functions.php:161
+msgid "Reddit"
+msgstr ""
+
+#: framework/theme-functions.php:166
+msgid "Tumblr"
+msgstr ""
+
+#: framework/theme-functions.php:171
+msgid "VK"
+msgstr ""
+
+#: framework/theme-functions.php:181
+msgid "Xing"
+msgstr ""
+
+#: framework/theme-functions.php:186 inc/admin/admin/class-alpha-admin.php:95
+msgid "Instagram"
+msgstr ""
+
+#: framework/theme-functions.php:735 inc/general-function.php:22
+msgid "Pingback:"
+msgstr ""
+
+#: framework/theme-functions.php:735 inc/general-function.php:22
+msgid "(Edit)"
+msgstr ""
+
+#: framework/theme-functions.php:749 inc/general-function.php:34
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: framework/theme-functions.php:751 inc/general-function.php:53
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/theme-functions.php:1132 framework/theme-functions.php:1531
+#: inc/general-function.php:141
+msgid "Search Button"
+msgstr ""
+
+#: framework/theme-functions.php:1508 inc/general-function.php:118
+msgid "All Categories"
+msgstr ""
+
+#: framework/theme-functions.php:1549
+msgid "Hit enter to search or ESC to close"
+msgstr ""
+
+#: framework/theme-options.php:17 inc/theme-options.php:17
+msgid "Global Layout"
+msgstr ""
+
+#: framework/theme-options.php:22 inc/theme-options.php:22
+msgid "Shop Page Layout"
+msgstr ""
+
+#: framework/theme-options.php:35 inc/theme-options.php:35
+msgid "Single Product Layout"
+msgstr ""
+
+#: framework/theme-options.php:48 inc/theme-options.php:48
+msgid "Blog Page Layout"
+msgstr ""
+
+#: framework/theme-options.php:59 inc/theme-options.php:59
+msgid "Single Post Layout"
+msgstr ""
+
+#: framework/theme-options.php:70 inc/theme-options.php:70
+msgid "404 Page Layout"
+msgstr ""
+
+#: framework/theme-options.php:82 inc/theme-options.php:82
+#: inc/theme-options.php:85
+msgid "Style / Additional CSS & Script"
+msgstr ""
+
+#: framework/theme-options.php:85 inc/theme-options.php:87
+msgid "Shop / Product Type"
+msgstr ""
+
+#: framework/theme-options.php:86 inc/theme-options.php:88
+msgid "WooCommerce / Product Page"
+msgstr ""
+
+#: framework/theme-options.php:87
+msgid "Advanced / Lazy Load"
+msgstr ""
+
+#: framework/theme-options.php:88
+msgid "Advanced / Search"
+msgstr ""
+
+#: framework/theme-options.php:179 inc/theme-options.php:184
+msgid "Menu"
+msgstr ""
+
+#: framework/theme-options.php:203 inc/theme-options.php:208
+msgid "Buy Now"
+msgstr ""
+
+#: framework/theme-options.php:204 inc/theme-options.php:209
+msgid "More Products From This Vendor"
+msgstr ""
+
+#: framework/theme-options.php:233 inc/theme-options.php:238
+msgid "Someone Purchased"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:58
+msgid "Upgrade"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:59
+msgid ""
+"The number of layouts has exceeded 7. Activate theme and get pro to continue."
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:59
+msgid ""
+"The number of layouts has exceeded 7. Purchase of Pro and theme activation "
+"are required to continue."
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:102
+msgid "WordPress"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:109
+msgid "Envato"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:148
+msgid ""
+"The easiest and fastest way to install and configure your website, just "
+"follow the steps and you're all set."
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:154
+msgid ""
+"Step-by-step wizard that removes render blocking resources, improves website "
+"speed and Pagespeed Insights scores."
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:157
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:160
+#, php-format
+msgid ""
+"Contains all descriptions related to %1$s usage and features. Before you use "
+"%1$s, read documentation first."
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:163
+msgid "How-to Videos"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:166
+msgid ""
+"We provide many How-to Videos for visual instructions. Check our video "
+"tutorials and find your answer."
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:169
+msgid "Support"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:172
+#, php-format
+msgid ""
+"Join to our community of %s fans creating eye-catching websites! Share your "
+"site, ask a question. We provide 24/7 supports."
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:175
+msgid "Request a Feature"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:178
+#, php-format
+msgid ""
+"Let us make %s more awesome and powerful. If you want any extra feature, "
+"we'll be happy with receiving your request."
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:181
+msgid "Our Products"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:184
+msgid ""
+"Our products add more advanced features and functionalities. Powerful, "
+"effective and crafted for you."
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:187
+msgid "Free vs Pro"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:190
+#, php-format
+msgid ""
+"The %s Pro adds more powerful features, more enhanced performance and more "
+"flexibility."
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:193
+msgid "Buy now!"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:201
+msgid "Reviews"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:204
+#, php-format
+msgid ""
+"How did our customers rate our theme? Check their reviews and you will be "
+"more sure of choosing %s."
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:338
+msgid "Your ip address is blocked as spam!!!"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:340
+msgid "Purchase Code is not valid!!!"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:342
+#, php-format
+msgid "This code was already used in %s."
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:344
+msgid "Please re-activate the theme."
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:346
+msgid " Theme is not activated!"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:348
+msgid " Theme is activated!"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:350
+#, php-format
+msgid ""
+"You are using illegal version now. Please purchase legal version %1$shere"
+"%2$s."
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:352
+#, php-format
+msgid ""
+"Your purchase code is temporarily blocked. Please contact us %1$shere%2$s to "
+"unblock it."
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:525
+#, php-format
+msgid ""
+"Please %s theme to get access to pre-built demo websites and auto updates."
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:525
+msgid "register"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:531
+msgid "Purchase Code is not valid or could not connect to the API server!"
+msgstr ""
+
+#: inc/admin/admin/class-alpha-admin.php:601
+#, php-format
+msgid ""
+"There is a problem contacting to the %s API server. Please try again later."
+msgstr ""
+
+#: inc/admin/customizer/class-alpha-customizer-extend.php:75
+msgid "Skin & Color"
+msgstr ""
+
+#: inc/admin/customizer/class-alpha-customizer-extend.php:139
+msgid "Success Color"
+msgstr ""
+
+#: inc/admin/customizer/class-alpha-customizer-extend.php:148
+msgid "Warning Color"
+msgstr ""
+
+#: inc/admin/customizer/class-alpha-customizer-extend.php:157
+msgid "Danger Color"
+msgstr ""
+
+#: inc/admin/customizer/class-alpha-customizer-extend.php:166
+msgid "H1 Font Size"
+msgstr ""
+
+#: inc/admin/customizer/class-alpha-customizer-extend.php:173
+msgid "H2 Font Size"
+msgstr ""
+
+#: inc/admin/customizer/class-alpha-customizer-extend.php:180
+msgid "H3 Font Size"
+msgstr ""
+
+#: inc/admin/customizer/class-alpha-customizer-extend.php:187
+msgid "H4 Font Size"
+msgstr ""
+
+#: inc/admin/customizer/class-alpha-customizer-extend.php:194
+msgid "H5 Font Size"
+msgstr ""
+
+#: inc/admin/customizer/class-alpha-customizer-extend.php:201
+msgid "H6 Font Size"
+msgstr ""
+
+#: inc/admin/customizer/class-alpha-customizer-extend.php:287
+#, php-format
+msgid ""
+"3 quickview types are available in %1$sAlpus Pro%2$s - default, offcanvas or "
+"animate."
+msgstr ""
+
+#: inc/admin/customizer/class-alpha-customizer-extend.php:310
+msgid "More Options Available in Alpus Pro"
+msgstr ""
+
+#: inc/admin/customizer/class-alpha-customizer-extend.php:356
+msgid "AI Generator"
+msgstr ""
+
+#: inc/admin/customizer/class-alpha-customizer-extend.php:380
+msgid "Product Buy Now"
+msgstr ""
+
+#: inc/admin/customizer/class-alpha-customizer-extend.php:449
+msgid "Custom Cursor"
+msgstr ""
+
+#: inc/admin/panel/views/dashboard.php:220
+msgid "Integrated Plugins"
+msgstr ""
+
+#: inc/admin/panel/views/dashboard.php:229
+msgid "CRM, Marketing & Sales"
+msgstr ""
+
+#: inc/admin/panel/views/dashboard.php:230
+msgid ""
+"This offers a full stack of software for marketing, sales and customer "
+"service. Powerful alone, Better together."
+msgstr ""
+
+#: inc/admin/panel/views/dashboard.php:231
+msgid "WP Marketing"
+msgstr ""
+
+#: inc/admin/panel/views/dashboard.php:241
+msgid "Multilingual Sites"
+msgstr ""
+
+#: inc/admin/panel/views/dashboard.php:242
+#, php-format
+msgid ""
+"This is the most popular and versatile multilingual plugin available on the "
+"market, works perfectly with %s."
+msgstr ""
+
+#: inc/admin/panel/views/dashboard.php:243
+msgid "WP Multilingual"
+msgstr ""
+
+#: inc/admin/panel/views/dashboard.php:253
+msgid "The Events Calendar"
+msgstr ""
+
+#: inc/admin/panel/views/dashboard.php:254
+msgid ""
+"This is a crafted plugin to create and manage events on your website with "
+"ease. Extensible and easy to use."
+msgstr ""
+
+#: inc/admin/panel/views/dashboard.php:255
+msgid "WP Events Calendar"
+msgstr ""
+
+#: inc/admin/panel/views/go_pro.php:20
+msgid "Get Alpus Pro"
+msgstr ""
+
+#: inc/admin/panel/views/go_pro.php:21
+#, php-format
+msgid ""
+"Please install %1$s Pro to get access here. Supercharge your %1$s with Pro "
+"Features & Addons that you won't find anywhere else."
+msgstr ""
+
+#: inc/admin/panel/views/go_pro.php:22 inc/admin/panel/views/header.php:91
+msgid "Get Pro"
+msgstr ""
+
+#: inc/admin/panel/views/header.php:97
+#: inc/admin/setup-wizard/views/activation.php:50
+msgid "Activated"
+msgstr ""
+
+#: inc/admin/panel/views/header.php:99
+#: inc/admin/setup-wizard/views/activation.php:53
+msgid "Not Activated"
+msgstr ""
+
+#: inc/admin/panel/views/header.php:117
+#, php-format
+msgid ""
+"Thanks for choosing %1$s. Get ready to build beautiful and attractive "
+"website?%2$sWe hope you enjoy it!"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:177
+#, php-format
+msgid ""
+"You can improve your site performance by using %s Optimize Wizard "
+"( Dashboard > Optimize Wizard )."
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:178
+msgid ""
+"Using Critical CSS can noticeably reduce page-load times, as it speeds up "
+"the page rendering process."
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:179
+#, php-format
+msgid ""
+"%s Optimize Wizard provides Critical CSS & Merge JS/CSS functionality for "
+"your site performance."
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:180
+msgid ""
+"Critical CSS & Merge JS/CSS functionality should be applied after your site "
+"complete development."
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:371
+msgid "Import Demo"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:377
+msgid "Ready!"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:427
+msgid "Are you sure you want to leave?"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:428
+msgid "Are you sure to import demo contents and override old one?"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:430
+#, php-format
+msgid ""
+"Failed importing! Please check the %1$s\"System Status\"%2$s tab to ensure "
+"your server meets all requirements for a successful import. Settings that "
+"need attention will be listed in red. If your server provider does not allow "
+"to update settings, please try using alternative import mode."
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:431
+msgid "Installation is failed!"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:432
+msgid "Installation is finished!"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:433
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:799
+msgid "Installing"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:435
+msgid "Visit your site."
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:436
+msgid "Failed"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:437
+msgid "Ajax error"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:438
+msgid "Removed failed. Please refresh and try again."
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:439
+msgid "Removed successfully."
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:454
+#, php-format
+msgid ""
+"%s quick setup wizard will help you to configure your new website. This "
+"wizard will import a pre-built demo and install the required plugins with "
+"just some clicks."
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:513
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:542
+msgid "Failed to find TGM"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:660
+#, php-format
+msgid "Directory permission required for %s"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:749
+msgid "No Slug Found"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:769
+msgid "Activating"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:784
+msgid "Updating"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:866
+msgid "Remote API error."
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:968
+msgid "Successfully reset menus!"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:1007
+msgid "Successfully reset widgets!"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:1276
+msgid "Successfully imported widgets!"
+msgstr ""
+
+#: inc/admin/setup-wizard/class-alpha-setup-wizard.php:1348
+msgid ""
+"Please compile default css files by publishing options in customize panel."
+msgstr ""
+
+#: inc/admin/setup-wizard/views/activation.php:18
+msgid "Theme License"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/activation.php:19
+#, php-format
+msgid ""
+"Thanks for using %1$s Pro. Enter your license key to activate %2$s Pro and "
+"get full access to pro features."
+msgstr ""
+
+#: inc/admin/setup-wizard/views/activation.php:37
+msgid "Purchase Code:"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/activation.php:38
+msgid "Please enter your purchase code"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/activation.php:71
+#, php-format
+msgid "Already have a license? Find the license %1$shere%2$s"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/activation.php:83
+msgid "Free License"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/activation.php:85
+msgid "Limited elements, templates and addons"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/activation.php:86
+#: inc/admin/setup-wizard/views/activation.php:95
+msgid "Access to optimize wizard"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/activation.php:87
+#: inc/admin/setup-wizard/views/activation.php:96
+msgid "Use of pre-made elementor templates"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/activation.php:87
+msgid "Use of limited elementor templates"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/activation.php:88
+#: inc/admin/setup-wizard/views/activation.php:97
+msgid "Premium support and updates"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/activation.php:92
+msgid "Pro License"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/activation.php:94
+msgid "Unlimited elements, templates and addons"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/activation.php:96
+msgid "Use of unlimited elementor templates"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/demo.php:235
+msgid "Unlock"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/ready.php:13
+msgid "Your Website is Ready!"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/ready.php:15
+msgid ""
+"Congratulations! The theme has been activated and your website is ready. "
+"Please go to your WordPress dashboard to make changes and modify the content "
+"for your needs."
+msgstr ""
+
+#: inc/admin/setup-wizard/views/ready.php:17
+msgid ""
+"This theme comes with 6 months item support from purchase date (with the "
+"option to extend this period). This license allows you to use this theme on "
+"a single website. Please purchase an additional license to use this theme on "
+"another website."
+msgstr ""
+
+#: inc/admin/setup-wizard/views/ready.php:21
+#, php-format
+msgid "Item Support %1$sDOES%2$s Include:"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/ready.php:24
+msgid "Availability of the author response to the questions"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/ready.php:25
+msgid "Answering technical questions about item features"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/ready.php:26
+msgid "Assistance with reported bugs and issues"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/ready.php:27
+msgid "Help with bundled 3rd party plugins"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/ready.php:32
+#, php-format
+msgid "Item Support %1$sDOES NOT%2$s Include:"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/ready.php:34
+msgid "Customization services"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/ready.php:35
+msgid "Installation services"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/ready.php:36
+msgid ""
+"Help and Support for non-bundled 3rd party plugins (i.e. plugins you "
+"installed yourself later on)"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/ready.php:43
+#, php-format
+msgid ""
+"Please come back and leave a %1$s5-star rating%2$s if you are happy with "
+"this theme. Thanks!"
+msgstr ""
+
+#: inc/admin/setup-wizard/views/ready.php:46
+msgid "View your new website!"
+msgstr ""
+
+#: inc/general-function.php:199
+msgid "Show : "
+msgstr ""
+
+#: inc/history.php:21
+#, php-format
+msgid "Step into WordPress %1$s5.7.1%2$s"
+msgstr ""
+
+#: inc/history.php:25
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore ctetur adipis\n"
+"magna aliqua. Venenatis tellus in metus vulputate eu scelerisque felis. Vel "
+"pretium lectus quam id leo in vitae us in metus vulpu\n"
+"turpis massa. Nunc id cursus metus aliquam. Libero id faucibus nisl "
+"tincidunt eget. Aliquam id diam maecenas ero id fauci\n"
+"ultricies mi eget mauris."
+msgstr ""
+
+#: inc/history.php:35 inc/history.php:50
+msgid "Maintenance and Security Releases"
+msgstr ""
+
+#: inc/history.php:40 inc/history.php:55
+#, php-format
+msgid ""
+"Version 5.7.1 addressed some security issues and fixed 26 bugs. For more "
+"information, see %1$sthe release notes%2$s."
+msgstr ""
+
+#: inc/history.php:68
+msgid "Version 1.0.3 (29th May 2023)"
+msgstr ""
+
+#: inc/history.php:71
+msgid "Reveal entrance animation."
+msgstr ""
+
+#: inc/history.php:72
+msgid "200+ templates in Alpus Studio."
+msgstr ""
+
+#: inc/history.php:73
+msgid "Email subscription popup in all demos."
+msgstr ""
+
+#: inc/history.php:75 inc/history.php:93 inc/history.php:107
+msgid "Fixed"
+msgstr ""
+
+#: inc/history.php:77
+msgid "Studio template importing issue that contains forms."
+msgstr ""
+
+#: inc/history.php:78
+msgid "Popup does not appear in side header layout."
+msgstr ""
+
+#: inc/history.php:79
+msgid "Svg alignment option in counters widget."
+msgstr ""
+
+#: inc/history.php:81
+msgid "Version 1.0.2 (15th May 2023)"
+msgstr ""
+
+#: inc/history.php:84
+msgid "Typography option in single builder's tag widget."
+msgstr ""
+
+#: inc/history.php:85
+msgid "Layout builder popup at first save of Alpus template."
+msgstr ""
+
+#: inc/history.php:86
+msgid "Compatibility with Elementor v.3.13.x."
+msgstr ""
+
+#: inc/history.php:88 inc/history.php:102
+msgid "Updated"
+msgstr ""
+
+#: inc/history.php:90
+msgid ""
+"Transparent header option does not working when sticky option is not active."
+msgstr ""
+
+#: inc/history.php:91
+msgid "Top bar Alpus dropdown when user logged in."
+msgstr ""
+
+#: inc/history.php:95
+msgid "Menu dropdown box shadow option in menu widget."
+msgstr ""
+
+#: inc/history.php:97
+msgid "Version 1.0.1 (28th Apr 2023)"
+msgstr ""
+
+#: inc/history.php:100
+msgid "Empty cart, wishlist, compare dropdown style."
+msgstr ""
+
+#: inc/history.php:104
+msgid "Tab font style option in section tab element."
+msgstr ""
+
+#: inc/history.php:105
+msgid "Studio popup redesign in elementor editor."
+msgstr ""
+
+#: inc/history.php:109
+msgid "Live search list style issue in dark mode."
+msgstr ""
+
+#: inc/history.php:110
+msgid "Search result style broken in full screen search type."
+msgstr ""
+
+#: inc/history.php:111
+msgid "Duplex, ribbon effect for elementor sections."
+msgstr ""
+
+#: inc/history.php:113
+msgid "Version 1.0.0 (25th Apr 2023)"
+msgstr ""
+
+#: inc/history.php:114
+msgid "Initial Release"
+msgstr ""
+
+#: inc/templates/posts/loop/post-meta.php:26
+#, php-format
+msgid "%1$s0%2$s"
+msgstr ""
+
+#: inc/templates/posts/loop/post-meta.php:28
+#, php-format
+msgid "%1$s1%2$s"
+msgstr ""
+
+#: inc/templates/posts/loop/post-meta.php:30
+#, php-format
+msgid "%1$s%2$s%3$s"
+msgstr ""
+
+#: inc/templates/posts/single/post-navigation.php:19
+msgid "Previous "
+msgstr ""
+
+#: inc/templates/posts/single/post-navigation.php:20
+msgid "Next "
+msgstr ""
+
+#: woocommerce/cart/cart.php:148
+msgid "Coupon Code"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:143
+msgid "Cart is empty."
+msgstr ""
+
+#: woocommerce/content-widget-price-filter.php:26
+msgid "Price Range:"
+msgstr ""
+
+#: woocommerce/content-widget-price-filter.php:29
+msgid "Price Filter"
+msgstr ""
+
+#: woocommerce/content-widget-price-filter.php:31
+msgid "Min price"
+msgstr ""
+
+#: woocommerce/content-widget-price-filter.php:32
+msgid "Max price"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:33
+msgid "QTY:"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:58
+#, php-format
+msgid "-%d%%"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:64
+msgid "Out"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:44
+msgid "Browse Products : "
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:43
+msgid "Email Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:52
+#: woocommerce/myaccount/form-edit-account.php:59
+msgid "(leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:64
+msgid "Confirm new password *"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:36
+#: woocommerce/myaccount/form-login.php:127
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:62
+msgid "Forgot Password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:67
+msgid "LOGIN"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:122
+#, php-format
+msgid "%1$sAccept the Terms and %2$s"
+msgstr ""
+
+#: woocommerce/single-product/share.php:24
+msgid "Share:"
+msgstr ""

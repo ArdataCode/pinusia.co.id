@@ -1,0 +1,4 @@
+[20-Mar-2024 08:38:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "SimplePie" not found in /home/ujianori/pinusia.co.id/wp-includes/SimplePie/Core.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/SimplePie/Core.php on line 53

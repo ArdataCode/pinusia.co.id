@@ -1,0 +1,874 @@
+/* -------------------------------------------
+    Alpha Admin Extend Style
+    1. Admin General Style
+			1-1. Admin Menu
+			1-2. Admin Logo
+    2. Admin Dashboard Style
+        2-1. General
+        2-2. Register Section
+        2-4. Admin Navs
+        2-3. Panel
+        2-5. Theme Features
+        2-6. Change Log
+        2-7. What's New
+        2-8. Info Section
+        2-9. Plugins
+    3. Admin Pages
+        3-1. Dashboard
+        3-2. Layout builder
+        3-3. Ready
+        3-4. Go Pro
+        3-5. Activation
+        3-6. Sidebars
+    4. Alpha Modal
+    5. Setup wizard
+    6. Layout Builder
+---------------------------------------------- */
+
+@import "../../../assets/sass/config";
+@import "../../../assets/sass/mixins";
+@import "../../../assets/sass/direction";
+
+// 1. Admin General Style
+// 1-1. Admin Menu
+.toplevel_page_alpha .toplevel_page_alpha {
+  background: var(--alpha-primary-color) !important;
+
+  &:after {
+    content: none !important;
+  }
+}
+
+#wp-admin-bar-alpha {
+  > a {
+    background: var(--alpha-primary-color) !important;
+  }
+
+  &:hover > a.ab-item,
+  &.hover > a.ab-item,
+  &:hover span.ab-label,
+  &.hover span.ab-label,
+  & a:focus span.ab-label {
+    color: #fff !important;
+  }
+}
+
+#adminmenu li.toplevel_page_alpha.menu-top:hover,
+#adminmenu li.toplevel_page_alpha.opensub > a.menu-top,
+#adminmenu li.toplevel_page_alpha > a.menu-top:hover,
+#adminmenu li.toplevel_page_alpha > a.menu-top:focus {
+  color: #fff;
+}
+
+.alpha-admin-page {
+  #adminmenuback,
+  #adminmenuwrap {
+    filter: none;
+  }
+
+  .alpha-product:not(.coming-soon) > img {
+    border: none;
+  }
+}
+
+.alpha-pro-badge {
+  display: inline-block;
+  vertical-align: middle;
+  margin-#{$left}: 5px;
+  padding: 0 5px;
+  background-color: var(--alpha-primary-color);
+  font-size: 10px;
+  line-height: 1.5;
+  color: var(--alpha-white-color);
+
+  .wp-has-current-submenu & {
+    margin-#{$left}: 8px;
+  }
+}
+
+// 1-2. Admin Logo
+.alpha-mini-logo:before,
+div.dashicons-alpha-logo:before,
+span.dashicons-alpha-logo:before {
+  background-size: 20px;
+}
+
+// 2. Admin Dashboard Style
+// 2-1. General
+.alpha-admin-page #wpbody-content>.notice,
+.alpha-admin-page #wpbody-content>.updated,
+.alpha-admin-page #wpbody-content>.wrap {
+  max-width: none;
+  margin-#{$right}: 40px;
+}
+.post-type-alpha_template {
+  #wpbody-content,
+  .wrap {
+    > .notice,
+    > .error,
+    > .updated {
+      display: none;
+    }
+  }
+}
+
+#screen-meta-links {
+  position: absolute;
+  #{$right}: 0;
+}
+
+.alpha-wrap {
+  max-width: none;
+
+  h2 {
+    font-size: 36px;
+  }
+
+  input {
+    border-color: var(--alpha-admin-border-color-1);
+  }
+  
+  .button-danger {
+    color: var(--alpha-white-color);
+    background: var(--alpha-danger-color);
+    border-color: var(--alpha-danger-color);
+
+    &:hover,
+    &:focus {
+      background: var(--alpha-danger-color-hover);
+      border-color: var(--alpha-danger-color-hover);
+    }
+  }
+}
+
+.alpha-admin-header {
+  flex-wrap: wrap;
+  padding: 0 30px;
+  background-color: #262c31;
+  border-radius: 0;
+
+  .alpha-active-status a {
+    padding: 15px 40px;
+    background-color: transparent;
+    border-radius: $corner-sm;
+    border: 2px solid var(--alpha-danger-color);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    transition-property: color, border-color, background-color;
+    white-space: nowrap;
+
+    &:hover,
+    &:focus {
+      border-color: var(--alpha-danger-color-hover);
+      background-color: var(--alpha-danger-color-hover);
+    }
+
+    &.activated {
+      border-color: var(--alpha-success-color);
+      background: transparent;
+
+      &:hover,
+      &:focus {
+        border-color: var(--alpha-success-color-hover);
+        background-color: var(--alpha-success-color-hover);
+      }
+    }
+  }
+}
+
+.alpha-admin-panel {
+  background: transparent;
+
+  p {
+    color: var(--alpha-grey-color);
+  }
+}
+
+.alpha-admin-panel-body {
+  background: var(--alpha-white-color);
+}
+
+.alpha-admin-logo {
+  background: none;
+  width: auto;
+  margin-#{$right}: auto;
+  padding: 20px 0;
+
+  img {
+    width: 156px;
+  }
+}
+
+.alpha-admin-panel-steps {
+  --alpha-step-color-1: #3e4247;
+  --alpha-step-color-2: #4e5359;
+
+  li {
+    padding: 20px 30px 19px 40px;
+  }
+}
+
+@include mq(1439px, max) {
+  .alpha-admin-nav {
+    padding: 20px 0;
+  }
+
+  .alpha-admin-header .alpha-active-status a {
+    padding: 12px 28px;
+  }
+
+  .alpha-admin-logo {
+    min-width: 0;
+  }
+}
+
+@include mq(lg, max) {
+  .alpha-admin-header {
+    .alpha-admin-nav {
+      flex: 0 0 100%;
+      order: 13;
+      margin: 0;
+      justify-content: center;
+    }
+  }
+
+  .alpha-admin-nav-panel:not(:last-child) {
+    margin-#{$right}: 40px;
+  }
+}
+
+.admin-svg-setup-wizard {
+  background-image: url(../../../assets/images/admin/panel/setup_wizard.svg);
+}
+.admin-svg-optimize-wizard {
+  background-image: url(../../../assets/images/admin/panel/optimize_wizard.svg);
+}
+.admin-svg-plugins {
+  background-image: url(../../../assets/images/admin/panel/plugins.svg);
+}
+
+// 2-2 Register Section
+.alpha-active-dropdown {
+}
+
+// 2-3. Panel
+.alpha-admin-panel {
+  .alpha-panel-title {
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+
+  .alpha-running-info {
+    max-width: 600px;
+  }
+}
+
+.alpha-admin-panel-header {
+  padding: 45px 60px;
+  margin-bottom: 30px;
+  border-radius: 0;
+  background-color: #31363a;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../../../assets/images/admin/dashboard/page-header.jpg);
+}
+
+// 2-4. Admin Navs
+.alpha-admin-nav {
+  margin-#{$right}: 40px;
+
+  > a,
+  .alpha-admin-nav-panel > i,
+  .alpha-admin-nav-panel > label {
+    color: #fff;
+  }
+
+  .alpha-admin-nav-panel.active > i,
+  .alpha-admin-nav-panel.active > label,
+  .alpha-admin-nav-panel:hover > i,
+  .alpha-admin-nav-panel:hover > label {
+    color: var(--alpha-primary-color);
+  }
+}
+
+.admin-svg-vs {
+  background-image: url(../../../assets/images/admin/panel/vs.svg);
+}
+
+.admin-svg-forum {
+  background-image: url(../../../assets/images/admin/panel/forum.svg);
+}
+
+.admin-svg-pricing {
+  background-image: url(../../../assets/images/admin/panel/pricing.svg);
+}
+
+// 2-5. Theme Features
+.alpha-theme-features {
+  --alpha-col: 4;
+
+  @media (max-width: 1599px) {
+    --alpha-col: 3;
+  }
+}
+
+.alpha-theme-feature {
+  padding: 43px 30px 52px;
+  background: var(--alpha-white-color);
+
+  i {
+    max-width: 100%;
+  }
+}
+
+// 2-6. Change Log
+.alpha-others-section {
+  padding: 0;
+  background: transparent;
+}
+
+.alpha-changelog {
+  .alpha-log-title {
+    padding-top: 26px;
+
+    &:nth-child(2) {
+      margin-top: 2px;
+    }
+  }
+
+  li:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+.alpha-product {
+  .alpha-wrap & {
+    color: var(--alpha-admin-text-color-1);
+  }
+
+  label {
+    font-size: 16px;
+  }
+}
+
+// 2-8. Info Section
+.alpha-info-section {
+  flex-wrap: wrap;
+  padding: 0;
+  background: transparent;
+
+  .alpha-info {
+    width: 393px;
+
+    @include mq(xl, max) {
+      padding: 0;
+    }
+
+    @include mq(lg, max) {
+      width: 100%;
+    }
+  }
+
+  .alpha-section-right {
+    padding-#{$left}: 30px;
+    width: calc(100% - 393px);
+
+    @include mq(lg, max) {
+      padding: 0;
+      width: 100%;
+
+      .alpha-changelog-section {
+        position: static;
+
+        h3 {
+          margin-top: 40px;
+        }
+
+        .alpha-changelog-wrapper {
+          max-height: 500px;
+        }
+      }
+    }
+  }
+}
+
+.alpha-system-status {
+  padding: side-values(23px 25px 22px 30px);
+  border: none;
+  background: var(--alpha-white-color);
+
+  i {
+    width: 26px;
+    height: 26px;
+    background-color: rgba(102, 174, 78, 0.15);
+  }
+}
+
+.alpha-changelog-section {
+  #{$left}: 30px;
+}
+
+.alpha-changelog-wrapper {
+  padding: 38px 40px;
+  background: var(--alpha-white-color);
+  height: 100%;
+
+  .scrollable {
+    &::-webkit-scrollbar-track {
+      background: #f4f4f4;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: var(--alpha-light-color);
+    }
+  }
+}
+
+// 2-9. Info Section
+.plugins-section {
+  background: transparent;
+  margin-bottom: 40px;
+}
+
+.alpha-integrated-plugins {
+  --alpha-col: 3;
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% + 2 * var(--alpha-gap));
+  margin: 0 calc(-1 * var(--alpha-gap)) calc(-2 * var(--alpha-gap));
+
+  > * {
+    position: relative;
+    width: calc(100% / var(--alpha-col));
+    margin-bottom: calc(2 * var(--alpha-gap));
+    padding-left: var(--alpha-gap);
+    padding-right: var(--alpha-gap);
+    flex: 0 0 auto;
+  }
+
+  @media (max-width: 1599px) {
+    --alpha-col: 2;
+  }
+
+  @include mq(lg, max) {
+    --alpha-col: 1;
+  }
+}
+
+.alpha-integrated-plugin {
+  display: flex;
+  position: relative;
+  padding: 25px 25px 40px 3px;
+  background-color: #3d4046;
+
+  h3 {
+    margin: 18px 0 10px;
+    color: var(--alpha-white-color);
+  }
+
+  p {
+    margin: 0 0 23px;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    line-height: 1.86;
+  }
+
+  .btn {
+    display: inline-block;
+    width: auto;
+    padding: 11.5px 30px;
+    color: var(--alpha-white-color);
+    font-weight: 500;
+    transition: 0.3s;
+
+    &:hover,
+    &:focus {
+      color: var(--alpha-dark-color);
+    }
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 186px;
+    height: 186px;
+    #{$right}: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 50%;
+    transform: translate(18%, 53%);
+  }
+}
+
+.alpha-plugin-icon {
+  margin: 0 44px;
+
+  i {
+    display: inline-block;
+    width: 100px;
+    height: 148px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.alpha-plugin-icon,
+.alpha-plugin-content {
+  position: relative;
+}
+
+.admin-svg-hubspot {
+  background-image: url(../../../assets/images/admin/panel/hubspot.svg);
+}
+
+.admin-svg-wpml {
+  background-image: url(../../../assets/images/admin/panel/wpml.svg);
+}
+
+.admin-svg-calendar {
+  background-image: url(../../../assets/images/admin/panel/calendar.svg);
+}
+
+// 3-1. Dashboard
+.alpha-dashboard {
+  .alpha-admin-panel-body {
+    background: transparent;
+    padding: 0;
+  }
+}
+
+// 3-2. Layout builder
+#alpha_layout_builder {
+  background: var(--alpha-white-color);
+}
+
+@media (min-width: 1299px) {
+  .alpha-layouts-container > * {
+    width: 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+// 3-3. Ready
+.alpha-support {
+  width: 100%;
+  padding: 42px 50px 36px;
+  border: none;
+  background-color: #3d4046;
+  background-image: url(../../../assets/images/admin/setup-wizard/item-support.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 0;
+
+  .system-status {
+    margin-bottom: 11px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--alpha-white-color);
+
+    .circle {
+      top: 40px;
+      #{$left}: auto;
+      #{$right}: 90px;
+      width: 164px;
+      height: 164px;
+      border: none;
+      background-color: rgba(102, 174, 78, 0.15);
+      font-size: 90px;
+      line-height: 164px;
+    }
+
+    &.success {
+      i {
+        color: var(--alpha-success-color);
+      }
+    }
+
+    &.error {
+      .circle {
+        background-color: rgba(249, 104, 104, 0.15);
+      }
+    }
+
+    .error,
+    &.error i {
+      color: #f96868;
+    }
+  }
+
+  ul {
+    position: relative;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 13px;
+    line-height: 1.86;
+    margin: 0;
+    list-style: disc;
+    padding-#{$left}: 16px;
+    max-width: 370px;
+
+    li:before {
+      content: none;
+    }
+  }
+
+  strong {
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 1400px) {
+  .alpha-support:first-child {
+    width: calc(50% - 15px);
+    margin-#{$right}: 15px;
+  }
+
+  .alpha-support:last-child {
+    width: calc(50% - 15px);
+    margin-#{$left}: 15px;
+  }
+}
+
+// 3-4. Go Pro
+.alpha-pro-promo {
+  max-width: 600px;
+  margin: -25px auto -15px auto;
+  text-align: center;
+
+  .alpha-setup-activation & p {
+    margin-bottom: 32px;
+  }
+}
+
+.go-pro-img {
+  width: 264px;
+  height: 240px;
+  margin: 0 auto 45px auto;
+  background-image: url(../../../assets/images/admin/panel/go-pro.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+// 3-5. Activation
+.alpha-activation {
+  .alpha-admin-panel-header {
+      display: none;
+  }
+  .alpha-admin-panel-body {
+    margin-top: 40px;
+    padding-top: 145px;
+    padding-bottom: 135px;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .alpha-pro-promo p {
+    margin-bottom: 32px;
+  }
+}
+.alpha-setup-activation {
+  form,
+  .notice-block {
+    width: 630px;
+    max-width: 100%;
+  }
+
+  .notice-block {
+    color: var(--alpha-grey-color);
+  }
+
+  #alpha_registration {
+    .alpha-input-wrapper {
+      margin-#{$right}: 10px;
+    }
+
+    .alpha-input {
+      height: 46px;
+      border-radius: $corner-sm;
+    }
+
+    p.submit {
+      align-self: flex-end;
+      height: 46px;
+
+      .button {
+        padding-left: 31.5px;
+        padding-right: 31.5px;
+      }
+    }
+  }
+}
+
+.free-pro-license-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 854px;
+  max-width: 100%;
+  margin-#{$left}: -15px;
+
+  .license-box {
+    padding: 15px;
+    width: 50%;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin-bottom: 22px;
+  }
+
+  i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    margin-#{$right}: 10px;
+    color: var(--alpha-success-color);
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 50%;
+    background-color: rgba(102, 174, 78, 0.15);
+
+    &.error {
+      color: var(--alpha-danger-color);
+      background-color: rgba(249, 104, 104, 0.15);
+    }
+  }
+
+  li {
+    margin: 0;
+  }
+
+  li + li {
+    margin-top: 20px;
+  }
+
+  .button.button-large {
+    margin-top: 16px;
+    padding: 6.5px 32px;
+  }
+}
+
+@include mq(md, max) {
+  .free-pro-license-box .license-box {
+    width: 100%;
+  }
+
+  .free-pro-license-box {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+
+// 3-6. Sidebars
+#add_widget_area {
+  margin: 0 0 20px;
+}
+
+// 4. Alpha Modal
+.alpha-modal-header h2 {
+  font-size: 15px;
+}
+
+// 5. Setup Wizard
+.alpha-install-section {
+  .alpha-import-yes {
+    background-color: #66ae4e;
+    border-color: #66ae4e;
+
+    &.alternative {
+      background-color: #3486bf;
+      border-color: #3486bf;
+    }
+
+    &:not([disabled]):hover {
+      background-color: #d95555;
+      border-color: #d95555;
+    }
+
+    &[disabled] {
+      opacity: 0.4;
+    }
+  }
+}
+.theme-wrapper {
+  overflow: hidden;
+
+  &.demo-free {
+    &:before {
+      content: 'Free';
+      position: absolute;
+      display: block;
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: #35ae70;
+      min-width: 20rem;
+      padding: 2px 0;
+      top: 0;
+      #{$right}: 0;
+      transform: translate(calc(50% - 1.5rem),calc(-50% + 1.5rem)) rotateZ(45deg);
+      z-index: 1;
+    }
+  }
+  &.demo-pro {
+    &:before {
+      content: 'Pro';
+      position: absolute;
+      display: block;
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: #fd0a48;
+      min-width: 20rem;
+      padding: 2px 0;
+      top: 0;
+      #{$right}: 0;
+      transform: translate(calc(50% - 1.5rem),calc(-50% + 1.5rem)) rotateZ(45deg);
+      z-index: 1;
+    }
+  }
+}
+@media (min-width: 1439px) {
+  #theme-install-demos {
+    .theme {
+      padding: 0 10px;
+      margin: 0 0 30px 0;
+      width: calc(20% - 10px);
+    }
+  }
+}
+
+// 6. Layout Builder
+.layout-part.top-sidebar {
+  display: none;
+}
+.alpha-layout-more {
+  height: 452px;
+}
+
+.alpha-studio-popup .alpha-layout_builder {
+	.alpha-admin-panel-side h3 {
+		text-indent: -9999px;
+    height: 121px;
+    background-image: url(../../../assets/images/logo-layout.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+		figure {
+			display: none;
+		}
+	}
+  .alpha-layout-builder-categories {
+    text-align: center;
+  }
+  .alpha-layouts-save.require-save {
+    margin: 0 auto 20px;
+  }
+  .alpha-layout-builder-categories .alpha-condition-cat {
+    border-color: var(--alpha-change-light-border-color);
+  }
+}

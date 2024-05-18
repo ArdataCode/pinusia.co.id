@@ -1,0 +1,63 @@
+/*
+1. config, mixins
+2. php configuration
+3. framework additional css
+4. base
+5. components
+6. header
+7. footer
+*/
+
+/* 1. Alpha SCSS Framework */
+@import "config";
+@import "mixins";
+@import "direction";
+
+/* 2. Framework additional css */
+@import "../../framework/assets/sass/framework";
+
+/* 3. Base */
+@import "base/base";
+@import "base/misc";
+@import "base/layout";
+@import "base/grid";
+@import "base/spacing";
+@import "base/helper";
+
+/* 4. Wp Plugins */
+@import "compatibility/wp_extend";
+@import "compatibility/gutenberg_extend";
+@import "compatibility/woocommerce_extend";
+
+/* 5. Components */
+@import "components/dropdown";
+@import "components/form";
+@import "components/slider";
+@import "components/price-slider";
+@import "components/account";
+@import "components/alert";
+@import "components/animation";
+@import "components/button";
+@import "components/comment";
+@import "components/icon";
+@import "components/instagram";
+@import "components/minipopup";
+@import "components/search";
+@import "components/overlay";
+@import "components/page-header";
+@import "components/pagination";
+@import "components/popup";
+@import "components/social-icon";
+@import "components/sidebar";
+@import "components/tag";
+@import "components/tooltip";
+@import "components/title";
+@import "components/widget";
+@import "components/404";
+
+/* 6. Header */
+@import "base/header/header";
+@import "base/header/menu";
+
+/* 7. Footer */
+@import "base/footer/footer";

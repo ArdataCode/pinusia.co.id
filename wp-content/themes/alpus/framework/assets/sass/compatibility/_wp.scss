@@ -1,0 +1,164 @@
+/* -------------------------------------------
+    1. Customize Preview
+    2. Alpha Mini Logo
+    3. Admin menu's links
+    4. Contact Form 7
+---------------------------------------------- */
+
+// 1. Customize Preview
+.customize-partial-edit-shortcut button,
+.widget .customize-partial-edit-shortcut button {
+	display: none;
+}
+
+.alpha-tooltip {
+	padding: 5px 10px;
+	white-space: nowrap;
+	border-radius: 20px;
+	background-color: rgba(#0071a1, 0.7);
+	color: var(--alpha-white-color);
+	font-size: 1.5rem;
+	cursor: pointer;
+	transition: background 0.3s;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+
+	&:hover {
+		background-color: #0071a1;
+	}
+	> a::#{$before} {
+		content: "\f303";
+		margin-#{$right}: 8px;
+		font-family: "Font Awesome 5 Free";
+		font-size: 11px;
+		font-weight: 600;
+	}
+	&.tooltip-inner {
+		padding: 0 !important;
+		> a {
+			display: inline-block;
+			padding: 8px 22px;
+		}
+	}
+}
+
+.alpha-tooltip-initialized {
+	&.alpha-tooltip-active {
+		outline: 2px dotted #007cba;
+		outline-offset: 5px;
+	}
+}
+
+// 2. Alpha Mini Logo
+span.dashicons-alpha-logo:before,
+.alpha-mini-logo:before {
+	content: "";
+	display: inline-block;
+	background-image: url(../images/mini-logo-white.png);
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	padding: 2px;
+	background-size: 24px;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-sizing: content-box;
+}
+#wp-admin-bar-alpha .custom-mini-logo img {
+	width: 20px;
+	height: 20px;
+	padding: 2px;
+}
+#wp-admin-bar-alpha-activate .ab-icon.dashicons-admin-network {
+	margin-top: 3px;
+}
+
+// 3. Admin menu's links
+#wp-admin-bar-edit-default li .ab-item {
+	display: flex;
+	width: 200px;
+}
+
+#wp-admin-bar-edit-default .alpha-ab-template-type {
+	margin-#{$left}: auto;
+	background: #55595c;
+	font-size: 11px;
+	line-height: 9px;
+	margin-top: 6px;
+	padding: 4px 8px;
+	border-radius: 3px;
+	text-transform: capitalize;
+	letter-spacing: 0.05em;
+}
+
+.comment-form-cookies-consent input[type="checkbox"] + label {
+	display: inline;
+	vertical-align: middle;
+	line-height: 24px;
+	margin-#{$left}: 5px;
+
+	&::before {
+		transform: none;
+		top: 3px;
+	}
+}
+
+// 4. Contact Form 7
+.wpcf7-form {
+	position: relative;
+	margin-bottom: 2rem;
+
+	.ajax-loader {
+		display: none !important;
+		background: none;
+	}
+
+	.wpcf7-form-control-wrap span {
+		margin-top: 10px;
+	}
+
+	> p {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		width: 100%;
+		margin-bottom: 0;
+		font-size: 1.4rem;
+	}
+
+	.wpcf7-form-control-wrap {
+		flex: 1;
+	}
+
+	input {
+		background: var(--alpha-change-color-light-1);
+	}
+
+	span .wpcf7-form-control {
+		width: 100%;
+		padding: 1rem 1.5rem;
+	}
+
+	.btn {
+		padding: 0 2rem;
+	}
+}
+
+.wpcf7 form .wpcf7-response-output {
+	margin: 1em 0 0;
+	padding: 5px 10px;
+	border: 2px solid #dc3232;
+	font-size: 1.4rem;
+}
+
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.aborted .wpcf7-response-output {
+	margin: 1rem 0;
+	padding: 0.8em 1.5em;
+	border-radius: 3px;
+	color: var(--alpha-change-color-light-1);
+	border: 1px solid var(--alpha-danger-color);
+	background-color: var(--alpha-danger-color);
+}
+.wpcf7 .wpcf7-submit {
+	transition: 0.3s;
+}

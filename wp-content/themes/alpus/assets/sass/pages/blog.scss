@@ -1,0 +1,48 @@
+/*
+ * Blog Page
+ * 
+ * Theme SCSS Framework
+ */
+
+@import '../config';
+@import '../mixins';
+@import '../direction';
+
+/* Theme SCSS Framework */
+
+.post-archive {
+    transition: height .4s;
+
+    .post-title {
+        font-size: 1.572em;
+        margin-bottom: 1rem;
+    }
+
+    .btn-readmore {
+        position: relative;
+        color: var(--alpha-primary-color);
+
+        &:hover,
+        &:focus {
+            color: var(--alpha-primary-color);
+        }
+    }
+
+    .btn::after {
+        margin-top: 4px;
+    }
+
+    .post-wrap:not(.grid-item) {
+        margin-bottom: 4.5rem;
+    }
+
+    .entry-title {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@include mq(md, max) {
+    .post-archive .post-wrap:not(.grid-item) {
+        margin-bottom: 3rem;
+    }
+}

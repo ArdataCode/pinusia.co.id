@@ -1,0 +1,84 @@
+/* -------------------------------------------
+    Alpha Layout Builder
+---------------------------------------------- */
+
+@import '../../../assets/sass/config';
+@import '../../../assets/sass/mixins';
+@import '../../../assets/sass/direction';
+
+#wp-admin-bar-alpha-layout {
+    &:hover {
+        .ab-sub-wrapper {
+            top: 100%;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    &.alpha-layout-menu > .ab-item {
+        display: flex;
+        align-items: center;
+    }
+    .dashicons-alpha-layout {
+        &:before {
+            content: '';
+            display: block;
+            width: 1em;
+            height: 1em;
+            background-image: url(../../../assets/images/layout.svg);
+            font-size: 20px;
+        }
+    }
+
+    .ab-sub-wrapper {
+        position: absolute;
+        top: -9999px;
+        #{$left}: 0;
+        min-width: 280px;
+        padding: 0 10px;
+        box-shadow: 0 3px 5px rgb(0 0 0 / 20%);
+        background: #2c3338;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity .3s, visibility .3s;
+    }
+    .layout-part {
+        position: relative;
+        display: flex;
+        align-items: center;
+        float: none;
+        z-index: 0;
+        > a {
+            color: #ccc;
+            white-space: nowrap;
+            &:hover {
+                color: #72aee6;
+            }
+        }
+        &.child {
+            margin-#{$left}: 15px;
+            &:before {
+                content: "";
+                position: absolute;
+                left: -8px;
+                top: -17px;
+                width: 7px;
+                height: 32px;
+                border-left: 1px solid #666;
+                border-bottom: 1px solid #666;
+                z-index: -1;
+            }
+        }
+        &.parent {
+            min-height: 32px;
+            z-index: 1;
+        }
+    }
+    .layout-part-label {
+        padding: 5px 8px;
+        background: #55595c;
+        font-size: 12px;
+        line-height: 1;
+        border-radius: 3px;
+        white-space: nowrap;
+    }
+}

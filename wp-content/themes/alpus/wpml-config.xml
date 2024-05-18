@@ -1,0 +1,109 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1" display-as-translated="1">product</custom-type>
+    <custom-type translate="1" display-as-translated="1">product_variation</custom-type>
+    <custom-type translate="1" display-as-translated="1">alpha_template</custom-type>
+  </custom-types>
+  <custom-fields>
+    <custom-field action="translate">page_title</custom-field>
+    <custom-field action="translate">page_subtitle</custom-field>
+    <custom-field action="translate">alpha_custom_tab_title_1st</custom-field>
+    <custom-field action="translate">alpha_custom_tab_title_2nd</custom-field>
+    <custom-field action="translate">alpha_custom_tab_content_1st</custom-field>
+    <custom-field action="translate">alpha_custom_tab_content_2nd</custom-field>
+    <custom-field action="copy">attribute_pa_color</custom-field>
+    <custom-field action="copy">attribute_pa_size</custom-field>
+    <custom-field action="copy">_menu_item_nolink</custom-field>
+    <custom-field action="translate">_menu_item_label_name</custom-field>
+    <custom-field action="copy">_menu_item_megamenu</custom-field>
+    <custom-field action="copy">_menu_item_megamenu_width</custom-field>
+    <custom-field action="copy">_menu_item_megamenu_pos</custom-field>
+    <custom-field action="copy">_menu_item_image</custom-field>
+    <custom-field action="copy">_menu_item_block</custom-field>
+    <custom-field action="copy">_menu_item_icon</custom-field>
+    <custom-field action="copy">_menu_item_flyout_image</custom-field>
+    <custom-field action="copy">alpha_custom_labels</custom-field>
+    <custom-field action="translate">alpha_extra_info</custom-field>
+  </custom-fields>
+  <elementor-widgets>
+    <widget name="alpha_widget_heading">
+      <fields>
+        <field>title</field>
+      </fields>
+    </widget>
+    <widget name="alpha_widget_button">
+      <fields>
+        <field>label</field>
+        <field editor_type="LINK">link>url</field>
+      </fields>
+    </widget>
+    <widget name="alpha_widget_iconbox">
+      <fields>
+        <field>title_text</field>
+        <field editor_type="LINK">link>url</field>
+        <field>description_text</field>
+        <field>button_label</field>
+      </fields>
+    </widget>
+    <widget name="alpha_widget_imagebox">
+      <fields>
+        <field>title</field>
+        <field editor_type="LINK">link>url</field>
+        <field>subtitle</field>
+        <field>content</field>
+      </fields>
+    </widget>
+    <widget name="alpha_widget_search">
+      <fields>
+        <field>label</field>
+        <field>placeholder</field>
+      </fields>
+    </widget>
+    <widget name="alpha_widget_testimonial_group">
+      <fields-in-item items_of="testimonial_group_list">
+        <field>name</field>
+        <field>role</field>
+        <field>comment_title</field>
+        <field>content</field>
+      </fields-in-item>
+    </widget>
+  </elementor-widgets>
+  <admin-texts>
+    <key name="theme_mods_alpus">
+      <key name="ptb_delimiter"/>
+      <key name="mobile_bar_menu_label"/>
+      <key name="mobile_bar_home_label"/>
+      <key name="mobile_bar_shop_label"/>
+      <key name="mobile_bar_wishlist_label"/>
+      <key name="mobile_bar_account_label"/>
+      <key name="mobile_bar_cart_label"/>
+      <key name="mobile_bar_search_label"/>
+      <key name="mobile_bar_top_label"/>
+      <key name="product_tab_title"/>
+      <key name="white_label_title"/>
+      <key name="cookie_text"/>
+      <key name="cookie_agree_btn"/>
+      <key name="product_description_title"/>
+      <key name="product_specification_title"/>
+      <key name="product_reviews_title"/>
+      <key name="product_tab_title"/>
+      <key name="menu_labels"/>
+    </key>
+    <key name="widget_alpha-price-filter">
+      <key name="2">
+        <key name="title"/>
+        <key name="range"/>
+        <key name="format"/>
+        <key name="prefix"/>
+        <key name="suffix"/>
+      </key>
+      <key name="_multiwidget"/>
+    </key>
+    <key name="widget_posts-nav-widget">
+      <key name="4">
+        <key name="title"/>
+      </key>
+      <key name="_multiwidget"/>
+    </key>
+  </admin-texts>
+</wpml-config>

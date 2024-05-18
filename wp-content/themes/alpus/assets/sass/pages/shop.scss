@@ -1,0 +1,570 @@
+/* -------------------------------------------
+    Shop Page
+        1. Default And Base Style
+        2. Toolbox
+            1. Toolbox Base
+            2. Toolbox Sticky
+            3. Toolbox Horizontal
+            4. Toolbox Pagination
+        3. Layout Button
+        4. Select Items
+        5. Woocommerce Info
+        6. Loading
+        7. Sidebar
+            1. Sidebar Base
+            2. Compatibility with other plugins
+        8. Responsive
+---------------------------------------------- */
+
+@import "../config";
+@import "../mixins";
+@import "../direction";
+
+// 1. Defaull And Base Style
+.filter-actions,
+.toolbox,
+.toolbox-left,
+.toolbox-right,
+.toolbox-item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filter-actions,
+.toolbox {
+  justify-content: space-between;
+}
+
+.toolbox-top {
+  position: relative;
+  justify-content: initial;
+
+  .show-info {
+    margin-bottom: 1rem;
+  }
+}
+
+.toolbox-left {
+  flex: 1;
+  white-space: nowrap;
+}
+
+// 2. Toolbox
+// 2-1. Toolbox Base
+.toolbox {
+  color: var(--alpha-dark-color);
+  line-height: 1.5;
+  padding-bottom: 1rem;
+  transition: padding 0.4s;
+
+  &-left,
+  &-right {
+    > * {
+      margin-#{$right}: 2rem;
+    }
+  }
+
+  .toolbox-right {
+    margin-#{$right}: -2rem;
+  }
+
+  label {
+    margin-#{$right}: 1rem;
+    font-weight: 400;
+  }
+
+  select {
+    padding: side-values(0.9rem 2.7rem 0.9rem 1.4rem);
+    border-radius: var(--alpha-border-radius-form);
+    cursor: pointer;
+    font-size: 0.86em;
+  }
+
+  .select-box::before {
+    font-size: 1rem;
+    #{$right}: 1rem;
+  }
+
+  .toolbox-toggle {
+    padding: 1.1rem 1.3rem;
+
+    i {
+      font-size: 1.4rem;
+    }
+  }
+
+  .orderby {
+    width: 15.4rem;
+    max-width: none;
+  }
+
+  .btn-link {
+    padding: 0;
+  }
+}
+
+.toolbox-item {
+  flex-wrap: nowrap;
+  margin-bottom: 1rem;
+
+  select {
+    flex: 1;
+  }
+}
+
+@include mq(md, max) {
+  .toolbox-show-count,
+  .toolbox-sort {
+    label {
+      display: none;
+    }
+  }
+}
+
+// 2-2. Toolbox Sticky
+.sticky-toolbox.fixed {
+  padding: 1rem 3rem 0;
+}
+
+// 2-3 Toolbox Horizontal
+.toolbox-horizontal {
+  display: flex;
+  color: var(--alpha-dark-color);
+  z-index: 2;
+
+  > .sticky-content-wrapper,
+  > .toolbox {
+    flex: 1;
+  }
+
+  .select-box::before {
+    font-size: 1.2rem;
+    right: 1.2rem;
+    margin-top: 1px;
+  }
+
+  select {
+    max-width: 15.7rem;
+    padding: side-values(0.65em 2.55em 0.58em 1.2em);
+    font-size: 1.2rem;
+  }
+
+  .toolbox-toggle {
+    padding: 0.85rem 1.3rem;
+  }
+
+  .show-info {
+    margin-bottom: 1.2rem;
+    color: var(--alpha-change-color-light-4);
+    font-size: inherit;
+  }
+
+  .toolbox-show-count label {
+    display: none;
+  }
+
+  .shop-sidebar {
+    margin-#{$right}: 0;
+  }
+
+  &.fixed .sidebar-overlay,
+  &.fixed .sidebar-content {
+    min-height: 100vh;
+  }
+}
+
+// 2-4 Toolbox Pagination
+.toolbox-pagination {
+  position: relative;
+  border-top: 1px solid #f4f4f4;
+
+  &.no-pagination,
+  .btn-load + & {
+    padding: 0;
+    border-top: none;
+  }
+}
+
+.product-archive + .toolbox-pagination {
+  padding-top: 4rem;
+}
+
+// 3. Layout Button
+.btn-showtype {
+  color: var(--alpha-change-color-light-3);
+  font-size: 19px;
+  line-height: 1;
+
+  &:last-child {
+    padding-#{$right}: 0;
+  }
+
+  &:hover,
+  &.active {
+    color: var(--alpha-change-color-dark-1);
+    text-decoration: none;
+  }
+
+  & + & {
+    margin-#{$left}: 10px;
+  }
+}
+
+// 4. Select Items
+.select-items {
+  display: none;
+  margin-bottom: 1.5rem;
+
+  .toolbox + & {
+    font-size: 1.2rem;
+    margin: 2px 0 1.8rem;
+  }
+
+  > * {
+    margin: side-values(0 0.8rem 0 0);
+  }
+
+  .filter-clean {
+    margin-#{$left}: 1.2rem;
+  }
+}
+
+.select-item {
+  display: inline-block;
+  position: relative;
+  padding: side-values(5px 2.4rem 5px 1rem);
+  border-radius: var(--alpha-border-radius-form);
+  background: var(--alpha-change-light-border-color);
+  color: var(--alpha-dark-color);
+  font-size: 1.2rem;
+
+  i {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    #{$right}: 5px;
+    font-size: 13px;
+    line-height: 29px;
+  }
+}
+
+// 5. WooCommerce Info
+.no-product {
+  max-width: 100%;
+  flex: 100%;
+}
+
+// 6. Loading
+.product-archive > .d-loading > i {
+  top: 14rem;
+}
+
+.product-archive .products > p {
+  margin: 0 10px;
+}
+
+// 7. Sidebar
+// 7-1. Sidebar Base
+.sidebar.shop-sidebar {
+  position: relative;
+
+  .btn-outline:not(:hover) {
+    color: var(--alpha-primary-color);
+    background: var(--alpha-white-color);
+  }
+
+  .widget:first-child h2 {
+    padding-top: 7px;
+  }
+
+  .yith-woo-ajax-navigation li,
+    .widget .wc-layered-nav-term,
+    //.widget-price-filter li, 
+    .widget_product_categories .cat-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .yith-wcan-list .empty {
+    text-decoration: line-through;
+  }
+
+  .wc-block-product-categories {
+    margin-bottom: 0;
+  }
+}
+
+// 7-2. Compatibility with other plugins
+.sidebar-fixed .yith-wcan-reset-navigation {
+  padding: 1rem;
+  font-size: 1.1rem;
+  margin-top: 12px;
+}
+
+.shop-sidebar .yith-woo-ajax-reset-navigation {
+  display: none !important;
+}
+
+// 8. Responsive
+@include mq(sm) {
+  .toolbox-horizontal {
+    .toolbox-left {
+      margin-#{$right}: auto;
+    }
+  }
+}
+
+@include mq(lg) {
+  .toolbox .sidebar-content {
+    max-width: none;
+  }
+
+  // Sidebar Style
+  .sticky-sidebar-fixed > .filter-actions {
+    visibility: hidden;
+  }
+
+  .sidebar-fixed.shop-sidebar {
+    transition: margin 0.4s;
+
+    .sidebar-content {
+      padding: 0 0 2rem;
+    }
+
+    + .main-content {
+      transition: flex 0.3s, max-width 0.3s;
+    }
+  }
+
+  // Horizontal Style
+  .toolbox-horizontal {
+    font-size: 1.2rem;
+
+    .shop-sidebar .sidebar-content {
+      padding-bottom: 0;
+    }
+
+    .widget {
+      position: relative;
+      margin-bottom: 1rem;
+      margin-#{$right}: 1rem;
+      color: var(--alpha-dark-color);
+
+      .widget-title {
+        position: relative;
+        padding: side-values(0.65em 4.3em 0.58em 1.2em);
+        margin-bottom: 0;
+        border: 1px solid var(--alpha-change-light-border-color);
+        border-radius: var(--alpha-border-radius-form);
+        background: var(--alpha-white-color) url(../../images/select-bg.svg)
+          if-ltr(98%, 2%) 45%/26px 60px no-repeat;
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0;
+        text-transform: capitalize;
+      }
+
+      .widget-title + * {
+        position: absolute;
+        top: 100%;
+        z-index: 100;
+        min-width: 23rem;
+        margin-top: 0.5rem;
+        padding: 1rem 2rem 1rem;
+        background: var(--alpha-white-color);
+        box-shadow: 0 5px 16px rgba(0, 0, 0, 0.12);
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      &.opened {
+        h3 {
+          border-color: var(--alpha-primary-color);
+        }
+
+        .widget-title + * {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+
+    .sidebar {
+      .widget {
+        // Widget list styling
+        ul {
+          padding-bottom: 2rem;
+          white-space: normal;
+        }
+
+        li {
+          border-radius: var(--alpha-border-radius-form);
+          background-color: #f5f5f5;
+          margin: side-values(1rem 0.5rem 0 0);
+          padding: 0;
+        }
+
+        li a {
+          padding: 0.5em 1em;
+
+          &:before {
+            content: none;
+          }
+        }
+
+        li.chosen,
+        li.current-cat {
+          background-color: var(--alpha-primary-color);
+
+          a {
+            color: var(--alpha-white-color);
+
+            &:before {
+              content: none;
+            }
+          }
+        }
+
+        .count {
+          display: none;
+        }
+      }
+
+      .cat-item i {
+        display: none;
+      }
+
+      .alpha-price-range {
+        margin: -2rem 0 1rem;
+      }
+
+      &.shop-sidebar .widget li {
+        display: inline-flex;
+        align-items: center;
+      }
+    }
+
+    .toolbox-left .toolbox-item:not(:last-child) {
+      margin-#{$right}: 2rem;
+    }
+
+    .filter-clean {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .sidebar-fixed + .sidebar-fixed + .main-content .list-type-products {
+    .product-media {
+      max-width: 9rem;
+    }
+
+    .product-details {
+      max-width: calc(100% - 11rem);
+    }
+  }
+}
+
+@include mq(xl) {
+  aside:not(.sidebar-fixed)
+    ~ .main-content
+    .list-type-products
+    > .product-wrap {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@include mq(1600px) {
+  .container-fluid
+    .sidebar-offcanvas
+    + .main-content
+    .product-archive
+    .list-type-products
+    > *,
+  .container-fluid
+    .main-content:first-child
+    .product-archive
+    .list-type-products
+    > * {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@include mq(lg, max) {
+  // Shop Sidebar : Mobile
+  .toolbox-horizontal {
+    .sidebar-fixed {
+      margin-#{$right}: 0;
+    }
+
+    .sidebar-content {
+      display: block;
+    }
+  }
+
+  // Navigation Style
+  .toolbox-wrap {
+    .shop-sidebar .widget-title {
+      border-top: 3px solid var(--alpha-change-light-border-color);
+    }
+  }
+
+  .toolbox-left,
+  .toolbox-right {
+    flex-wrap: nowrap;
+  }
+
+  .sidebar-content.toolbox-left > * {
+    margin-#{$right}: 0;
+  }
+}
+
+@include mq(sm, max) {
+  .toolbox .toolbox-show-type {
+    display: none;
+  }
+
+  .toolbox-pagination {
+    flex-direction: column;
+
+    > *:not(:last-child) {
+      margin-bottom: 1rem;
+      margin-#{$right}: 0;
+    }
+  }
+
+  .toolbox .toolbox-toggle {
+    padding: 1.65rem 1rem;
+
+    i {
+      margin-#{$right}: 0;
+    }
+  }
+}
+
+@include mq(479px, max) {
+  .toolbox-left > *,
+  .toolbox-right > * {
+    margin-#{$right}: 1rem;
+  }
+
+  .toolbox .toolbox-right {
+    margin-#{$right}: -1rem;
+  }
+
+  .sticky-toolbox.fixed {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@include mq(359px, max) {
+  .toolbox .orderby {
+    width: 13rem;
+  }
+}

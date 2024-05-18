@@ -1,0 +1,114 @@
+@import '../../../assets/sass/config';
+@import '../../../assets/sass/mixins';
+@import '../../../assets/sass/direction';
+
+.customize-control-kirki-radio-image .image {
+    label img {
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+}
+
+.control-section-alpha-pro-section {
+    a {
+        display: block;
+        padding: side-values(15px 30px 15px 20px);
+        color: var(--alpha-dark-color);
+        text-decoration: none;
+
+        &:before {
+            content: '\f160';
+            font: normal 20px/1 dashicons;
+            position: absolute;
+            font-size: 18px;
+            line-height: 20px;
+            color: #666;
+            right: 1rem;
+        }
+
+        &:after {
+            content: "PRO";
+            display: inline-block;
+            padding: 1px 6px;
+            margin-left: 10px;
+            background-color: #5d6bc4;
+            color: var(--alpha-white-color);
+            font-size: 11px;
+            line-height: 1.7;
+            border-radius: 3px;
+            order: 1;
+        }
+    }
+
+    &~#accordion-section-general {
+        border-top: none;
+    }
+
+    .accordion-section-title {
+        padding: 0 !important;
+    }
+}
+
+#accordion-section-alpha_upsell {
+    background-color: rgba(95, 176, 123, .1);
+
+    .accordion-section-title {
+        background: transparent !important;
+        border-left-color: transparent !important;
+
+        &:before {
+            content: none !important;
+        }
+    }
+
+    a {
+        padding-#{$left}: 52px;
+        color: var(--alpha-primary-color);
+
+        &:before {
+            content: '\f18e';
+            #{$left}: 18px;
+            #{$right}: auto;
+            font-size: 24px;
+            color: var(--alpha-primary-color);
+        }
+    }
+
+    a:after {
+        content: none;
+    }
+}
+
+#accordion-section-blog.cannot-expand {
+    a {
+        padding-#{$left}: 52px;
+    }
+
+    .accordion-section-title {
+        &:before {
+            position: absolute;
+            #{$left}: 21px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
+#accordion-section-product_type {
+    margin-bottom: 2rem;
+}
+#accordion-section-compare,
+#accordion-section-product_fbt,
+#accordion-section-image_swatch,
+#accordion-section-quickview,
+#accordion-section-360gallery,
+#accordion-section-brand,
+#accordion-section-advanced_swatch,
+#accordion-section-product_unit,
+#accordion-section-product_buy_now {
+    position: relative;
+    overflow: hidden;
+
+    &:after {
+        content: none;
+    }
+}

@@ -1,0 +1,86 @@
+/* -------------------------------------------
+	Widget 
+------------------------------------------- */
+
+.widgettitle,
+.widget-title {
+  margin-bottom: 2rem;
+  padding: 1.3rem 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.widget .contact-info {
+  label {
+    margin-#{$right}: 3px;
+  }
+  .work label {
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+
+.contact-info label {
+  @include if-rtl {
+    float: right;
+  }
+}
+
+@include if-rtl {
+  .contact-info .work label {
+    float: none;
+  }
+}
+
+.widget .current-cat > a {
+  color: var(--alpha-primary-color);
+}
+.widget {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .children {
+    padding-#{$left}: 1.3rem;
+  }
+  > :not(.widget-title) {
+    transition: opacity 0.3s;
+  }
+  > .slider-wrapper {
+    transition-property: transform;
+  }
+  > select {
+    margin-bottom: 2rem;
+  }
+  .children {
+    position: relative;
+    width: 100%;
+    // margin: 1rem 0 -0.5rem;
+    &::before {
+      content: "";
+      position: absolute;
+      #{$left}: 2px;
+      top: 4px;
+      bottom: 3px;
+      border-#{$left}: 1px solid var(--alpha-success-color);
+    }
+  }
+  li {
+    padding: 1.1rem 0;
+  }
+  li > a {
+    padding: side-values(0 0 0 2px);
+  }
+  .count {
+    color: var(--alpha-change-color-light-2);
+    line-height: 1;
+  }
+}
+
+.widget_search .search-wrapper.hs-simple .btn-search:hover {
+  color: var(--alpha-primary-color);
+}

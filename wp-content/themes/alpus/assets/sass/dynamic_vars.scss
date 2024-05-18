@@ -1,0 +1,149 @@
+@import './config';
+
+html {
+    /* Base Styles */
+    --alpha-container-width: 1290px;
+    --alpha-container-fluid-width: 1820px;
+    --alpha-site-bg-color: #fff;
+    --alpha-site-margin: 0;
+    --alpha-site-gap: 0;
+
+    /* Colors */
+    --alpha-primary-color: #66ae4e;
+    --alpha-primary-color-hover: #{lighten(#66ae4e, 5%)};
+    --alpha-primary-color-dark: #{darken(#66ae4e, 3%)}; // Only using admin, unnecessary for dynamic_vars.php
+    --alpha-primary-color-light: #{lighten(#66ae4e, 5%)}; // Only using admin, unnecessary for dynamic_vars.php
+    --alpha-primary-color-op-80: rgba(102, 174, 78, 0.8);
+    --alpha-secondary-color: #f93;
+    --alpha-secondary-color-hover: #{lighten(#f93, 5%)};
+    --alpha-link-color: #333;
+    --alpha-dark-color: #222;
+    --alpha-dark-color-hover: #{lighten(#222, 5%)};
+    --alpha-light-color: #ccc;
+    --alpha-light-color-hover: #{darken(#ccc, 5%)};
+    --alpha-white-color: #fff;
+    --alpha-grey-color: #999;
+    
+    --alpha-success-color: #{$success-color};
+    --alpha-success-color-hover: #{lighten($success-color, 10%)};
+    --alpha-success-color-light: #{lighten($success-color, 40%)};
+    --alpha-alert-color: #{$alert-color};
+    --alpha-alert-color-hover: #{lighten($alert-color, 10%)};
+    --alpha-alert-color-light: #{lighten($alert-color, 40%)};
+    --alpha-danger-color: #{$danger-color};
+    --alpha-danger-color-hover: #{darken($danger-color, 10%)};
+    --alpha-danger-color-light: #{lighten($danger-color, 40%)};
+
+    /* Typography */
+    --alpha-body-font-family: 'Poppins';
+    --alpha-body-font-weight: 400;
+    --alpha-body-font-size: 16px;
+    --alpha-body-line-height: 1.86;
+    --alpha-body-text-transform: none;
+    --alpha-body-color: #777;
+
+    --alpha-heading-font-family: var(--alpha-body-font-family);
+    --alpha-heading-font-weight: 600;
+    --alpha-heading-line-height: 1.2;
+    --alpha-heading-text-transform: none;
+    --alpha-heading-color: #111;
+
+    --alpha-heading-h1-font-size: 5rem;
+    --alpha-heading-h2-font-size: 3.8rem;
+    --alpha-heading-h3-font-size: 2.8rem;
+    --alpha-heading-h4-font-size: 2.2rem;
+    --alpha-heading-h5-font-size: 1.8rem;
+    --alpha-heading-h6-font-size: 1.6rem;
+
+
+    /* Other Styles */
+    --alpha-border-radius-form: 0;
+
+
+    /* Colors that should be changed for light/dark skins */
+    --alpha-change-border-color: #ccc;
+    /* #444 */
+    --alpha-change-light-border-color: #e1e1e1;
+    /* #282828 */
+    --alpha-change-color-light-1: #fff;
+    /* #111 */
+    --alpha-change-color-light-2: #aaa;
+    /* #555 */
+    --alpha-change-color-light-3: #ddd;
+    /* #3a3a3a */
+    --alpha-change-color-light-4: #999;
+    /* #666 */
+    --alpha-change-color-light-5: #f6f6f6;
+    /* #181818 */
+    --alpha-change-color-dark-1: #222;
+    /* #ccc */
+    --alpha-change-color-dark-2: #3a3a3a;
+    /* #aaa */
+    --alpha-change-color-dark-3: #555;
+    /* #999 */
+}
+
+/* in _page-header.scss */
+.page-wrapper {
+    --alpha-page-wrapper-bg-color: #fff;
+}
+
+.page-header {
+    --alpha-ptb-bg-color: #eee;
+
+    .page-title {
+        --alpha-ptb-title-font-size: 3.4rem;
+        --alpha-ptb-title-text-transform: capitalize;
+    }
+
+    .page-subtitle {
+        --alpha-ptb-subtitle-font-size: 1.8rem;
+    }
+}
+
+.page-title-bar {
+    --alpha-ptb-height: 180px;
+}
+
+/* in _type.scss */
+.d-lazyload {
+    --alpha-lazy-load-bg: #f4f4f4;
+}
+
+@media (max-width: 1289px) {
+    .container-fluid .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .elementor-column-gap-no>.elementor-column>.col-half-section,
+    .elementor-column-gap-no>.elementor-row>.elementor-column>.col-half-section {
+        width: calc(100% - var(--alpha-gap) * 4);
+        padding-left: calc(2 * var(--alpha-gap));
+    }
+
+    .elementor-column-gap-no>.elementor-column>.col-half-section-right,
+    .elementor-column-gap-no>.elementor-row>.elementor-column>.col-half-section-right {
+        padding-left: 0;
+        padding-right: calc(2 * var(--alpha-gap));
+    }
+
+    .elementor-container>.elementor-column>.col-half-section,
+    .elementor-container>.elementor-row>.elementor-column>.col-half-section {
+        width: calc(100% - var(--alpha-gap) * 2 + var(--alpha-el-section-gap));
+    }
+}
+
+@media (max-width: 1289px) and (min-width: 480px) {
+
+    .elementor-top-section.elementor-section-boxed>.elementor-container,
+    .elementor-section-full_width .elementor-section-boxed>.elementor-container {
+        width: calc(100% - var(--alpha-gap) * 4 + 2 * var(--alpha-el-section-gap));
+    }
+}
+
+@media (max-width: 1819px) and (min-width: 480px) {
+    .elementor-top-section.elementor-section-boxed>.elementor-column-gap-no.container-fluid {
+        width: calc(100% - var(--alpha-gap) * 4 + 2 * var(--alpha-el-section-gap));
+    }
+}

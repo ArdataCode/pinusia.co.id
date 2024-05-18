@@ -1,0 +1,19 @@
+/* -------------------------------------------
+    Admin Tools Style
+---------------------------------------------- */
+
+@import '../../../assets/sass/config';
+@import '../../../assets/sass/mixins';
+@import '../../../assets/sass/direction';
+
+.alpha-available-tools tbody {
+    th, td {
+        padding: 15px 10px;
+    }
+    th {
+        padding-#{$left}: 40px;
+    }
+}
+.alpha-available-tools .column-title {
+    padding-#{$left}: 40px;
+}

@@ -1,0 +1,62 @@
+/* -------------------------------------------
+	Spacing
+
+	Spacing classes such as mt-5 pb-lg-4
+---------------------------------------------- */
+
+$spacing-prefixes: (mt, mb, ms, me, ml, mr, pt, pb, ps, pe, pl, pr );		// should be removed
+$spacing-breakpoints: ('', xs, sm, md, lg, xl);
+
+@each $sbi in $spacing-breakpoints {
+	@if ( $sbi == '' ) {
+		@each $spi in $spacing-prefixes {
+			$spp : '';
+			$spp : if( $spi == "mt", margin-top, $spp);
+			$spp : if( $spi == "mb", margin-bottom, $spp);
+			$spp : if( $spi == "ms", margin-#{$left}, $spp);
+			$spp : if( $spi == "me", margin-#{$right}, $spp);
+			$spp : if( $spi == "ml", margin-#{$left}, $spp);		// should be removed
+			$spp : if( $spi == "mr", margin-#{$right}, $spp);		// should be removed
+			$spp : if( $spi == "pt", padding-top, $spp);
+			$spp : if( $spi == "pb", padding-bottom, $spp);
+			$spp : if( $spi == "ps", padding-#{$left}, $spp);
+			$spp : if( $spi == "pe", padding-#{$right}, $spp);
+			$spp : if( $spi == "pl", padding-#{$left}, $spp);
+			$spp : if( $spi == "pr", padding-#{$right}, $spp);
+			@for $i from 0 through 10 {
+				.#{$spi}-#{$i}{ #{$spp}: #{$i*0.5}rem !important; }
+			}
+		}
+		.ms-auto { margin-#{$left}: auto !important; }
+		.me-auto { margin-#{$right}: auto !important; }
+		.ml-auto { margin-#{$left}: auto !important; }		// should be removed
+		.mr-auto { margin-#{$right}: auto !important; }		// should be removed
+		.mx-auto { margin-left: auto !important; margin-right: auto !important; }
+	} @else {
+		@include mq( $sbi ) {
+			@each $spi in $spacing-prefixes {
+				$spp : '';
+				$spp : if( $spi == "mt", margin-top, $spp);
+				$spp : if( $spi == "mb", margin-bottom, $spp);
+				$spp : if( $spi == "ms", margin-#{$left}, $spp);
+				$spp : if( $spi == "me", margin-#{$right}, $spp);
+				$spp : if( $spi == "ml", margin-#{$left}, $spp);		// should be removed
+				$spp : if( $spi == "mr", margin-#{$right}, $spp);		// should be removed
+				$spp : if( $spi == "pt", padding-top, $spp);
+				$spp : if( $spi == "pb", padding-bottom, $spp);
+				$spp : if( $spi == "ps", padding-#{$left}, $spp);
+				$spp : if( $spi == "pe", padding-#{$right}, $spp);
+				$spp : if( $spi == "pl", padding-#{$left}, $spp);
+				$spp : if( $spi == "pr", padding-#{$right}, $spp);
+				@for $i from 0 through 10 {
+					.#{$spi}-#{$sbi}-#{$i}{ #{$spp}: #{$i*0.5}rem !important; }
+				}
+			}
+			.ms-#{$sbi}-auto { margin-#{$left}: auto !important; }
+			.me-#{$sbi}-auto { margin-#{$right}: auto !important; }
+			.ml-#{$sbi}-auto { margin-#{$left}: auto !important; }		// should be removed
+			.mr-#{$sbi}-auto { margin-#{$right}: auto !important; }		// should be removed
+			.mx-#{$sbi}-auto { margin-left: auto !important; margin-right: auto !important; }
+		}
+	}
+}

@@ -1,0 +1,4 @@
+[20-Mar-2024 08:40:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Compat" not found in /home/ujianori/pinusia.co.id/wp-includes/sodium_compat/lib/ristretto255.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-includes/sodium_compat/lib/ristretto255.php on line 6

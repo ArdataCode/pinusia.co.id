@@ -1,0 +1,173 @@
+/* -------------------------------------------
+    Page Header
+        1. Page Title Bar
+        2. Breadcrumb
+---------------------------------------------- */
+
+// 1. Page Title Bar
+.page-header {
+    background-color: var(--alpha-ptb-bg-color);
+    background-image: var(--alpha-ptb-bg-image);
+    background-repeat: var(--alpha-ptb-bg-repeat);
+    background-position: var(--alpha-ptb-bg-position);
+    background-size: var(--alpha-ptb-bg-size);
+    background-attachment: var(--alpha-ptb-bg-attachment);
+
+    .page-title {
+        font-family: var(--alpha-ptb-title-font-family, var(--alpha-heading-font-family), var(--alpha-body-font-family)), sans-serif;
+        font-weight: var(--alpha-ptb-title-font-weight, 700);
+        font-size: var(--alpha-ptb-title-font-size);
+        line-height: var(--alpha-ptb-title-line-height, var(--alpha-heading-line-height, var(--alpha-heading-line-height)));
+        letter-spacing: var(--alpha-ptb-title-letter-spacing, var(--alpha-heading-letter-spacing, var(--alpha-heading-letter-spacing)));
+        text-transform: var(--alpha-ptb-title-text-transform, var(--alpha-heading-text-transform, var(--alpha-heading-text-transform)));
+        color: var(--alpha-ptb-title-color, var(--alpha-heading-color, var(--alpha-body-color)));
+        margin-bottom: 0;
+    }
+
+    .page-subtitle {
+        font-family: var(--alpha-ptb-subtitle-font-family), var(--alpha-heading-font-family), var(--alpha-body-font-family), sans-serif;
+        font-weight: var(--alpha-ptb-subtitle-font-weight, 400);
+        font-size: var(--alpha-ptb-subtitle-font-size);
+        line-height: var(--alpha-ptb-subtitle-line-height, var(--alpha-heading-line-height, var(--alpha-body-line-height)));
+        letter-spacing: var(--alpha-ptb-subtitle-letter-spacing, var(--alpha-heading-letter-spacing, var(--alpha-body-letter-spacing)));
+        text-transform: var(--alpha-ptb-subtitle-text-transform, var(--alpha-heading-text-transform, var(--alpha-body-text-transform)));
+        color: var(--alpha-ptb-subtitle-color, var(--alpha-heading-color, var(--alpha-body-color)));
+        margin-bottom: 0;
+    }
+}
+.page-title-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: var(--alpha-ptb-height);
+
+    .breadcrumb {
+        margin-top: 1em;
+        padding: 0;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    &.type-left {
+        align-items: if-ltr(flex-start, flex-end);
+    }
+
+    &.type-center {
+        text-align: center;
+    }
+}
+@include mq(lg) {
+    .page-title-bar.type-inline {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+@include mq(md, max) {
+    .page-title-bar .page-title {
+        font-size: 3rem;
+    }
+}
+
+// 2. Breadcrumb
+.archive, .blog, .single-product, .single-post {
+    .breadcrumb-container+main {
+        padding-top: 0;
+    }
+}
+.breadcrumb-container {
+    width: 100%;
+    margin: 0 auto;
+    .breadcrumb {
+        border-bottom: 1px solid var(--alpha-change-light-border-color);
+    }
+    &:empty + main {
+        margin-top: 5rem;
+    }
+}
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: .95rem .2rem;
+    list-style-type: none;
+    font-family: var(--alpha-ptb-breadcrumb-font-family), var(--alpha-body-font-family), sans-serif;
+    font-weight: var(--alpha-ptb-breadcrumb-font-weight, var(--alpha-body-font-weight));
+    font-size: var(--alpha-ptb-breadcrumb-font-size, var(--alpha-body-font-size));
+    line-height: var(--alpha-ptb-breadcrumb-line-height, var(--alpha-body-line-height));
+    letter-spacing: var(--alpha-ptb-breadcrumb-letter-spacing, var(--alpha-body-letter-spacing));
+    text-transform: var(--alpha-ptb-breadcrumb-text-transform, var(--alpha-body-text-transform));
+    color: var(--alpha-ptb-breadcrumb-color, var(--alpha-body-color));
+
+    .delimiter,
+    .separator {
+        display: inline-flex;
+        margin: 0 0.35em;
+        font-size: 1.2em;
+        opacity: 0.4;
+        @include if-rtl() {
+            float: right;
+        }
+    }
+
+    a {
+        opacity: .7;
+        transition: color .3s, opacity .3s;
+    }
+
+    a:hover {
+        opacity: 1;
+        color: inherit;
+    }
+
+    &.home-icon {
+        > li:first-of-type > a::before {
+            font-family: $theme-font;
+            content: "\e967";
+        }
+    }
+
+    .breadcrumb_wrapper & {
+        color: inherit;
+    }
+
+    .type-center & {
+        justify-content: center;
+    }
+
+    .error404 &,
+    .product-archive-page &,
+    .single-post &,
+    .single-product &,
+    .archive &,
+    .blog & {
+        border: none;
+    }
+
+    .breadcrumb-divider-active & {
+        border-bottom: 1px solid var(--alpha-change-light-border-color);
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    svg {
+        width: 1em;
+        height: auto;
+    }
+}
+.woo-page-header .breadcrumb {
+    border-bottom: 0;
+}
+.elementor-widget .breadcrumb {
+    padding: 0;
+}
+@include mq(lg) {
+    .page-title-bar.type-inline .breadcrumb {
+        margin-top: 0;
+    }
+}

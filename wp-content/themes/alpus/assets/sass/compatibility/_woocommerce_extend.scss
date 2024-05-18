@@ -1,0 +1,96 @@
+.form-row [type="text"],
+.form-row [type="tel"],
+.form-row [type="password"],
+.form-row [type="email"],
+.form-row textarea,
+.form-row .select2-container .select2-selection,
+.form-row select {
+    border: 1px solid var(--alpha-change-light-border-color);
+}
+
+.stars {
+    a {
+        width: 1.6rem;
+
+        &:hover {
+            color: inherit;
+        }
+    }
+
+    a.active:before,
+    a:hover:before {
+        color: var(--alpha-grey-color);
+    }
+}
+
+.woocommerce-form-login {
+    .form-row {
+        margin-bottom: 1.2rem;
+
+        &.form-footer {
+            margin: 2rem 0;
+        }
+    }
+
+    .button {
+        padding: 1.6rem 1rem;
+    }
+}
+
+.lost_password a {
+    font-size: 1.3rem;
+
+    &:not(:hover) {
+        color: var(--alpha-body-color);
+    }
+}
+
+.comment-form-rating {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+
+    label {
+        color: var(--alpha-body-color);
+    }
+}
+
+.comment-respond .comment-form-cookies-consent {
+    margin-bottom: 2.3rem;
+}
+
+.woocommerce-checkout .blockOverlay:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -17px;
+    margin-left: -17px;
+    content: "";
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border: 2px solid transparent;
+    border-top-color: var(--alpha-primary-color);
+    border-radius: 50%;
+    vertical-align: middle;
+    -webkit-animation: spin .75s infinite linear;
+    ;
+    animation: spin .75s infinite linear;
+    ;
+}
+
+.alpha-rounded-skin {
+
+    .form-row [type=email],
+    .form-row [type=password],
+    .form-row [type=tel],
+    .form-row [type=text],
+    .form-row textarea,
+    .woocommerce .button,
+    .woocommerce .btn {
+        border-radius: $corner-sm;
+    }
+}
+
+.sidebar .tagcloud {
+    margin: .1rem 0;
+}

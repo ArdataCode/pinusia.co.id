@@ -1,0 +1,8 @@
+[20-Mar-2024 08:42:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/ujianori/pinusia.co.id/wp-content/plugins/contact-form-7/includes/swv/script-loader.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-content/plugins/contact-form-7/includes/swv/script-loader.php on line 3
+[20-Mar-2024 08:42:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "WPCF7_PLUGIN_DIR" in /home/ujianori/pinusia.co.id/wp-content/plugins/contact-form-7/includes/swv/swv.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/pinusia.co.id/wp-content/plugins/contact-form-7/includes/swv/swv.php on line 6
